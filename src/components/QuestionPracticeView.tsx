@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useState } from "react";
 import { ExplanationPanel } from "@/components/ExplanationPanel";
-import { PassagePanel } from "@/components/PassagePanel";
+import { PassageReader } from "@/components/PassageReader";
 import { IconChevron } from "@/components/icons";
 import { getQuestionAnswer, saveQuestionAnswer } from "@/lib/exam-progress";
 import type { ExamSection } from "@/lib/exam-types";
@@ -61,10 +61,13 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
       </header>
 
       <div className="flex-1 overflow-y-auto px-4 py-4">
-        <PassagePanel
+        <PassageReader
           sectionId={section.id}
           passage={section.passage}
           transcript={section.transcript}
+          sourceLabel={section.titleJa}
+          compact
+          defaultExpanded={false}
         />
 
         <div className="mt-4 rounded-2xl border border-stone-200 bg-white p-4">

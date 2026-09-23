@@ -1,18 +1,121 @@
-import type { ExamSection } from "@/lib/exam-types";
+import type { ExamSection, PassageParagraph } from "@/lib/exam-types";
 
-const passageBody = `Laut einer kürzlich in einer medizinischen Fachzeitschrift veröffentlichten Studie leiden in Deutschland über ein Drittel der Erwerbstätigen unter chronischem Schlafmangel. Die Folgen reichen von Konzentrationsstörungen über Reizbarkeit bis hin zu einem erhöhten Risiko für Herz-Kreislauf-Erkrankungen. Dennoch gilt in vielen Unternehmen nach wie vor das Prinzip: Wer früh kommt und spät geht, zeigt Engagement – auch wenn er nachts kaum zur Ruhe kommt.
-
-Die Forscherinnen und Forscher der Universität Heidelberg beobachteten über zwei Jahre hinweg 420 Berufstätige aus verschiedenen Branchen. Die Teilnehmenden führten Schlafprotokolle und gaben regelmäßig Auskunft über ihre Produktivität und ihr subjektives Wohlbefinden. Das Ergebnis war eindeutig: Personen, die regelmäßig weniger als sechs Stunden schliefen, erzielten zwar kurzfristig hohe Arbeitsvolumina, zeigten jedoch mittelfristig deutlich mehr Fehler und mussten Aufgaben häufiger wiederholen.
-
-Besonders betroffen waren Berufstätige mit hoher digitaler Erreichbarkeit. Viele gaben an, abends noch E-Mails zu lesen oder in sozialen Medien aktiv zu sein, was den Einschlafprozess verzögerte. Die Studienleiterin, Professorin Dr. Sabine Keller, betont: „Das Problem ist nicht die Arbeit selbst, sondern die fehlende Grenze zwischen Beruf und Erholung." Sie empfiehlt, mindestens eine Stunde vor dem Schlafengehen auf Bildschirme zu verzichten.
-
-Ein weiterer Aspekt betrifft die Firmenkultur. In Unternehmen, in denen Überstunden stillschweigend erwartet wurden, gaben die Beschäftigten seltener an, unter Schlafproblemen zu leiden – nicht weil sie besser schliefen, sondern weil sie Schwäche verbergen wollten. Die Wissenschaftlerinnen und Wissenschaftler sprechen hier von einem „Schlafstigma", das eine offene Diskussion verhindert.
-
-Gegen Maßnahmen wie flexible Arbeitszeiten oder Mittagsschlaf-Räume bestehen bei manchen Führungskräften Vorbehalte. Sie befürchten Produktivitätsverluste. Die Studie zeigt jedoch das Gegenteil: Betriebe, die bewusst Erholungsphasen ermöglichten, verzeichneten langfristig weniger Krankheitstage und eine höhere Mitarbeiterzufriedenheit.
-
-Die Autorinnen und Autoren schlagen vor, Schlafhygiene stärker in betriebliche Gesundheitsprogramme zu integrieren. Dazu gehören Informationsveranstaltungen, aber auch die Überprüfung von Arbeitsabläufen, die unnötigen Zeitdruck erzeugen. Einzelne Unternehmen gehen bereits voran und haben E-Mail-Sperren nach 19 Uhr eingeführt – ein Schritt, der zunächst auf Widerstand stieß, von vielen Beschäftigten aber inzwischen begrüßt wird.
-
-Privatpersonen können ihrerseits Routinen entwickeln: feste Schlafenszeiten, kühle und dunkle Schlafzimmer, weniger Koffein am Nachmittag. Die Studie macht deutlich, dass ausreichender Schlaf keine Luxusfrage ist, sondern eine Voraussetzung für nachhaltige Leistungsfähigkeit – sowohl im Beruf als auch im Privatleben.`;
+const paragraphs: PassageParagraph[] = [
+  {
+    original:
+      "Laut einer Studie leiden in Deutschland über ein Drittel der Erwerbstätigen unter chronischem Schlafmangel. Dennoch gilt in vielen Unternehmen: Wer früh kommt und spät geht, zeigt Engagement.",
+    translation:
+      "研究によると、ドイツの就業者の3分の1以上が慢性的な睡眠不足に悩んでいます。それでも多くの企業では「早く来て遅く帰る人＝熱意がある」と見なされています。",
+    studyNotes: {
+      chunks: [
+        { phrase: "laut einer Studie", meaning: "研究によると" },
+        { phrase: "chronischer Schlafmangel", meaning: "慢性的な睡眠不足" },
+      ],
+      grammar: [],
+      vocabulary: [
+        { term: "Erwerbstätige", meaning: "就業者" },
+        { term: "Engagement", meaning: "熱意、積極性" },
+        { term: "dennoch", meaning: "それでも" },
+      ],
+    },
+  },
+  {
+    original:
+      "Die Universität Heidelberg beobachtete 420 Berufstätige über zwei Jahre. Personen mit weniger als sechs Stunden Schlaf erzielten kurzfristig hohe Arbeitsvolumina, zeigten jedoch mittelfristig deutlich mehr Fehler.",
+    translation:
+      "ハイデルベルク大学が420人を2年間追跡しました。6時間未満の睡眠者は短期では作業量が多いものの、中期では明らかにミスが増えました。",
+    studyNotes: {
+      chunks: [
+        { phrase: "kurzfristig vs. mittelfristig", meaning: "短期的 vs. 中期的" },
+        { phrase: "Arbeitsvolumina erzielen", meaning: "作業量を達成する" },
+      ],
+      grammar: [
+        { pattern: "zwar … jedoch …", explanation: "「確かに〜だがしかし〜」の対比（文中に zwar は省略形でも可）。" },
+      ],
+      vocabulary: [
+        { term: "beobachten", meaning: "観察する、追跡する" },
+        { term: "Fehler", meaning: "ミス、誤り" },
+        { term: "Berufstätige", meaning: "就業者" },
+      ],
+    },
+  },
+  {
+    original:
+      'Professorin Dr. Sabine Keller betont: „Das Problem ist nicht die Arbeit selbst, sondern die fehlende Grenze zwischen Beruf und Erholung." Sie empfiehlt, eine Stunde vor dem Schlafengehen auf Bildschirme zu verzichten.',
+    translation:
+      "Keller 教授は「問題は仕事そのものではなく、仕事と休息の境界の欠如だ」と強調します。就寝1時間前から画面を避けることを勧めています。",
+    studyNotes: {
+      chunks: [
+        { phrase: "fehlende Grenze", meaning: "欠如している境界" },
+        { phrase: "auf etwas verzichten", meaning: "〜を控える、〜を断つ" },
+      ],
+      grammar: [
+        { pattern: "nicht A, sondern B", explanation: "「AではなくB」という対比。" },
+      ],
+      vocabulary: [
+        { term: "Erholung", meaning: "休息、回復" },
+        { term: "Schlafengehen", meaning: "就寝" },
+        { term: "betonen", meaning: "強調する" },
+      ],
+    },
+  },
+  {
+    original:
+      'In Unternehmen mit stillschweigend erwarteten Überstunden gaben Beschäftigte seltener Schlafprobleme an – nicht weil sie besser schliefen, sondern weil sie Schwäche verbergen wollten. Forscher sprechen von einem „Schlafstigma".',
+    translation:
+      "残業が暗黙のうちに期待される企業では、睡眠問題を申告する人が少なくなりました。よく眠れていたからではなく、弱さを見せたくなかったからです。研究者はこれを「睡眠のスティグマ」と呼びます。",
+    studyNotes: {
+      chunks: [
+        { phrase: "stillschweigend erwartet", meaning: "暗黙のうちに期待される" },
+        { phrase: "Schwäche verbergen", meaning: "弱さを隠す" },
+      ],
+      grammar: [
+        { pattern: "nicht weil …, sondern weil …", explanation: "理由の対比。「〜だからではなく、むしろ〜だから」。" },
+      ],
+      vocabulary: [
+        { term: "Überstunden", meaning: "残業" },
+        { term: "Stigma", meaning: "汚名、偏見" },
+        { term: "verbergen", meaning: "隠す" },
+      ],
+    },
+  },
+  {
+    original:
+      "Betriebe, die bewusst Erholungsphasen ermöglichten, verzeichneten langfristig weniger Krankheitstage und höhere Mitarbeiterzufriedenheit.",
+    translation:
+      "意図的に休息の時間を確保した企業は、長期的に病欠日数が減り、従業員満足度が上がりました。",
+    studyNotes: {
+      chunks: [
+        { phrase: "Erholungsphasen ermöglichen", meaning: "休息の時間を確保する" },
+        { phrase: "Krankheitstage verzeichnen", meaning: "病欠日数を記録する・減らす" },
+      ],
+      grammar: [],
+      vocabulary: [
+        { term: "bewusst", meaning: "意図的に" },
+        { term: "langfristig", meaning: "長期的に" },
+        { term: "Zufriedenheit", meaning: "満足度" },
+      ],
+    },
+  },
+  {
+    original:
+      "Einzelne Unternehmen haben E-Mail-Sperren nach 19 Uhr eingeführt. Die Studie betont: Ausreichender Schlaf ist eine Voraussetzung für nachhaltige Leistungsfähigkeit – im Beruf und im Privatleben.",
+    translation:
+      "一部の企業は19時以降のメール制限を導入しました。研究は、十分な睡眠が持続的なパフォーマンスの前提条件であると強調します——仕事でも私生活でも。",
+    studyNotes: {
+      chunks: [
+        { phrase: "E-Mail-Sperren", meaning: "メール送信の制限" },
+        { phrase: "Voraussetzung für", meaning: "〜の前提条件" },
+      ],
+      grammar: [],
+      vocabulary: [
+        { term: "nachhaltig", meaning: "持続的な" },
+        { term: "Leistungsfähigkeit", meaning: "能力、パフォーマンス" },
+        { term: "einführen", meaning: "導入する" },
+      ],
+    },
+  },
+];
 
 export const goetheLesen2: ExamSection = {
   id: "goethe-lesen-2",
@@ -27,7 +130,7 @@ export const goetheLesen2: ExamSection = {
   passage: {
     title: "GESUNDHEIT IM FOKUS",
     subtitle: "Schlafmangel in der Leistungsgesellschaft",
-    body: passageBody,
+    paragraphs,
   },
   questions: [
     {
@@ -41,13 +144,9 @@ export const goetheLesen2: ExamSection = {
       ],
       correctOptionId: "b",
       explanation: {
-        summary:
-          "「早く来て遅く帰る人＝熱意がある」という考え方。Anwesenheitsdauer（在社時間）が Engagement の指標とされる。",
-        wrong: {
-          a: "テキストは睡眠と労働時間を直接結びつけていない。",
-          c: "特定の年齢層への言及はない。",
-        },
-        tip: "Teil 2 は半正解が多い。a が一見正しそうでも、本文の表現と一字一句合わせる。",
+        summary: "在社時間が Engagement の指標とされる。",
+        wrong: { a: "睡眠と労働時間は直接結びつけていない。", c: "年齢の言及なし。" },
+        tip: "Teil 2 は半正解が多い。本文の表現と一字一句合わせる。",
       },
     },
     {
@@ -60,13 +159,7 @@ export const goetheLesen2: ExamSection = {
         { id: "c", text: "Sechs Stunden Schlaf reichen für die meisten Berufe." },
       ],
       correctOptionId: "b",
-      explanation: {
-        summary: "6時間未満の睡眠者は「mittelfristig deutlich mehr Fehler」。研究の主結論。",
-        wrong: {
-          a: "短期の高い作業量は認められるが、それが研究の主張ではない。",
-          c: "6時間で十分とは書かれていない。",
-        },
-      },
+      explanation: { summary: "「mittelfristig deutlich mehr Fehler」が主結論。" },
     },
     {
       id: "g-l2-q11",
@@ -78,31 +171,19 @@ export const goetheLesen2: ExamSection = {
         { id: "c", text: "Die Nutzung sozialer Medien am Arbeitsplatz." },
       ],
       correctOptionId: "a",
-      explanation: {
-        summary: "Keller の核心：「fehlende Grenze zwischen Beruf und Erholung」。",
-        wrong: {
-          b: "夕方の仕事量増加ではなく、境界の欠如が問題。",
-          c: "SNS は「abends」であって職場ではない。",
-        },
-      },
+      explanation: { summary: "fehlende Grenze zwischen Beruf und Erholung。" },
     },
     {
       id: "g-l2-q12",
       number: 12,
-      prompt: "Warum gaben manche Beschäftigte in bestimmten Unternehmen keine Schlafprobleme an?",
+      prompt: "Warum gaben manche Beschäftigte keine Schlafprobleme an?",
       options: [
         { id: "a", text: "Sie fürchteten Nachteile bei Beförderungen." },
         { id: "b", text: "Sie wollten keine Schwäche zeigen." },
         { id: "c", text: "Sie waren tatsächlich weniger betroffen." },
       ],
       correctOptionId: "b",
-      explanation: {
-        summary: "Schlafstigma：「Schwäche verbergen wollten」。",
-        wrong: {
-          a: "昇進への影響は言及なし。",
-          c: "実際にはよく眠れていない（nicht weil sie besser schliefen）。",
-        },
-      },
+      explanation: { summary: "Schlafstigma：Schwäche verbergen wollten。" },
     },
     {
       id: "g-l2-q13",
@@ -114,49 +195,31 @@ export const goetheLesen2: ExamSection = {
         { id: "c", text: "Stärkere Konkurrenz im Team" },
       ],
       correctOptionId: "a",
-      explanation: {
-        summary: "「weniger Krankheitstage und höhere Mitarbeiterzufriedenheit」。",
-        wrong: {
-          b: "残業意欲の増加は記載なし。",
-          c: "チーム内競争の強化も記載なし。",
-        },
-      },
+      explanation: { summary: "weniger Krankheitstage。" },
     },
     {
       id: "g-l2-q14",
       number: 14,
-      prompt: "Welche Maßnahme wird in einigen Unternehmen bereits umgesetzt?",
+      prompt: "Welche Maßnahme wird bereits umgesetzt?",
       options: [
         { id: "a", text: "E-Mail-Sperren nach Feierabend" },
         { id: "b", text: "Verpflichtende Mittagsschlaf-Räume" },
         { id: "c", text: "Wöchentliche Schlafberatung" },
       ],
       correctOptionId: "a",
-      explanation: {
-        summary: "「E-Mail-Sperren nach 19 Uhr」が実際に導入されている例。",
-        wrong: {
-          b: "Mittagsschlaf-Räume は可能な施策の例示で、実施例ではない。",
-          c: "週次睡眠相談は存在しない。",
-        },
-      },
+      explanation: { summary: "E-Mail-Sperren nach 19 Uhr が実施例。" },
     },
     {
       id: "g-l2-q15",
       number: 15,
-      prompt: "Die Autorinnen und Autoren betonen, dass ausreichender Schlaf …",
+      prompt: "Ausreichender Schlaf ist …",
       options: [
-        { id: "a", text: "eine individuelle Luxusfrage ist." },
-        { id: "b", text: "Voraussetzung für dauerhafte Leistung ist." },
-        { id: "c", text: "nur im Privatleben relevant ist." },
+        { id: "a", text: "eine individuelle Luxusfrage." },
+        { id: "b", text: "Voraussetzung für dauerhafte Leistung." },
+        { id: "c", text: "nur im Privatleben relevant." },
       ],
       correctOptionId: "b",
-      explanation: {
-        summary: "「Voraussetzung für nachhaltige Leistungsfähigkeit」。",
-        wrong: {
-          a: "Luxusfrage であることは明確に否定。",
-          c: "「sowohl im Beruf als auch im Privatleben」と両方に言及。",
-        },
-      },
+      explanation: { summary: "Voraussetzung für nachhaltige Leistungsfähigkeit。" },
     },
   ],
 };

@@ -1,3 +1,5 @@
+import type { StudyNotes } from "@/lib/types";
+
 export type ExamProvider = "goethe" | "telc";
 
 export type ExamSkill = "lesen" | "horen" | "sprachbausteine" | "schreiben";
@@ -23,10 +25,20 @@ export type Question = {
   contextSnippet?: string;
 };
 
+export type PassageParagraph = {
+  original: string;
+  translation: string;
+  studyNotes?: StudyNotes;
+};
+
 export type Passage = {
   title: string;
   subtitle?: string;
-  body: string;
+  paragraphs: PassageParagraph[];
+};
+
+export type Transcript = {
+  paragraphs: PassageParagraph[];
 };
 
 export type ExamSection = {
@@ -40,7 +52,7 @@ export type ExamSection = {
   estimatedMinutes: number;
   instruction: string;
   passage?: Passage;
-  transcript?: string;
+  transcript?: Transcript;
   questions: Question[];
 };
 
