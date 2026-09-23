@@ -1,0 +1,10 @@
+{
+  "name": "C1 Drill",
+  "short_name": "C1 Drill",
+  "description": "Goethe / telc C1 — セクション別ドリル練習",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafaf9",
+  "theme_color": "#0f766e",
+  "lang": "ja"
+}
