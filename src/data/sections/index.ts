@@ -3,8 +3,10 @@ import { goetheHoeren2 } from "./goethe-hoeren-2";
 import { goetheLesen1 } from "./goethe-lesen-1";
 import { goetheLesen2 } from "./goethe-lesen-2";
 import { telcLesen1 } from "./telc-lesen-1";
+import { SCHMIDT_SECTIONS } from "./schmidt";
 
 export const ALL_SECTIONS: ExamSection[] = [
+  ...SCHMIDT_SECTIONS,
   goetheLesen1,
   goetheLesen2,
   goetheHoeren2,
@@ -28,11 +30,13 @@ export const SECTION_TOTALS: Record<string, number> = Object.fromEntries(
 );
 
 export const PROVIDER_LABELS: Record<ExamProvider, string> = {
+  schmidt: "Deutsch mit Schmidt",
   goethe: "Goethe C1",
   telc: "telc C1",
 };
 
 export const SKILL_LABELS: Record<string, string> = {
+  nvv: "NVV",
   lesen: "Lesen",
   horen: "Hören",
   sprachbausteine: "Sprachbausteine",

@@ -1,9 +1,9 @@
 import type { AppSettings } from "@/lib/types";
 
-const STORAGE_KEY = "read-along-settings";
+const STORAGE_KEY = "c1-drill-settings";
 
 const DEFAULTS: AppSettings = {
-  learningLanguage: "en",
+  learningLanguage: "de",
   fontSize: "md",
   speechRate: 1,
 };

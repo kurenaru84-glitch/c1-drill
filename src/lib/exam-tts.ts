@@ -11,8 +11,8 @@ import { fetchTtsAudio } from "@/lib/tts-client";
 import { getSettings } from "@/lib/settings";
 import { notifySpeakingId, stopSpeech } from "@/lib/use-speech";
 
-function cacheKey(sectionId: string, kind: "passage" | "transcript") {
-  return `c1-${sectionId}-${kind}`;
+function cacheKey(sectionId: string, kind: "passage" | "transcript", paragraphIndex: number) {
+  return `c1-${sectionId}-${kind}-p${paragraphIndex}`;
 }
 
 function asAudioBlob(blob: Blob) {
@@ -20,8 +20,13 @@ function asAudioBlob(blob: Blob) {
   return new Blob([blob], { type: "audio/mpeg" });
 }
 
-export async function getSectionAudio(sectionId: string, text: string, kind: "passage" | "transcript") {
-  const id = cacheKey(sectionId, kind);
+export async function getSectionParagraphAudio(
+  sectionId: string,
+  paragraphIndex: number,
+  text: string,
+  kind: "passage" | "transcript"
+) {
+  const id = cacheKey(sectionId, kind, paragraphIndex);
   const cached = await db.audioCache.get(id);
 
   if (cached) {
@@ -46,7 +51,7 @@ export async function getSectionAudio(sectionId: string, text: string, kind: "pa
   await db.audioCache.put({
     id,
     docId: sectionId,
-    paragraphIndex: kind === "passage" ? 0 : 1,
+    paragraphIndex,
     language: "de",
     blob,
     durationSec,
@@ -56,14 +61,15 @@ export async function getSectionAudio(sectionId: string, text: string, kind: "pa
   return { url, durationSec, fromCache: false };
 }
 
-export async function playSectionAudio(
+export async function playSectionParagraphAudio(
   sectionId: string,
+  paragraphIndex: number,
   text: string,
   kind: "passage" | "transcript",
   speakId: string
 ) {
   stopSpeech();
-  const { url } = await getSectionAudio(sectionId, text, kind);
+  const { url } = await getSectionParagraphAudio(sectionId, paragraphIndex, text, kind);
   const rate = getSettings().speechRate ?? 1;
   notifySpeakingId(speakId);
 

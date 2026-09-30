@@ -98,7 +98,12 @@ export function ParagraphBlock({
         {showTranslation ? (
           <div className="border-t border-stone-100 pt-3">
             <p className="text-sm leading-relaxed text-stone-600">{paragraph.translation}</p>
-            <StudyNotesPanel notes={paragraph.studyNotes} />
+            <StudyNotesPanel
+              notes={paragraph.studyNotes}
+              language={language}
+              source={source}
+              onToast={onToast}
+            />
           </div>
         ) : (
           <p className="border-t border-stone-100 pt-3 text-xs text-teal-700">

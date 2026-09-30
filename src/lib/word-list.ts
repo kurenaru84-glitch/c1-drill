@@ -1,6 +1,6 @@
 import type { LearningLanguage, WordListEntry } from "@/lib/types";
 
-const STORAGE_KEY = "read-along-word-list";
+const STORAGE_KEY = "c1-drill-word-list";
 
 function readRaw(): WordListEntry[] {
   if (typeof window === "undefined") return [];

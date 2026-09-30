@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo } from "react";
-import { PassagePanel } from "@/components/PassagePanel";
+import { PassageReader } from "@/components/PassageReader";
 import { IconChevron } from "@/components/icons";
 import { PROVIDER_LABELS, SKILL_LABELS } from "@/data/sections";
 import { getQuestionAnswer, getSectionProgress, resetSectionProgress } from "@/lib/exam-progress";
@@ -47,10 +47,12 @@ export function SectionDetailView({ section }: Props) {
       </header>
 
       <div className="mb-4">
-        <PassagePanel
+        <PassageReader
           sectionId={section.id}
           passage={section.passage}
           transcript={section.transcript}
+          sourceLabel={section.titleJa}
+          defaultExpanded
         />
       </div>
 

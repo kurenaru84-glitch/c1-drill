@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useState } from "react";
 import { ExplanationPanel } from "@/components/ExplanationPanel";
-import { PassagePanel } from "@/components/PassagePanel";
+import { PassageReader } from "@/components/PassageReader";
 import { IconChevron } from "@/components/icons";
 import { getQuestionAnswer, saveQuestionAnswer } from "@/lib/exam-progress";
 import type { ExamSection } from "@/lib/exam-types";
@@ -61,15 +61,24 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
       </header>
 
       <div className="flex-1 overflow-y-auto px-4 py-4">
-        <PassagePanel
+        <PassageReader
           sectionId={section.id}
           passage={section.passage}
           transcript={section.transcript}
+          sourceLabel={section.titleJa}
+          compact
+          defaultExpanded={false}
         />
 
         <div className="mt-4 rounded-2xl border border-stone-200 bg-white p-4">
           <p className="mb-1 text-xs font-medium text-stone-500">Aufgabe {question.number}</p>
           <p className="text-sm font-medium leading-relaxed text-stone-900">{question.prompt}</p>
+          {question.promptJa && (
+            <p className="mt-2 border-t border-stone-100 pt-2 text-sm leading-relaxed text-stone-600">
+              <span className="mr-1.5 text-xs font-medium text-stone-400">訳</span>
+              {question.promptJa}
+            </p>
+          )}
         </div>
 
         <div className="mt-3 space-y-2">
