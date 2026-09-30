@@ -22,3 +22,11 @@ npm run dev
 ## コンテンツ追加
 
 `src/data/sections/` に TypeScript モジュールを追加し、`index.ts` に登録してください。
+
+### Deutsch mit Schmidt（NVV）
+
+```bash
+node scripts/import-schmidt.mjs "/path/to/Deutsch mit Schmidttxt"
+```
+
+市販書籍の全文を **公開リポジトリに載せない** よう注意（個人学習・非公開デプロイ推奨）。

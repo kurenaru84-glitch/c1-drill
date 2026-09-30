@@ -1,8 +1,8 @@
 import type { StudyNotes } from "@/lib/types";
 
-export type ExamProvider = "goethe" | "telc";
+export type ExamProvider = "goethe" | "telc" | "schmidt";
 
-export type ExamSkill = "lesen" | "horen" | "sprachbausteine" | "schreiben";
+export type ExamSkill = "lesen" | "horen" | "sprachbausteine" | "schreiben" | "nvv";
 
 export type ChoiceOption = {
   id: string;
@@ -11,6 +11,8 @@ export type ChoiceOption = {
 
 export type QuestionExplanation = {
   summary: string;
+  /** 書籍のドイツ語解説（原文） */
+  german?: string;
   wrong?: Record<string, string>;
   tip?: string;
 };
@@ -19,6 +21,8 @@ export type Question = {
   id: string;
   number: number;
   prompt: string;
+  /** 問題文の日本語訳（任意） */
+  promptJa?: string;
   options: ChoiceOption[];
   correctOptionId: string;
   explanation: QuestionExplanation;

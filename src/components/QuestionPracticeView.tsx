@@ -73,6 +73,12 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
         <div className="mt-4 rounded-2xl border border-stone-200 bg-white p-4">
           <p className="mb-1 text-xs font-medium text-stone-500">Aufgabe {question.number}</p>
           <p className="text-sm font-medium leading-relaxed text-stone-900">{question.prompt}</p>
+          {question.promptJa && (
+            <p className="mt-2 border-t border-stone-100 pt-2 text-sm leading-relaxed text-stone-600">
+              <span className="mr-1.5 text-xs font-medium text-stone-400">訳</span>
+              {question.promptJa}
+            </p>
+          )}
         </div>
 
         <div className="mt-3 space-y-2">

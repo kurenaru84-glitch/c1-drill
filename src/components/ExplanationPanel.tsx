@@ -26,7 +26,16 @@ export function ExplanationPanel({ question, selectedId, explanation }: Props) {
         )}
       </p>
 
-      <p className="mb-3 text-sm leading-relaxed text-stone-800">{explanation.summary}</p>
+      <p className="mb-3 whitespace-pre-wrap text-sm leading-relaxed text-stone-800">
+        {explanation.summary}
+      </p>
+
+      {explanation.german && (
+        <p className="mb-3 rounded-xl bg-white/70 p-3 text-sm leading-relaxed text-stone-600">
+          <span className="text-xs font-medium text-stone-500">Deutsch (Original): </span>
+          {explanation.german}
+        </p>
+      )}
 
       {explanation.wrong && selectedId !== question.correctOptionId && explanation.wrong[selectedId] && (
         <div className="mb-3 rounded-xl bg-white/70 p-3">

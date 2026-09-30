@@ -4,7 +4,7 @@ import { SectionCard } from "@/components/SectionCard";
 import { ALL_SECTIONS, PROVIDER_LABELS, getSectionsByProvider } from "@/data/sections";
 import type { ExamProvider } from "@/lib/exam-types";
 
-const providers: ExamProvider[] = ["goethe", "telc"];
+const providers: ExamProvider[] = ["schmidt", "goethe", "telc"];
 
 export function HomeSectionsView() {
   return (
@@ -12,7 +12,7 @@ export function HomeSectionsView() {
       <header className="mb-6">
         <h1 className="text-2xl font-semibold text-stone-900">C1 Drill</h1>
         <p className="mt-1 text-sm text-stone-600">
-          Goethe / telc 形式の問題をセクションごとに。隙間時間に1問ずつ。
+          NVV・Goethe・telc をセクションごとに。隙間時間に1問ずつ。
         </p>
       </header>
 
