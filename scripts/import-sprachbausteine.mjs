@@ -173,11 +173,14 @@ function buildJaSummary(sol, answerText) {
   return lines.join("\n");
 }
 
-function wrongHints(options, correctId) {
+function wrongHints(options, correctId, sol) {
+  const correctText = options.find((o) => o.id === correctId)?.text ?? "";
+  const rationale = sol?.de?.trim() || "文脈・Kollokation・Grammatikから最適な語を選ぶ。";
   const wrong = {};
   for (const o of options) {
     if (o.id === correctId) continue;
-    wrong[o.id] = `「${o.text}」はこの空所の文脈・文法パターンと合いません。`;
+    wrong[o.id] =
+      `不正解。「${o.text}」はこの空所の意味・搭配・文法と合いません。正解は「${correctText}」。根拠：${rationale}`;
   }
   return wrong;
 }
@@ -258,7 +261,7 @@ for (const unit of units) {
       explanation: {
         summary: buildJaSummary(sol, sol.answer),
         german: sol.de || undefined,
-        wrong: wrongHints(opts, sol.id),
+        wrong: wrongHints(opts, sol.id, sol),
         tip: "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。",
       },
     });

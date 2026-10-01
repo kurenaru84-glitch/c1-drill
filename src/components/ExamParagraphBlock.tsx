@@ -76,7 +76,9 @@ export function ExamParagraphBlock({
             onToast={onToast}
           />
           {!showTranslation && (
-            <p className="mt-1.5 text-[11px] text-stone-400">▶ タップで音声 · 下で訳と解説</p>
+            <p className="mt-1.5 text-[11px] text-stone-400">
+              ▶ 左の再生ボタンで音声 · 下の行で日本語訳
+            </p>
           )}
         </div>
       </div>

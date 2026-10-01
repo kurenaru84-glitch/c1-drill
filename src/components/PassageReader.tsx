@@ -4,6 +4,8 @@ import { useCallback, useEffect, useState } from "react";
 import { IconChevron, IconVolume } from "@/components/icons";
 import { ExamParagraphBlock } from "@/components/ExamParagraphBlock";
 import { playSectionParagraphAudio } from "@/lib/exam-tts";
+import { playWithTtsFallback } from "@/lib/play-with-tts-fallback";
+import { getLanguage } from "@/lib/languages";
 import { unlockAudioPlayback, stopAudioPlayback } from "@/lib/audio-playback";
 import { stopSpeech, useSpeech } from "@/lib/use-speech";
 import type { Passage, Transcript } from "@/lib/exam-types";
@@ -25,7 +27,8 @@ export function PassageReader({
   defaultExpanded = true,
   compact = false,
 }: Props) {
-  const { speakingId } = useSpeech();
+  const { speak, speakingId } = useSpeech();
+  const lang = getLanguage("de");
   const [expanded, setExpanded] = useState(defaultExpanded && !compact);
   const [visibleTranslations, setVisibleTranslations] = useState<Set<number>>(new Set());
   const [loadingIndex, setLoadingIndex] = useState<number | null>(null);
@@ -65,10 +68,10 @@ export function PassageReader({
 
     setLoadingIndex(index);
     try {
-      await playSectionParagraphAudio(sectionId, index, text, kind, speakId);
-    } catch (error) {
-      const message = error instanceof Error ? error.message : "音声の再生に失敗しました。";
-      showToast(message);
+      await playWithTtsFallback(
+        () => playSectionParagraphAudio(sectionId, index, text, kind, speakId),
+        () => speak(text, lang.speechId, speakId)
+      );
     } finally {
       setLoadingIndex(null);
     }

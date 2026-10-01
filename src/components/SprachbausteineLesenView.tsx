@@ -8,6 +8,7 @@ import { FullTextPlayer } from "@/components/FullTextPlayer";
 import { IconChevron } from "@/components/icons";
 import { unlockAudioPlayback } from "@/lib/audio-playback";
 import { playSectionParagraphAudio } from "@/lib/exam-tts";
+import { playWithTtsFallback } from "@/lib/play-with-tts-fallback";
 import { buildFilledPassage, collectSprachbausteineVocab } from "@/lib/sprachbausteine-utils";
 import { getLanguage } from "@/lib/languages";
 import {
@@ -106,11 +107,10 @@ export function SprachbausteineLesenView({ section }: Props) {
     setActiveParagraph(index);
     setLoadingIndex(index);
     try {
-      await playSectionParagraphAudio(docId, index, text, "passage", speakId);
-    } catch (error) {
-      const message = error instanceof Error ? error.message : "音声の再生に失敗しました。";
-      showToast(message);
-      speak(text, lang.speechId, speakId);
+      await playWithTtsFallback(
+        () => playSectionParagraphAudio(docId, index, text, "passage", speakId),
+        () => speak(text, lang.speechId, speakId)
+      );
     } finally {
       setLoadingIndex(null);
     }
@@ -198,6 +198,11 @@ export function SprachbausteineLesenView({ section }: Props) {
               translationLoading={translationLoading.has(index)}
               translationError={translationErrors[index]}
             />
+            {visibleTranslations.has(index) && wortschatz.length > 0 && !para.studyNotes?.vocabulary?.length && (
+              <p className="mt-1 px-3 pb-2 text-[11px] text-stone-500">
+                本の語彙解説はページ下部の Wortschatz（{wortschatz.length} 件）を参照
+              </p>
+            )}
           </div>
         ))}
 

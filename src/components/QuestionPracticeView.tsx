@@ -50,14 +50,24 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
     <div className="mx-auto flex min-h-[100dvh] max-w-lg flex-col bg-stone-50">
       <header className="sticky top-0 z-10 border-b border-stone-200 bg-white/95 px-4 py-3 backdrop-blur-md">
         <div className="flex items-center justify-between gap-2">
-          <Link
-            href={section.skill === "sprachbausteine" ? `/s/${section.id}` : `/s/${section.id}`}
-            className="inline-flex items-center gap-1 text-sm text-teal-700"
-          >
-            <IconChevron className="h-4 w-4 rotate-180" />
-            {section.skill === "sprachbausteine" ? "エピソードメニュー" : "戻る"}
-          </Link>
-          <span className="text-xs font-medium text-stone-500">
+          <div className="flex min-w-0 items-center gap-2">
+            <Link
+              href={`/s/${section.id}`}
+              className="inline-flex shrink-0 items-center gap-1 text-sm text-teal-700"
+            >
+              <IconChevron className="h-4 w-4 rotate-180" />
+              {section.skill === "sprachbausteine" ? "メニュー" : "戻る"}
+            </Link>
+            {section.skill === "sprachbausteine" && hasPrev && (
+              <Link
+                href={`/s/${section.id}/q/${questionIndex - 1}`}
+                className="shrink-0 rounded-lg bg-stone-100 px-2 py-1 text-xs font-medium text-stone-700"
+              >
+                ← Lücke {section.questions[questionIndex - 1]?.number ?? question.number - 1}
+              </Link>
+            )}
+          </div>
+          <span className="shrink-0 text-xs font-medium text-stone-500">
             {questionIndex + 1} / {total}
           </span>
         </div>
@@ -153,6 +163,7 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
               explanation={question.explanation}
               source={wordSource}
               onToast={showToast}
+              detailed={section.skill === "sprachbausteine"}
             />
           </div>
         )}
@@ -163,14 +174,26 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
         style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
       >
         {!submitted ? (
-          <button
-            type="button"
-            onClick={handleSubmit}
-            disabled={!selectedId}
-            className="w-full rounded-2xl bg-teal-700 py-3.5 text-sm font-semibold text-white disabled:bg-stone-300"
-          >
-            答え合わせ
-          </button>
+          <div className="flex gap-2">
+            {hasPrev && (
+              <Link
+                href={`/s/${section.id}/q/${questionIndex - 1}`}
+                className="flex-1 rounded-2xl border border-stone-200 py-3.5 text-center text-sm font-medium text-stone-700"
+              >
+                前へ
+              </Link>
+            )}
+            <button
+              type="button"
+              onClick={handleSubmit}
+              disabled={!selectedId}
+              className={`rounded-2xl bg-teal-700 py-3.5 text-sm font-semibold text-white disabled:bg-stone-300 ${
+                hasPrev ? "flex-[2]" : "w-full flex-1"
+              }`}
+            >
+              答え合わせ
+            </button>
+          </div>
         ) : (
           <div className="flex gap-2">
             {hasPrev && (
