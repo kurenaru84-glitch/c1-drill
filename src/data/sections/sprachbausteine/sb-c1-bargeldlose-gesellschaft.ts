@@ -15,7 +15,7 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
     "subtitle": "Text 1",
     "paragraphs": [
       {
-        "original": "Die Deutschen wollen auch zukünftig nicht auf Bargeld verzichten. Das ist das Ergebnis einer [1] ________ veröffentlichten repräsentativen Studie im Auftrag des renommierten Wirtschaftsmagazins „Cash“. Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, während die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
+        "original": "Die Deutschen wollen auch zukünftig nicht auf Bargeld verzichten. Das ist das Ergebnis einer [1] ________ veröffentlichten repräsentativen Studie im Auftrag des renommierten Wirtschaftsmagazins „Cash“. Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, [3] ________ die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
         "translation": "（日本語訳は準備中。空所番号 [1]〜[16] は本文と連動しています。）"
       },
       {
@@ -79,8 +79,8 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
     {
       "id": "sb-1-q2",
       "number": 2,
-      "prompt": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, während die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
-      "contextSnippet": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, während die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
+      "prompt": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, [3] ________ die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
+      "contextSnippet": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, [3] ________ die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
       "options": [
         {
           "id": "a",
@@ -114,8 +114,8 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
     {
       "id": "sb-1-q3",
       "number": 3,
-      "prompt": "Lücke 3: Wählen Sie die richtige Lösung.",
-      "contextSnippet": "Lücke 3: Wählen Sie die richtige Lösung.",
+      "prompt": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, [3] ________ die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
+      "contextSnippet": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, [3] ________ die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
       "options": [
         {
           "id": "a",
@@ -149,8 +149,8 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
     {
       "id": "sb-1-q4",
       "number": 4,
-      "prompt": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, während die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
-      "contextSnippet": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, während die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
+      "prompt": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, [3] ________ die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
+      "contextSnippet": "Demnach bevorzugen nur etwa vierzig Prozent der Befragten die bargeldlose Bezahlung mit EC- oder Kreditkarte, oder [2] ________ auch mit Smartphonediensten wie Apple Pay, [3] ________ die überwiegende Mehrheit ihre alltäglichen Geschäfte mit Münzen und Scheinen [4] ________ möchte.",
       "options": [
         {
           "id": "a",

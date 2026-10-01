@@ -16,6 +16,9 @@ type Props = {
   onPlay: () => void;
   onToggleTranslation: () => void;
   onToast: (message: string) => void;
+  translationText?: string;
+  translationLoading?: boolean;
+  translationError?: string;
 };
 
 export function ExamParagraphBlock({
@@ -28,7 +31,11 @@ export function ExamParagraphBlock({
   onPlay,
   onToggleTranslation,
   onToast,
+  translationText,
+  translationLoading,
+  translationError,
 }: Props) {
+  const displayTranslation = translationText ?? paragraph.translation;
   return (
     <section className="rounded-2xl border border-stone-200 bg-white">
       <div
@@ -81,7 +88,15 @@ export function ExamParagraphBlock({
       >
         {showTranslation ? (
           <div className="border-t border-stone-100 pt-2">
-            <p className="text-sm leading-relaxed text-stone-600">{paragraph.translation}</p>
+            {translationLoading ? (
+              <p className="text-sm text-stone-500">日本語訳を取得中…</p>
+            ) : translationError ? (
+              <p className="text-sm text-amber-800">{translationError}</p>
+            ) : displayTranslation?.trim() ? (
+              <p className="text-sm leading-relaxed text-stone-600">{displayTranslation}</p>
+            ) : (
+              <p className="text-sm text-stone-500">訳がありません。</p>
+            )}
             {paragraph.studyNotes && (
               <StudyNotesPanel
                 notes={paragraph.studyNotes}

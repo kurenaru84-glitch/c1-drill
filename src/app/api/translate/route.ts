@@ -8,13 +8,21 @@ const LANGUAGE_NAMES: Record<LearningLanguage, string> = {
 };
 
 export async function POST(request: Request) {
-  const body = (await request.json()) as { text?: string; language?: LearningLanguage };
+  const body = (await request.json()) as {
+    text?: string;
+    language?: LearningLanguage;
+    context?: "word" | "passage";
+  };
   const text = body.text?.trim() ?? "";
   if (!text) {
     return NextResponse.json({ error: "翻訳するテキストが空です。" }, { status: 400 });
   }
-  if (text.length > 300) {
-    return NextResponse.json({ error: "翻訳は300文字以内にしてください。" }, { status: 400 });
+  const maxLen = body.context === "passage" ? 4500 : 300;
+  if (text.length > maxLen) {
+    return NextResponse.json(
+      { error: `翻訳は${maxLen}文字以内にしてください。` },
+      { status: 400 }
+    );
   }
 
   const language = body.language === "de" ? "de" : "en";

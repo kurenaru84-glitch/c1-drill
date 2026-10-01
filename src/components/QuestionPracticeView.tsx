@@ -5,6 +5,7 @@ import { useCallback, useState } from "react";
 import { ExplanationPanel } from "@/components/ExplanationPanel";
 import { PassageReader } from "@/components/PassageReader";
 import { QuestionTextBlock } from "@/components/QuestionTextBlock";
+import { SprachbausteineQuestionPassage } from "@/components/SprachbausteineQuestionPassage";
 import { IconChevron } from "@/components/icons";
 import { getQuestionAnswer, saveQuestionAnswer } from "@/lib/exam-progress";
 import type { ExamSection } from "@/lib/exam-types";
@@ -81,37 +82,37 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
         )}
 
         {section.skill === "sprachbausteine" && (
-          <p className="mb-2 rounded-xl bg-stone-100 px-3 py-2 text-[11px] text-stone-600">
-            空所は Lücke 番号と本文の [番号] が対応。完成文はエピソードメニューの「全文を読む」。
-          </p>
+          <SprachbausteineQuestionPassage section={section} activeGap={question.number} />
         )}
 
         <div className="mt-4 rounded-2xl border border-stone-200 bg-white p-4">
-          <QuestionTextBlock
-            label={
-              section.skill === "sprachbausteine"
-                ? `Lücke ${question.number}`
-                : `Aufgabe ${question.number}`
-            }
-            text={question.prompt}
-            language="de"
-            source={wordSource}
-            onToast={showToast}
-            nvvQuick={
-              section.skill === "nvv"
-                ? {
-                    prompt: question.prompt,
-                    options: question.options,
-                    correctOptionId: question.correctOptionId,
-                  }
-                : undefined
-            }
-          />
-          {question.promptJa && (
-            <p className="mt-3 border-t border-stone-100 pt-2 text-sm leading-relaxed text-stone-600">
-              <span className="mr-1.5 text-xs font-medium text-stone-400">訳</span>
-              {question.promptJa}
-            </p>
+          {section.skill === "sprachbausteine" ? (
+            <p className="text-sm font-semibold text-stone-800">Lücke {question.number}</p>
+          ) : (
+            <>
+              <QuestionTextBlock
+                label={`Aufgabe ${question.number}`}
+                text={question.prompt}
+                language="de"
+                source={wordSource}
+                onToast={showToast}
+                nvvQuick={
+                  section.skill === "nvv"
+                    ? {
+                        prompt: question.prompt,
+                        options: question.options,
+                        correctOptionId: question.correctOptionId,
+                      }
+                    : undefined
+                }
+              />
+              {question.promptJa && (
+                <p className="mt-3 border-t border-stone-100 pt-2 text-sm leading-relaxed text-stone-600">
+                  <span className="mr-1.5 text-xs font-medium text-stone-400">訳</span>
+                  {question.promptJa}
+                </p>
+              )}
+            </>
           )}
         </div>
 

@@ -1,13 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ExamParagraphBlock } from "@/components/ExamParagraphBlock";
 import { FullTextPlayer } from "@/components/FullTextPlayer";
 import { IconChevron } from "@/components/icons";
 import { unlockAudioPlayback } from "@/lib/audio-playback";
 import { playSectionParagraphAudio } from "@/lib/exam-tts";
 import { buildFilledPassage } from "@/lib/sprachbausteine-utils";
+import { getLanguage } from "@/lib/languages";
+import {
+  getCachedPassageTranslations,
+  loadPassageParagraphJapanese,
+} from "@/lib/passage-translation-ja";
 import { stopSpeech, useSpeech } from "@/lib/use-speech";
 import type { ExamSection } from "@/lib/exam-types";
 
@@ -18,12 +23,19 @@ type Props = {
 export function SprachbausteineLesenView({ section }: Props) {
   const filled = useMemo(() => buildFilledPassage(section), [section]);
   const docId = `${section.id}-filled`;
-  const { speakingId } = useSpeech();
+  const { speak, speakingId } = useSpeech();
+  const lang = getLanguage("de");
 
   const [visibleTranslations, setVisibleTranslations] = useState<Set<number>>(new Set());
+  const [translationsJa, setTranslationsJa] = useState<Record<number, string>>(() =>
+    getCachedPassageTranslations(section.id)
+  );
+  const [translationLoading, setTranslationLoading] = useState<Set<number>>(new Set());
+  const [translationErrors, setTranslationErrors] = useState<Record<number, string>>({});
   const [activeParagraph, setActiveParagraph] = useState<number | null>(null);
   const [loadingIndex, setLoadingIndex] = useState<number | null>(null);
   const [toast, setToast] = useState("");
+  const translationInFlightRef = useRef(new Set<number>());
 
   const playerParagraphs = useMemo(
     () => filled?.paragraphs.map((p, index) => ({ index, original: p.original })) ?? [],
@@ -36,6 +48,41 @@ export function SprachbausteineLesenView({ section }: Props) {
   }, []);
 
   useEffect(() => () => stopSpeech(), []);
+
+  useEffect(() => {
+    if (!filled) return;
+    for (const index of visibleTranslations) {
+      if (translationsJa[index]?.trim()) continue;
+      if (translationInFlightRef.current.has(index)) continue;
+      const para = filled.paragraphs[index];
+      if (!para?.original) continue;
+
+      translationInFlightRef.current.add(index);
+      setTranslationLoading((prev) => new Set(prev).add(index));
+      void loadPassageParagraphJapanese(section.id, index, para.original, para.translation)
+        .then((ja) => {
+          setTranslationsJa((prev) => ({ ...prev, [index]: ja }));
+          setTranslationErrors((prev) => {
+            const next = { ...prev };
+            delete next[index];
+            return next;
+          });
+        })
+        .catch((error) => {
+          const message =
+            error instanceof Error ? error.message : "日本語訳の取得に失敗しました。";
+          setTranslationErrors((prev) => ({ ...prev, [index]: message }));
+        })
+        .finally(() => {
+          translationInFlightRef.current.delete(index);
+          setTranslationLoading((prev) => {
+            const next = new Set(prev);
+            next.delete(index);
+            return next;
+          });
+        });
+    }
+  }, [visibleTranslations, filled, section.id, translationsJa]);
 
   const handleParagraphHighlight = useCallback((index: number | null) => {
     setActiveParagraph(index);
@@ -61,6 +108,7 @@ export function SprachbausteineLesenView({ section }: Props) {
     } catch (error) {
       const message = error instanceof Error ? error.message : "音声の再生に失敗しました。";
       showToast(message);
+      speak(text, lang.speechId, speakId);
     } finally {
       setLoadingIndex(null);
     }
@@ -144,6 +192,9 @@ export function SprachbausteineLesenView({ section }: Props) {
                 })
               }
               onToast={showToast}
+              translationText={translationsJa[index]}
+              translationLoading={translationLoading.has(index)}
+              translationError={translationErrors[index]}
             />
           </div>
         ))}

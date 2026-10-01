@@ -87,10 +87,49 @@ function cleanAufgabeText(text) {
     .trim();
 }
 
+/** 原稿で番号だけ表にあり本文にマーカーがない空所（例: Bargeldlose Lücke 3）を補う */
+function repairMissingGaps(text, solutions) {
+  let out = text;
+  const nums = [...solutions.keys()].sort((a, b) => a - b);
+  for (const n of nums) {
+    if (new RegExp(`\\[${n}\\]\\s*________`).test(out)) continue;
+    const sol = solutions.get(n);
+    const answer = sol?.answer?.trim();
+    if (!answer) continue;
+
+    const prev = n - 1;
+    const next = n + 1;
+    const prevMarker = `[${prev}] ________`;
+    const nextMarker = `[${next}] ________`;
+    const pi = out.indexOf(prevMarker);
+    const ni = out.indexOf(nextMarker);
+    if (pi < 0 || ni <= pi) continue;
+
+    const region = out.slice(pi + prevMarker.length, ni);
+    const escaped = answer.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const wordRe = new RegExp(`(,\\s*)${escaped}(\\s+)`, "i");
+    if (!wordRe.test(region)) continue;
+
+    const newRegion = region.replace(wordRe, `, [${n}] ________ `);
+    out = out.slice(0, pi + prevMarker.length) + newRegion + out.slice(ni);
+  }
+  return out;
+}
+
 function sentenceForGap(fullText, num) {
   const plain = fullText.replace(/\[cite:[^\]]+\]/g, "");
-  const gapPat = new RegExp(`\\[${num}\\]\\s*________|\\\\*\\\\*${num}\\\\*\\\\*\\s*\\[______\\]`, "g");
+  const gapPat = new RegExp(`\\[${num}\\]\\s*________`);
   if (!gapPat.test(plain)) {
+    const paras = plain.split(/\n\n+/).map((p) => p.trim()).filter(Boolean);
+    for (const p of paras) {
+      if (gapPat.test(p)) return p.replace(/\s+/g, " ").trim();
+      if (
+        new RegExp(`\\[${num - 1}\\]\\s*________`).test(p) &&
+        new RegExp(`\\[${num + 1}\\]\\s*________`).test(p)
+      ) {
+        return p.replace(/\s+/g, " ").trim();
+      }
+    }
     return `Lücke ${num}: Wählen Sie die richtige Lösung.`;
   }
   const normalized = plain.replace(/\*\*(\d+)\*\*\s*\[______\]/g, "[$1] ________");
@@ -165,9 +204,10 @@ for (const unit of units) {
   const wortschatzM = unit.body.match(/### W Wortschatz:[^\n]*\n([\s\S]*?)(?=^---\s*$|^## \d+\.|$)/m);
 
   const aufgabeRaw = aufgabeM[1];
-  const aufgabeClean = cleanAufgabeText(aufgabeRaw);
   const optionsByNum = parseOptionsTable(tableM ? tableM[1] : unit.body);
   const solutions = parseSolutions(loesungM ? loesungM[0] : "");
+  let aufgabeClean = cleanAufgabeText(aufgabeRaw);
+  aufgabeClean = repairMissingGaps(aufgabeClean, solutions);
   const vocabulary = wortschatzM ? parseVocab(wortschatzM[1]) : [];
 
   const paraTexts = aufgabeClean

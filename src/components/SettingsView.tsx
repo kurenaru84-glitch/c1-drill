@@ -45,7 +45,27 @@ export function SettingsView() {
           ))}
         </div>
         <p className="mt-2 text-xs text-stone-500">
-          聴解セクションの TTS 再生速度。Google Cloud TTS を使用（.env.local 要設定）。
+          聴解・全文読みの TTS 再生速度。音声は Google Cloud TTS（サービスアカウント JSON）を使用します。
+        </p>
+      </section>
+
+      <section className="mb-6 rounded-2xl border border-stone-200 bg-white p-4">
+        <h2 className="mb-2 text-sm font-medium text-stone-900">API 設定（read-along と同じ）</h2>
+        <ul className="list-inside list-disc space-y-2 text-xs leading-relaxed text-stone-600">
+          <li>
+            <span className="font-medium text-stone-800">GEMINI_API_KEY</span>
+            … 単語・語彙・全文の日本語訳（AI 翻訳）
+          </li>
+          <li>
+            <span className="font-medium text-stone-800">GOOGLE_APPLICATION_CREDENTIALS_JSON</span>
+            … 読み上げ TTS 用のサービスアカウント JSON 全体（API キー AIza… ではない）
+          </li>
+        </ul>
+        <p className="mt-3 text-xs leading-relaxed text-stone-500">
+          ローカルでは .env.local に JSON を貼るとき、値全体をシングルクォートで囲んでください。
+          Vercel では変数に JSON をそのまま貼れます。うまく読めない場合は{" "}
+          <span className="font-mono text-[10px]">GOOGLE_APPLICATION_CREDENTIALS_JSON_BASE64</span>{" "}
+          に base64 エンコードした JSON を設定できます。
         </p>
       </section>
 

@@ -1,4 +1,5 @@
 import { createSign } from "crypto";
+import { loadGoogleServiceAccountCredentials } from "@/lib/google-credentials";
 import type { LearningLanguage } from "@/lib/types";
 
 const TOKEN_URL = "https://oauth2.googleapis.com/token";
@@ -9,40 +10,10 @@ const TTS_VOICES: Record<LearningLanguage, { languageCode: string; name: string 
   de: { languageCode: "de-DE", name: "de-DE-Neural2-B" },
 };
 
-type ServiceAccountCredentials = {
-  client_email: string;
-  private_key: string;
-};
-
 let cachedToken: { value: string; expiresAt: number } | null = null;
 
-function getCredentials(): ServiceAccountCredentials {
-  const raw = process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON?.trim();
-  if (!raw) {
-    throw new Error(
-      "GOOGLE_APPLICATION_CREDENTIALS_JSON が設定されていません。Vercel の Environment Variables を確認してください。"
-    );
-  }
-
-  let parsed: ServiceAccountCredentials;
-  try {
-    parsed = JSON.parse(raw) as ServiceAccountCredentials;
-  } catch {
-    throw new Error(
-      "GOOGLE_APPLICATION_CREDENTIALS_JSON が JSON として読めません。API キー（AIza...）ではなく、Google Cloud のサービスアカウント JSON ファイルの中身全体を1行で貼ってください。"
-    );
-  }
-
-  if (!parsed.client_email || !parsed.private_key) {
-    throw new Error(
-      "サービスアカウント JSON に client_email と private_key が必要です。Cloud Console からダウンロードした JSON をそのまま使ってください。"
-    );
-  }
-
-  return {
-    client_email: parsed.client_email,
-    private_key: parsed.private_key.replace(/\\n/g, "\n"),
-  };
+function getCredentials() {
+  return loadGoogleServiceAccountCredentials();
 }
 
 function base64url(value: string | Buffer) {

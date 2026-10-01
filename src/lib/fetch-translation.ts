@@ -1,13 +1,16 @@
 import type { LearningLanguage } from "@/lib/types";
 
+export type TranslationContext = "word" | "passage";
+
 export async function fetchTranslation(
   text: string,
-  language: LearningLanguage
+  language: LearningLanguage,
+  context: TranslationContext = "word"
 ): Promise<string> {
   const res = await fetch("/api/translate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ text, language }),
+    body: JSON.stringify({ text, language, context }),
   });
   const data = (await res.json()) as { translationJa?: string; error?: string };
   if (!res.ok) throw new Error(data.error ?? "翻訳に失敗しました。");
