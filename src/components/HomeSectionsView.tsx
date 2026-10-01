@@ -1,6 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { SectionCard } from "@/components/SectionCard";
+import { IconChevron } from "@/components/icons";
 import { ALL_SECTIONS, PROVIDER_LABELS, getSectionsByProvider } from "@/data/sections";
 import type { ExamProvider } from "@/lib/exam-types";
 
@@ -25,9 +27,22 @@ export function HomeSectionsView() {
               {PROVIDER_LABELS[provider]}
             </h2>
             <div className="space-y-2">
-              {sections.map((section) => (
-                <SectionCard key={section.id} section={section} />
-              ))}
+              {provider === "sprachbausteine" ? (
+                <Link
+                  href="/sb"
+                  className="flex items-center gap-3 rounded-2xl border border-teal-200 bg-teal-50/50 p-4 active:bg-teal-50"
+                >
+                  <div className="min-w-0 flex-1">
+                    <h3 className="text-sm font-semibold text-stone-900">エピソードを選ぶ</h3>
+                    <p className="text-xs text-stone-600">
+                      全 {sections.length} 本 · 全文 / Lücke / 語彙の3モード
+                    </p>
+                  </div>
+                  <IconChevron className="h-5 w-5 shrink-0 text-teal-600" />
+                </Link>
+              ) : (
+                sections.map((section) => <SectionCard key={section.id} section={section} />)
+              )}
             </div>
           </section>
         );

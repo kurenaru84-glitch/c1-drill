@@ -5,7 +5,10 @@ import { BottomNav } from "@/components/BottomNav";
 
 export function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
-  const hideNav = pathname.startsWith("/read/") || /\/s\/[^/]+\/q\//.test(pathname);
+  const hideNav =
+    pathname.startsWith("/read/") ||
+    /\/s\/[^/]+\/q\//.test(pathname) ||
+    /\/s\/[^/]+\/lesen\/?$/.test(pathname);
 
   return (
     <>

@@ -50,11 +50,11 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
       <header className="sticky top-0 z-10 border-b border-stone-200 bg-white/95 px-4 py-3 backdrop-blur-md">
         <div className="flex items-center justify-between gap-2">
           <Link
-            href={`/s/${section.id}`}
+            href={section.skill === "sprachbausteine" ? `/s/${section.id}` : `/s/${section.id}`}
             className="inline-flex items-center gap-1 text-sm text-teal-700"
           >
             <IconChevron className="h-4 w-4 rotate-180" />
-            戻る
+            {section.skill === "sprachbausteine" ? "エピソードメニュー" : "戻る"}
           </Link>
           <span className="text-xs font-medium text-stone-500">
             {questionIndex + 1} / {total}
@@ -69,18 +69,20 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
       </header>
 
       <div className="flex-1 overflow-y-auto px-4 py-4">
-        <PassageReader
-          sectionId={section.id}
-          passage={section.passage}
-          transcript={section.transcript}
-          sourceLabel={section.titleJa}
-          compact={section.skill !== "sprachbausteine"}
-          defaultExpanded={section.skill === "sprachbausteine"}
-        />
+        {section.skill !== "sprachbausteine" && (
+          <PassageReader
+            sectionId={section.id}
+            passage={section.passage}
+            transcript={section.transcript}
+            sourceLabel={section.titleJa}
+            compact
+            defaultExpanded={false}
+          />
+        )}
 
         {section.skill === "sprachbausteine" && (
-          <p className="mb-2 text-[11px] text-stone-500">
-            本文は段落ごとに読めます。空所は下の Lücke 番号と [番号] が対応します。
+          <p className="mb-2 rounded-xl bg-stone-100 px-3 py-2 text-[11px] text-stone-600">
+            空所は Lücke 番号と本文の [番号] が対応。完成文はエピソードメニューの「全文を読む」。
           </p>
         )}
 
