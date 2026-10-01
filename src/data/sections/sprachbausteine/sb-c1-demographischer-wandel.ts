@@ -36,10 +36,272 @@ export const sb_c1_demographischer_wandel: ExamSection = {
       },
       {
         "original": "Um einem Zusammenbruch der Sozialsysteme [15] ________, werden mittels Steuererhöhungen Maßnahmen ergriffen, die leeren Rentenkassen wieder zu füllen. Allerdings ist es aufgrund der zunehmenden Verschärfung der Situation [16] ________, wie lange diese Maßnahme den bevorstehenden Kollaps noch aufhalten kann.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "im Allgemeinen",
+              "meaning": "generell, gewöhnlich, im Großen und Ganzen"
+            },
+            {
+              "term": "die Ursache",
+              "meaning": "der Grund, der Anlass"
+            },
+            {
+              "term": "komplex",
+              "meaning": "kompliziert, unübersichtlich, schwierig, vielfältig miteinander verflochten"
+            },
+            {
+              "term": "vielfältig",
+              "meaning": "verschiedenartig, unterschiedlich, zahlreich"
+            },
+            {
+              "term": "die Fertilität",
+              "meaning": "die Fruchtbarkeit, die Fortpflanzungsfähigkeit"
+            },
+            {
+              "term": "rund",
+              "meaning": "ungefähr, in etwa, circa (ca.)"
+            },
+            {
+              "term": "durchschnittlich",
+              "meaning": "im Durchschnitt, im Mittel, im Schnitt"
+            },
+            {
+              "term": "jemanden zur/auf die Welt bringen",
+              "meaning": "ein Kind/Baby gebären/bekommen, Mutter eines Kindes werden"
+            },
+            {
+              "term": "das Bestandserhaltungsniveau",
+              "meaning": "die durchschnittliche Kinderzahl pro Frau, die erforderlich wäre, um den Bevölkerungsbestand bei der aktuellen Sterblichkeit konstant zu halten"
+            },
+            {
+              "term": "die Lebenserwartung",
+              "meaning": "die im Durchschnitt zu erwartende Lebenszeit"
+            },
+            {
+              "term": "das Jahrzehnt",
+              "meaning": "die Dekade, der Zeitraum von zehn Jahren"
+            },
+            {
+              "term": "etwas prognostizieren",
+              "meaning": "etwas voraussagen/vorhersehen/prophezeien/schätzen/abschätzen"
+            },
+            {
+              "term": "der Trend",
+              "meaning": "das Anzeichen einer bestimmten Entwicklung"
+            },
+            {
+              "term": "etwas/(sich) fortsetzen",
+              "meaning": "etwas weiterführen/weitermachen/fortschreiten/voranschreiten"
+            },
+            {
+              "term": "ein Alter/Lebensjahr erreichen",
+              "meaning": "bis zu einem bestimmten Zeitpunkt alt werden"
+            },
+            {
+              "term": "zeitgleich",
+              "meaning": "gleichzeitig, synchron, parallel zu + DAT"
+            },
+            {
+              "term": "erheblich",
+              "meaning": "bedeutend, beträchtlich, enorm, immens"
+            },
+            {
+              "term": "der Mangel an + DAT",
+              "meaning": "etwas mangelt/fehlt/ist nicht vorhanden"
+            },
+            {
+              "term": "der Erwerbstätige",
+              "meaning": "Arbeitnehmer und Selbstständige"
+            },
+            {
+              "term": "die Rentenleistung",
+              "meaning": "die Geldleistung, die an Rentner gezahlt wird"
+            },
+            {
+              "term": "unweigerlich",
+              "meaning": "unvermeidlich, zwangsläufig, mit Sicherheit eintretend"
+            },
+            {
+              "term": "die Überlastung",
+              "meaning": "die Belastung über dem Limit"
+            },
+            {
+              "term": "gravierend",
+              "meaning": "schwerwiegend, massiv, tief greifend, dramatisch, drastisch, streng, ernst"
+            },
+            {
+              "term": "gleichermaßen",
+              "meaning": "genauso, gleich, in demselben Maße"
+            },
+            {
+              "term": "resultieren in + DAT",
+              "meaning": "enden in + DAT, etwas hat etwas (am Ende) zum Ergebnis"
+            },
+            {
+              "term": "der Zusammenbruch",
+              "meaning": "der Einsturz, der Kollaps, der Untergang"
+            },
+            {
+              "term": "mittels + GEN",
+              "meaning": "mit Hilfe von, mithilfe, durch"
+            },
+            {
+              "term": "Maßnahmen ergreifen",
+              "meaning": "vorgehen gegen + AKK, ein Problem angehen, eine Sache anpacken"
+            },
+            {
+              "term": "die Verschärfung einer Situation",
+              "meaning": "eine Situation verschlimmert sich"
+            },
+            {
+              "term": "bevorstehend",
+              "meaning": "etwas, das in (unmittelbarer) Zukunft passiert"
+            },
+            {
+              "term": "der Kollaps",
+              "meaning": "der Einsturz, der Zusammenbruch, der Untergang"
+            },
+            {
+              "term": "etwas aufhalten",
+              "meaning": "etwas stoppen/eindämmen/abbrechen"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "im Allgemeinen",
+      "meaning": "generell, gewöhnlich, im Großen und Ganzen"
+    },
+    {
+      "term": "die Ursache",
+      "meaning": "der Grund, der Anlass"
+    },
+    {
+      "term": "komplex",
+      "meaning": "kompliziert, unübersichtlich, schwierig, vielfältig miteinander verflochten"
+    },
+    {
+      "term": "vielfältig",
+      "meaning": "verschiedenartig, unterschiedlich, zahlreich"
+    },
+    {
+      "term": "die Fertilität",
+      "meaning": "die Fruchtbarkeit, die Fortpflanzungsfähigkeit"
+    },
+    {
+      "term": "rund",
+      "meaning": "ungefähr, in etwa, circa (ca.)"
+    },
+    {
+      "term": "durchschnittlich",
+      "meaning": "im Durchschnitt, im Mittel, im Schnitt"
+    },
+    {
+      "term": "jemanden zur/auf die Welt bringen",
+      "meaning": "ein Kind/Baby gebären/bekommen, Mutter eines Kindes werden"
+    },
+    {
+      "term": "das Bestandserhaltungsniveau",
+      "meaning": "die durchschnittliche Kinderzahl pro Frau, die erforderlich wäre, um den Bevölkerungsbestand bei der aktuellen Sterblichkeit konstant zu halten"
+    },
+    {
+      "term": "die Lebenserwartung",
+      "meaning": "die im Durchschnitt zu erwartende Lebenszeit"
+    },
+    {
+      "term": "das Jahrzehnt",
+      "meaning": "die Dekade, der Zeitraum von zehn Jahren"
+    },
+    {
+      "term": "etwas prognostizieren",
+      "meaning": "etwas voraussagen/vorhersehen/prophezeien/schätzen/abschätzen"
+    },
+    {
+      "term": "der Trend",
+      "meaning": "das Anzeichen einer bestimmten Entwicklung"
+    },
+    {
+      "term": "etwas/(sich) fortsetzen",
+      "meaning": "etwas weiterführen/weitermachen/fortschreiten/voranschreiten"
+    },
+    {
+      "term": "ein Alter/Lebensjahr erreichen",
+      "meaning": "bis zu einem bestimmten Zeitpunkt alt werden"
+    },
+    {
+      "term": "zeitgleich",
+      "meaning": "gleichzeitig, synchron, parallel zu + DAT"
+    },
+    {
+      "term": "erheblich",
+      "meaning": "bedeutend, beträchtlich, enorm, immens"
+    },
+    {
+      "term": "der Mangel an + DAT",
+      "meaning": "etwas mangelt/fehlt/ist nicht vorhanden"
+    },
+    {
+      "term": "der Erwerbstätige",
+      "meaning": "Arbeitnehmer und Selbstständige"
+    },
+    {
+      "term": "die Rentenleistung",
+      "meaning": "die Geldleistung, die an Rentner gezahlt wird"
+    },
+    {
+      "term": "unweigerlich",
+      "meaning": "unvermeidlich, zwangsläufig, mit Sicherheit eintretend"
+    },
+    {
+      "term": "die Überlastung",
+      "meaning": "die Belastung über dem Limit"
+    },
+    {
+      "term": "gravierend",
+      "meaning": "schwerwiegend, massiv, tief greifend, dramatisch, drastisch, streng, ernst"
+    },
+    {
+      "term": "gleichermaßen",
+      "meaning": "genauso, gleich, in demselben Maße"
+    },
+    {
+      "term": "resultieren in + DAT",
+      "meaning": "enden in + DAT, etwas hat etwas (am Ende) zum Ergebnis"
+    },
+    {
+      "term": "der Zusammenbruch",
+      "meaning": "der Einsturz, der Kollaps, der Untergang"
+    },
+    {
+      "term": "mittels + GEN",
+      "meaning": "mit Hilfe von, mithilfe, durch"
+    },
+    {
+      "term": "Maßnahmen ergreifen",
+      "meaning": "vorgehen gegen + AKK, ein Problem angehen, eine Sache anpacken"
+    },
+    {
+      "term": "die Verschärfung einer Situation",
+      "meaning": "eine Situation verschlimmert sich"
+    },
+    {
+      "term": "bevorstehend",
+      "meaning": "etwas, das in (unmittelbarer) Zukunft passiert"
+    },
+    {
+      "term": "der Kollaps",
+      "meaning": "der Einsturz, der Zusammenbruch, der Untergang"
+    },
+    {
+      "term": "etwas aufhalten",
+      "meaning": "etwas stoppen/eindämmen/abbrechen"
+    }
+  ],
   "questions": [
     {
       "id": "sb-9-q1",

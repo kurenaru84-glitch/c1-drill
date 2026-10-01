@@ -32,10 +32,168 @@ export const sb_c1_saunabesuch: ExamSection = {
       },
       {
         "original": "[14] ________ gibt es Situationen, in denen die Wärme eine [15] ________ Wirkung entfalten kann, beispielsweise bei leichten Muskelverspannungen. Dennoch gilt: Bei bestehenden gesundheitlichen Problemen sollte vorab immer ein Arzt konsultiert werden, um Risiken zu vermeiden. Von einem Saunagang bei unklaren Beschwerden wird generell [16] ________.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "das Wohlbefinden",
+              "meaning": "der Zustand, sich körperlich und seelisch gut zu fühlen"
+            },
+            {
+              "term": "sich auswirken auf + AKK",
+              "meaning": "eine Wirkung/Einfluss haben auf"
+            },
+            {
+              "term": "die Wohltat für + AKK",
+              "meaning": "etwas, das jemandem sehr guttut"
+            },
+            {
+              "term": "zur Ruhe kommen",
+              "meaning": "sich entspannen, friedlich/ruhig werden"
+            },
+            {
+              "term": "Energie tanken",
+              "meaning": "Kraft/Erholung schöpfen"
+            },
+            {
+              "term": "etwas vorbeugen",
+              "meaning": "Maßnahmen treffen, um etwas Negatives zu verhindern"
+            },
+            {
+              "term": "das Potenzial",
+              "meaning": "die Fülle an Möglichkeiten/Fähigkeiten"
+            },
+            {
+              "term": "dauerhaft",
+              "meaning": "lang anhaltend, für lange Zeit"
+            },
+            {
+              "term": "stimulieren",
+              "meaning": "anregen, aktivieren"
+            },
+            {
+              "term": "sich weiten",
+              "meaning": "breiter/größer werden"
+            },
+            {
+              "term": "sich zusammenziehen",
+              "meaning": "enger/kleiner werden, schrumpfen"
+            },
+            {
+              "term": "an den Folgen + GEN",
+              "meaning": "als Konsequenz einer Ursache"
+            },
+            {
+              "term": "versterben an + DAT",
+              "meaning": "sterben aufgrund einer bestimmten Ursache/Krankheit"
+            },
+            {
+              "term": "die Belastung",
+              "meaning": "der Druck, die Inanspruchnahme, der Stress"
+            },
+            {
+              "term": "angewiesen sein auf + AKK",
+              "meaning": "etwas/jemanden dringend brauchen"
+            },
+            {
+              "term": "etwas begünstigen",
+              "meaning": "etwas fördern, gute Bedingungen für etwas schaffen"
+            },
+            {
+              "term": "ausbleiben",
+              "meaning": "nicht eintreffen, fehlen"
+            },
+            {
+              "term": "etwas aufschieben",
+              "meaning": "etwas zeitlich nach hinten verlegen/verzögern"
+            },
+            {
+              "term": "förderlich",
+              "meaning": "nützlich, dienlich, positiv beeinflussend"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "das Wohlbefinden",
+      "meaning": "der Zustand, sich körperlich und seelisch gut zu fühlen"
+    },
+    {
+      "term": "sich auswirken auf + AKK",
+      "meaning": "eine Wirkung/Einfluss haben auf"
+    },
+    {
+      "term": "die Wohltat für + AKK",
+      "meaning": "etwas, das jemandem sehr guttut"
+    },
+    {
+      "term": "zur Ruhe kommen",
+      "meaning": "sich entspannen, friedlich/ruhig werden"
+    },
+    {
+      "term": "Energie tanken",
+      "meaning": "Kraft/Erholung schöpfen"
+    },
+    {
+      "term": "etwas vorbeugen",
+      "meaning": "Maßnahmen treffen, um etwas Negatives zu verhindern"
+    },
+    {
+      "term": "das Potenzial",
+      "meaning": "die Fülle an Möglichkeiten/Fähigkeiten"
+    },
+    {
+      "term": "dauerhaft",
+      "meaning": "lang anhaltend, für lange Zeit"
+    },
+    {
+      "term": "stimulieren",
+      "meaning": "anregen, aktivieren"
+    },
+    {
+      "term": "sich weiten",
+      "meaning": "breiter/größer werden"
+    },
+    {
+      "term": "sich zusammenziehen",
+      "meaning": "enger/kleiner werden, schrumpfen"
+    },
+    {
+      "term": "an den Folgen + GEN",
+      "meaning": "als Konsequenz einer Ursache"
+    },
+    {
+      "term": "versterben an + DAT",
+      "meaning": "sterben aufgrund einer bestimmten Ursache/Krankheit"
+    },
+    {
+      "term": "die Belastung",
+      "meaning": "der Druck, die Inanspruchnahme, der Stress"
+    },
+    {
+      "term": "angewiesen sein auf + AKK",
+      "meaning": "etwas/jemanden dringend brauchen"
+    },
+    {
+      "term": "etwas begünstigen",
+      "meaning": "etwas fördern, gute Bedingungen für etwas schaffen"
+    },
+    {
+      "term": "ausbleiben",
+      "meaning": "nicht eintreffen, fehlen"
+    },
+    {
+      "term": "etwas aufschieben",
+      "meaning": "etwas zeitlich nach hinten verlegen/verzögern"
+    },
+    {
+      "term": "förderlich",
+      "meaning": "nützlich, dienlich, positiv beeinflussend"
+    }
+  ],
   "questions": [
     {
       "id": "sb-8-q1",

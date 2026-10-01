@@ -67,7 +67,7 @@ export function loadGoogleServiceAccountCredentials(): ServiceAccountCredentials
 
   if (raw.length < 80 || !raw.includes("client_email")) {
     throw new Error(
-      "GOOGLE_APPLICATION_CREDENTIALS_JSON が途中で切れている可能性があります。.env.local では値全体をシングルクォートで囲んでください。例: GOOGLE_APPLICATION_CREDENTIALS_JSON='{\"type\":\"service_account\",...}'"
+      "GOOGLE_APPLICATION_CREDENTIALS_JSON が途中で切れている可能性があります。Vercel では JSON 全文を貼り直すか、GOOGLE_APPLICATION_CREDENTIALS_JSON_BASE64 を使ってください。"
     );
   }
 

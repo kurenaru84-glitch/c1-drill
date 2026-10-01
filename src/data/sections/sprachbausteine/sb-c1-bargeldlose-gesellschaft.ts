@@ -36,10 +36,256 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
       },
       {
         "original": "Ein Blick nach China [15] ________, dass mit Plastikkarten und Smartphones das Ende einer bargeldlosen Bezahlung nicht erreicht ist. Dort hat sich inzwischen die Möglichkeit etabliert, sowohl mit dem Fingerabdruck, als auch sogar mit Iris-Erkennung seine alltäglichen Käufe zu erledigen. Diese Vorstellung scheint in vielen Menschen hierzulande eine Angst vor einer dystopischen Zukunft, wie man sie bislang nur aus Science-Fiction-Filmen kennt, [16] ________.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "verzichten auf + AKK",
+              "meaning": "entbehren, etwas entsagen"
+            },
+            {
+              "term": "repräsentativ",
+              "meaning": "eine größere Menge vertretend"
+            },
+            {
+              "term": "im Auftrag + GEN",
+              "meaning": "wie jemand in Auftrag gegeben hat"
+            },
+            {
+              "term": "renommiert",
+              "meaning": "angesehen, anerkannt, mit gutem Ruf"
+            },
+            {
+              "term": "die überwiegende Mehrheit",
+              "meaning": "die meisten Leute einer Gruppe"
+            },
+            {
+              "term": "alltäglich",
+              "meaning": "gewöhnlich, üblich, gewohnt"
+            },
+            {
+              "term": "weiterhin",
+              "meaning": "noch immer, immer noch, unverändert"
+            },
+            {
+              "term": "festhalten an + DAT",
+              "meaning": "etwas nicht loslassen, bei etwas bleiben"
+            },
+            {
+              "term": "etwas positiv/negativ/kritisch/offen gegenüberstehen",
+              "meaning": "eine bestimmte Meinung haben zu + DAT"
+            },
+            {
+              "term": "der Spitzenreiter",
+              "meaning": "die Nummer eins, Platz eins"
+            },
+            {
+              "term": "die Zustimmung",
+              "meaning": "das Einverständnis, die Akzeptanz"
+            },
+            {
+              "term": "die Erhebung",
+              "meaning": "eine (offizielle) Nachforschung/Feststellung"
+            },
+            {
+              "term": "Es stellt sich die Frage",
+              "meaning": "viele Leute fragen sich (verständlicherweise)..."
+            },
+            {
+              "term": "hängen an + DAT",
+              "meaning": "auf etwas nicht verzichten können/wollen"
+            },
+            {
+              "term": "jemandem eine Frage stellen",
+              "meaning": "jemanden etwas fragen"
+            },
+            {
+              "term": "etwas klarstellen",
+              "meaning": "etwas richtigstellen/klar machen"
+            },
+            {
+              "term": "die Anonymität",
+              "meaning": "das Verschweigen des Namens"
+            },
+            {
+              "term": "ein gewisser Betrag",
+              "meaning": "ein bestimmter/spezieller Betrag"
+            },
+            {
+              "term": "Spuren hinterlassen",
+              "meaning": "Hinweise zurücklassen"
+            },
+            {
+              "term": "die Neigung",
+              "meaning": "die Bevorzugung, Tendenz zu + DAT"
+            },
+            {
+              "term": "die Behörde",
+              "meaning": "eine staatliche Dienststelle, das Amt"
+            },
+            {
+              "term": "A führt zu B",
+              "meaning": "A ist der Grund, wieso B passieren wird"
+            },
+            {
+              "term": "sensible Daten",
+              "meaning": "private/vertrauliche/geheime Daten"
+            },
+            {
+              "term": "mangeln an + DAT",
+              "meaning": "nicht ausreichend vorhanden sein"
+            },
+            {
+              "term": "die Infrastruktur",
+              "meaning": "Gesamtheit an technischen Einrichtungen/Angeboten"
+            },
+            {
+              "term": "inzwischen",
+              "meaning": "mittlerweile"
+            },
+            {
+              "term": "etwas etablieren",
+              "meaning": "etwas durchsetzen, zur Normalität werden lassen"
+            },
+            {
+              "term": "hierzulande",
+              "meaning": "hier in diesem Land, bei uns"
+            },
+            {
+              "term": "dystopisch",
+              "meaning": "eine dunkle/erschreckende Zukunft beschreibend"
+            },
+            {
+              "term": "bislang",
+              "meaning": "bisher, bis heute, bis dato"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "verzichten auf + AKK",
+      "meaning": "entbehren, etwas entsagen"
+    },
+    {
+      "term": "repräsentativ",
+      "meaning": "eine größere Menge vertretend"
+    },
+    {
+      "term": "im Auftrag + GEN",
+      "meaning": "wie jemand in Auftrag gegeben hat"
+    },
+    {
+      "term": "renommiert",
+      "meaning": "angesehen, anerkannt, mit gutem Ruf"
+    },
+    {
+      "term": "die überwiegende Mehrheit",
+      "meaning": "die meisten Leute einer Gruppe"
+    },
+    {
+      "term": "alltäglich",
+      "meaning": "gewöhnlich, üblich, gewohnt"
+    },
+    {
+      "term": "weiterhin",
+      "meaning": "noch immer, immer noch, unverändert"
+    },
+    {
+      "term": "festhalten an + DAT",
+      "meaning": "etwas nicht loslassen, bei etwas bleiben"
+    },
+    {
+      "term": "etwas positiv/negativ/kritisch/offen gegenüberstehen",
+      "meaning": "eine bestimmte Meinung haben zu + DAT"
+    },
+    {
+      "term": "der Spitzenreiter",
+      "meaning": "die Nummer eins, Platz eins"
+    },
+    {
+      "term": "die Zustimmung",
+      "meaning": "das Einverständnis, die Akzeptanz"
+    },
+    {
+      "term": "die Erhebung",
+      "meaning": "eine (offizielle) Nachforschung/Feststellung"
+    },
+    {
+      "term": "Es stellt sich die Frage",
+      "meaning": "viele Leute fragen sich (verständlicherweise)..."
+    },
+    {
+      "term": "hängen an + DAT",
+      "meaning": "auf etwas nicht verzichten können/wollen"
+    },
+    {
+      "term": "jemandem eine Frage stellen",
+      "meaning": "jemanden etwas fragen"
+    },
+    {
+      "term": "etwas klarstellen",
+      "meaning": "etwas richtigstellen/klar machen"
+    },
+    {
+      "term": "die Anonymität",
+      "meaning": "das Verschweigen des Namens"
+    },
+    {
+      "term": "ein gewisser Betrag",
+      "meaning": "ein bestimmter/spezieller Betrag"
+    },
+    {
+      "term": "Spuren hinterlassen",
+      "meaning": "Hinweise zurücklassen"
+    },
+    {
+      "term": "die Neigung",
+      "meaning": "die Bevorzugung, Tendenz zu + DAT"
+    },
+    {
+      "term": "die Behörde",
+      "meaning": "eine staatliche Dienststelle, das Amt"
+    },
+    {
+      "term": "A führt zu B",
+      "meaning": "A ist der Grund, wieso B passieren wird"
+    },
+    {
+      "term": "sensible Daten",
+      "meaning": "private/vertrauliche/geheime Daten"
+    },
+    {
+      "term": "mangeln an + DAT",
+      "meaning": "nicht ausreichend vorhanden sein"
+    },
+    {
+      "term": "die Infrastruktur",
+      "meaning": "Gesamtheit an technischen Einrichtungen/Angeboten"
+    },
+    {
+      "term": "inzwischen",
+      "meaning": "mittlerweile"
+    },
+    {
+      "term": "etwas etablieren",
+      "meaning": "etwas durchsetzen, zur Normalität werden lassen"
+    },
+    {
+      "term": "hierzulande",
+      "meaning": "hier in diesem Land, bei uns"
+    },
+    {
+      "term": "dystopisch",
+      "meaning": "eine dunkle/erschreckende Zukunft beschreibend"
+    },
+    {
+      "term": "bislang",
+      "meaning": "bisher, bis heute, bis dato"
+    }
+  ],
   "questions": [
     {
       "id": "sb-1-q1",

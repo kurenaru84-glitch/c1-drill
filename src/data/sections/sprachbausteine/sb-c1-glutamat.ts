@@ -36,10 +36,264 @@ export const sb_c1_glutamat: ExamSection = {
       },
       {
         "original": "Allerdings [13] ________ Mononatriumglutamat, [14] ________ auch oftmals abgekürzt als Glutamat und in der Lebensmittelindustrie als Zusatzstoff E621 bekannt, einen schlechten Ruf. Bei Kindern und Jugendlichen wurde beispielsweise vermehrt beobachtet, dass, sollten diese bereits an Verhaltensstörungen oder Konzentrationsschwierigkeiten leiden, sich diese Verhaltensauffälligkeiten nach dem Verzehr von Mononatriumglutamat verstärken können. [15] ________ vermuten britische Wissenschaftler, dass sich der Konsum von Produkten, die Mononatriumglutamat enthalten, auch negativ auf unsere Vigilanz, also unsere Wachheit auswirken kann. Das Symptom Müdigkeit würde laut den Forschern dann allerdings erst ungefähr zwölf Stunden nach dessen Verzehr [16] ________, sodass ein direkter Zusammenhang wissenschaftlich nicht eindeutig belegt werden kann.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "die Geschmacksrichtung",
+              "meaning": "die Richtung/Tendenz eines Geschmacks"
+            },
+            {
+              "term": "zählen zu + DAT",
+              "meaning": "gehören zu + DAT (neben anderen Sachen)"
+            },
+            {
+              "term": "grundlegend",
+              "meaning": "elementar, fundamental, primär, wesentlich"
+            },
+            {
+              "term": "gustatorisch",
+              "meaning": "den Geschmack betreffend"
+            },
+            {
+              "term": "wörtlich übersetzt",
+              "meaning": "direkt/genau/exakt (Wort für Wort) übersetzt"
+            },
+            {
+              "term": "wohlschmeckend",
+              "meaning": "lecker, gut schmeckend, schmackhaft, köstlich"
+            },
+            {
+              "term": "eher",
+              "meaning": "lieber/besser"
+            },
+            {
+              "term": "(sich) finden in + DAT",
+              "meaning": "vorkommen in + DAT"
+            },
+            {
+              "term": "vor allem",
+              "meaning": "besonders, insbesondere, speziell, gerade"
+            },
+            {
+              "term": "etwas fermentieren",
+              "meaning": "Lebens- und Genussmittel mit dem Zusatz von Enzymen, Bakterien, Hefen oder Pilzen chemisch umwandeln und dadurch haltbar machen"
+            },
+            {
+              "term": "fernöstlich",
+              "meaning": "den „Fernen Osten“ (Ostasien) betreffend"
+            },
+            {
+              "term": "üblicherweise",
+              "meaning": "normalerweise, gewöhnlich, im Normalfall, in der Regel, typischerweise"
+            },
+            {
+              "term": "die Konzentration an + DAT",
+              "meaning": "die Intensität/Stärke von etwas"
+            },
+            {
+              "term": "die Geschmackskomponente",
+              "meaning": "ein Element des Geschmacks"
+            },
+            {
+              "term": "einzigartig",
+              "meaning": "einmalig, unvergleichbar, unverwechselbar"
+            },
+            {
+              "term": "(sich) hinter etwas verbergen",
+              "meaning": "(sich) hinter etwas verstecken, etwas bedeuten"
+            },
+            {
+              "term": "synthetisch",
+              "meaning": "künstlich, nachgebildet, nicht echt, artifiziell"
+            },
+            {
+              "term": "das Patent",
+              "meaning": "eine Urkunde über das Schutzrecht für eine Erfindung"
+            },
+            {
+              "term": "etwas vermarkten",
+              "meaning": "etwas auf den Markt bringen und bewerben, zum Verkauf anbieten"
+            },
+            {
+              "term": "knapp",
+              "meaning": "fast, nicht ganz, etwas weniger als"
+            },
+            {
+              "term": "das Sättigungsgefühl",
+              "meaning": "das Gefühl, satt zu sein / keinen Hunger mehr zu verspüren"
+            },
+            {
+              "term": "das Hungergefühl",
+              "meaning": "das Gefühl, hungrig zu sein / Hunger zu haben"
+            },
+            {
+              "term": "oftmals",
+              "meaning": "(sehr) oft, mehrmals, häufig"
+            },
+            {
+              "term": "etwas wird vermehrt beobachtet/wahrgenommen",
+              "meaning": "etwas wird (sehr) oft, mehrmals, häufig beobachtet/wahrgenommen"
+            },
+            {
+              "term": "die Verhaltensauffälligkeit",
+              "meaning": "kein „normales“ Verhalten aufweisend"
+            },
+            {
+              "term": "der Verzehr von + DAT",
+              "meaning": "etwas konsumieren/essen"
+            },
+            {
+              "term": "(sich) positiv/negativ auswirken auf + AKK",
+              "meaning": "einen positiven/negativen Effekt haben auf + AKK"
+            },
+            {
+              "term": "laut",
+              "meaning": "wie... sagt"
+            },
+            {
+              "term": "eindeutig",
+              "meaning": "unmissverständlich, klar, deutlich, keinen Zweifel lassen an + DAT"
+            },
+            {
+              "term": "etwas belegen",
+              "meaning": "(eine These/Theorie) bestätigen, beweisen, nachweisen, stützen"
+            },
+            {
+              "term": "ein direkter Zusammenhang zwischen A und B",
+              "meaning": "eine logische Verbindung/Verknüpfung zwischen A und B"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "die Geschmacksrichtung",
+      "meaning": "die Richtung/Tendenz eines Geschmacks"
+    },
+    {
+      "term": "zählen zu + DAT",
+      "meaning": "gehören zu + DAT (neben anderen Sachen)"
+    },
+    {
+      "term": "grundlegend",
+      "meaning": "elementar, fundamental, primär, wesentlich"
+    },
+    {
+      "term": "gustatorisch",
+      "meaning": "den Geschmack betreffend"
+    },
+    {
+      "term": "wörtlich übersetzt",
+      "meaning": "direkt/genau/exakt (Wort für Wort) übersetzt"
+    },
+    {
+      "term": "wohlschmeckend",
+      "meaning": "lecker, gut schmeckend, schmackhaft, köstlich"
+    },
+    {
+      "term": "eher",
+      "meaning": "lieber/besser"
+    },
+    {
+      "term": "(sich) finden in + DAT",
+      "meaning": "vorkommen in + DAT"
+    },
+    {
+      "term": "vor allem",
+      "meaning": "besonders, insbesondere, speziell, gerade"
+    },
+    {
+      "term": "etwas fermentieren",
+      "meaning": "Lebens- und Genussmittel mit dem Zusatz von Enzymen, Bakterien, Hefen oder Pilzen chemisch umwandeln und dadurch haltbar machen"
+    },
+    {
+      "term": "fernöstlich",
+      "meaning": "den „Fernen Osten“ (Ostasien) betreffend"
+    },
+    {
+      "term": "üblicherweise",
+      "meaning": "normalerweise, gewöhnlich, im Normalfall, in der Regel, typischerweise"
+    },
+    {
+      "term": "die Konzentration an + DAT",
+      "meaning": "die Intensität/Stärke von etwas"
+    },
+    {
+      "term": "die Geschmackskomponente",
+      "meaning": "ein Element des Geschmacks"
+    },
+    {
+      "term": "einzigartig",
+      "meaning": "einmalig, unvergleichbar, unverwechselbar"
+    },
+    {
+      "term": "(sich) hinter etwas verbergen",
+      "meaning": "(sich) hinter etwas verstecken, etwas bedeuten"
+    },
+    {
+      "term": "synthetisch",
+      "meaning": "künstlich, nachgebildet, nicht echt, artifiziell"
+    },
+    {
+      "term": "das Patent",
+      "meaning": "eine Urkunde über das Schutzrecht für eine Erfindung"
+    },
+    {
+      "term": "etwas vermarkten",
+      "meaning": "etwas auf den Markt bringen und bewerben, zum Verkauf anbieten"
+    },
+    {
+      "term": "knapp",
+      "meaning": "fast, nicht ganz, etwas weniger als"
+    },
+    {
+      "term": "das Sättigungsgefühl",
+      "meaning": "das Gefühl, satt zu sein / keinen Hunger mehr zu verspüren"
+    },
+    {
+      "term": "das Hungergefühl",
+      "meaning": "das Gefühl, hungrig zu sein / Hunger zu haben"
+    },
+    {
+      "term": "oftmals",
+      "meaning": "(sehr) oft, mehrmals, häufig"
+    },
+    {
+      "term": "etwas wird vermehrt beobachtet/wahrgenommen",
+      "meaning": "etwas wird (sehr) oft, mehrmals, häufig beobachtet/wahrgenommen"
+    },
+    {
+      "term": "die Verhaltensauffälligkeit",
+      "meaning": "kein „normales“ Verhalten aufweisend"
+    },
+    {
+      "term": "der Verzehr von + DAT",
+      "meaning": "etwas konsumieren/essen"
+    },
+    {
+      "term": "(sich) positiv/negativ auswirken auf + AKK",
+      "meaning": "einen positiven/negativen Effekt haben auf + AKK"
+    },
+    {
+      "term": "laut",
+      "meaning": "wie... sagt"
+    },
+    {
+      "term": "eindeutig",
+      "meaning": "unmissverständlich, klar, deutlich, keinen Zweifel lassen an + DAT"
+    },
+    {
+      "term": "etwas belegen",
+      "meaning": "(eine These/Theorie) bestätigen, beweisen, nachweisen, stützen"
+    },
+    {
+      "term": "ein direkter Zusammenhang zwischen A und B",
+      "meaning": "eine logische Verbindung/Verknüpfung zwischen A und B"
+    }
+  ],
   "questions": [
     {
       "id": "sb-10-q1",

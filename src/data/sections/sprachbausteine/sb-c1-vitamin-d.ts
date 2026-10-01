@@ -40,10 +40,248 @@ export const sb_c1_vitamin_d: ExamSection = {
       },
       {
         "original": "[14] ________ wird in Werbeanzeigen nahegelegt, dass es der Mehrheit der Bevölkerung einen gesundheitlichen Vorteil bringe, Nahrungsergänzungsmittel mit Vitamin D [15] ________. Aus diesem Grund konsumieren viele Menschen diese, [16] ________ ihren Blutserumspiegel von einem Arzt überprüft haben zu lassen.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "zählen zu + DAT",
+              "meaning": "A gehört zu B"
+            },
+            {
+              "term": "fettlöslich",
+              "meaning": "ein Stoff, der sich im Fett löst"
+            },
+            {
+              "term": "(sich) aufbauen",
+              "meaning": "(sich) erstellen/zusammensetzen"
+            },
+            {
+              "term": "jemandem/etwas etwas zuführen",
+              "meaning": "jemanden/etwas mit etwas versorgen"
+            },
+            {
+              "term": "unter anderem",
+              "meaning": "außerdem, auch noch"
+            },
+            {
+              "term": "in A ist B zu finden",
+              "meaning": "in A kann B gefunden werden"
+            },
+            {
+              "term": "wesentlich",
+              "meaning": "von entscheidender Bedeutung, wichtig"
+            },
+            {
+              "term": "beteiligt sein an + DAT",
+              "meaning": "mitwirken an + DAT, teilnehmen"
+            },
+            {
+              "term": "die Regulation",
+              "meaning": "die Regulierung/Steuerung"
+            },
+            {
+              "term": "der Stoffwechsel",
+              "meaning": "Gesamtheit der Vorgänge zur Verwertung von Nährstoffen im Körper"
+            },
+            {
+              "term": "etwas fördern",
+              "meaning": "etwas unterstützen/begünstigen"
+            },
+            {
+              "term": "maßgeblich",
+              "meaning": "von entscheidender Bedeutung, grundlegend"
+            },
+            {
+              "term": "die Infektabwehr",
+              "meaning": "Schutz des Immunsystems gegen Krankheitserreger"
+            },
+            {
+              "term": "die Infektanfälligkeit",
+              "meaning": "Neigung, schnell krank/infiziert zu werden"
+            },
+            {
+              "term": "die Unterversorgung",
+              "meaning": "Mangel an einem bestimmten Stoff"
+            },
+            {
+              "term": "erkranken an + DAT",
+              "meaning": "krank werden"
+            },
+            {
+              "term": "die Stabilität",
+              "meaning": "die Beständigkeit/Festhaltbarkeit"
+            },
+            {
+              "term": "ausreichend",
+              "meaning": "genügend, genug"
+            },
+            {
+              "term": "der Faktor",
+              "meaning": "der Umstand, der Aspekt"
+            },
+            {
+              "term": "die Witterung",
+              "meaning": "das Wetter (über einen kurzen Zeitabschnitt)"
+            },
+            {
+              "term": "etwas genügen",
+              "meaning": "etwas ist ausreichend vorhanden"
+            },
+            {
+              "term": "tatsächlich",
+              "meaning": "in der Realität, in Wirklichkeit"
+            },
+            {
+              "term": "etwas erzielen",
+              "meaning": "ein Ziel erreichen, erlangen"
+            },
+            {
+              "term": "das Präparat",
+              "meaning": "ein Medikament / Arzneimittel"
+            },
+            {
+              "term": "auf keinen Fall",
+              "meaning": "unter keinen Umständen, keineswegs"
+            },
+            {
+              "term": "unerwünscht",
+              "meaning": "nicht erwünscht, nachteilig"
+            },
+            {
+              "term": "die Folge sein von + DAT",
+              "meaning": "das Ergebnis sein von"
+            },
+            {
+              "term": "jemandem etwas nahelegen",
+              "meaning": "jemandem etwas empfehlen/raten"
+            },
+            {
+              "term": "etwas konsumieren",
+              "meaning": "verbrauchen, verzehren, zu sich nehmen"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "zählen zu + DAT",
+      "meaning": "A gehört zu B"
+    },
+    {
+      "term": "fettlöslich",
+      "meaning": "ein Stoff, der sich im Fett löst"
+    },
+    {
+      "term": "(sich) aufbauen",
+      "meaning": "(sich) erstellen/zusammensetzen"
+    },
+    {
+      "term": "jemandem/etwas etwas zuführen",
+      "meaning": "jemanden/etwas mit etwas versorgen"
+    },
+    {
+      "term": "unter anderem",
+      "meaning": "außerdem, auch noch"
+    },
+    {
+      "term": "in A ist B zu finden",
+      "meaning": "in A kann B gefunden werden"
+    },
+    {
+      "term": "wesentlich",
+      "meaning": "von entscheidender Bedeutung, wichtig"
+    },
+    {
+      "term": "beteiligt sein an + DAT",
+      "meaning": "mitwirken an + DAT, teilnehmen"
+    },
+    {
+      "term": "die Regulation",
+      "meaning": "die Regulierung/Steuerung"
+    },
+    {
+      "term": "der Stoffwechsel",
+      "meaning": "Gesamtheit der Vorgänge zur Verwertung von Nährstoffen im Körper"
+    },
+    {
+      "term": "etwas fördern",
+      "meaning": "etwas unterstützen/begünstigen"
+    },
+    {
+      "term": "maßgeblich",
+      "meaning": "von entscheidender Bedeutung, grundlegend"
+    },
+    {
+      "term": "die Infektabwehr",
+      "meaning": "Schutz des Immunsystems gegen Krankheitserreger"
+    },
+    {
+      "term": "die Infektanfälligkeit",
+      "meaning": "Neigung, schnell krank/infiziert zu werden"
+    },
+    {
+      "term": "die Unterversorgung",
+      "meaning": "Mangel an einem bestimmten Stoff"
+    },
+    {
+      "term": "erkranken an + DAT",
+      "meaning": "krank werden"
+    },
+    {
+      "term": "die Stabilität",
+      "meaning": "die Beständigkeit/Festhaltbarkeit"
+    },
+    {
+      "term": "ausreichend",
+      "meaning": "genügend, genug"
+    },
+    {
+      "term": "der Faktor",
+      "meaning": "der Umstand, der Aspekt"
+    },
+    {
+      "term": "die Witterung",
+      "meaning": "das Wetter (über einen kurzen Zeitabschnitt)"
+    },
+    {
+      "term": "etwas genügen",
+      "meaning": "etwas ist ausreichend vorhanden"
+    },
+    {
+      "term": "tatsächlich",
+      "meaning": "in der Realität, in Wirklichkeit"
+    },
+    {
+      "term": "etwas erzielen",
+      "meaning": "ein Ziel erreichen, erlangen"
+    },
+    {
+      "term": "das Präparat",
+      "meaning": "ein Medikament / Arzneimittel"
+    },
+    {
+      "term": "auf keinen Fall",
+      "meaning": "unter keinen Umständen, keineswegs"
+    },
+    {
+      "term": "unerwünscht",
+      "meaning": "nicht erwünscht, nachteilig"
+    },
+    {
+      "term": "die Folge sein von + DAT",
+      "meaning": "das Ergebnis sein von"
+    },
+    {
+      "term": "jemandem etwas nahelegen",
+      "meaning": "jemandem etwas empfehlen/raten"
+    },
+    {
+      "term": "etwas konsumieren",
+      "meaning": "verbrauchen, verzehren, zu sich nehmen"
+    }
+  ],
   "questions": [
     {
       "id": "sb-2-q1",

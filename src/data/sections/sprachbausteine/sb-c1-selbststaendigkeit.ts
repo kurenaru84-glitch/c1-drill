@@ -44,10 +44,248 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
       },
       {
         "original": "Es ist außerdem [14] ________, noch vor dem ersten Verkauf ein Geschäftskonto zu eröffnen, um direkt von Anfang an private von [15] ________ Einnahmen und Ausgaben zu trennen. Dies wird Ihnen im weiteren Verlauf Ihrer unternehmerischen Tätigkeit eine Menge Arbeit ersparen, da es die notwendige Buchführung um [16] ________ erleichtert.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "in den eigenen Geldbeutel arbeiten",
+              "meaning": "für sich selbst / seinen eigenen Gewinn arbeiten"
+            },
+            {
+              "term": "weisungsgebunden",
+              "meaning": "von Anweisungen eines Vorgesetzten abhängig sein"
+            },
+            {
+              "term": "im Zusammenhang mit + DAT",
+              "meaning": "in Verbindung stehen mit"
+            },
+            {
+              "term": "etwas zu hören bekommen",
+              "meaning": "etwas akustisch erfahren/vernehmen"
+            },
+            {
+              "term": "In der Tat",
+              "meaning": "tatsächlich, wahrhaftig"
+            },
+            {
+              "term": "vielversprechend",
+              "meaning": "aussichtsreich, Erwartungen weckend"
+            },
+            {
+              "term": "innovativ",
+              "meaning": "neuartig, originell, ideenreich"
+            },
+            {
+              "term": "einen Schritt wagen",
+              "meaning": "mutig sein und etwas riskieren"
+            },
+            {
+              "term": "verlässlich",
+              "meaning": "zuverlässig, sicher"
+            },
+            {
+              "term": "einen Gewinn einstreichen",
+              "meaning": "Geld einnehmen, Profit machen"
+            },
+            {
+              "term": "einen Erfolg erzielen",
+              "meaning": "erfolgreich sein"
+            },
+            {
+              "term": "dennoch",
+              "meaning": "trotzdem"
+            },
+            {
+              "term": "erfolgversprechend",
+              "meaning": "gute Chancen auf Erfolg habend"
+            },
+            {
+              "term": "der Wiedererkennungswert",
+              "meaning": "Eigenschaft, leicht wiedererkannt zu werden"
+            },
+            {
+              "term": "jemandem etwas verpassen",
+              "meaning": "jemandem etwas verleihen/geben"
+            },
+            {
+              "term": "(sich) etwas ausdenken",
+              "meaning": "eine Idee entwickeln, erfinden"
+            },
+            {
+              "term": "herausstechend",
+              "meaning": "auffallend, prägnant"
+            },
+            {
+              "term": "angemessen",
+              "meaning": "passend, angemessen"
+            },
+            {
+              "term": "ratsam",
+              "meaning": "empfehlenswert, angebracht"
+            },
+            {
+              "term": "das Aushängeschild",
+              "meaning": "Vorzeigeobjekt, Repräsentationsmittel"
+            },
+            {
+              "term": "zuständig",
+              "meaning": "verantwortlich, berechtigt"
+            },
+            {
+              "term": "etwas einreichen",
+              "meaning": "Dokumente/Anträge offiziell vorlegen"
+            },
+            {
+              "term": "die Tätigkeit",
+              "meaning": "berufliche Beschäftigung/Arbeit"
+            },
+            {
+              "term": "etwas bedürfen",
+              "meaning": "etwas benötigen/brauchen (mit Genitiv)"
+            },
+            {
+              "term": "das Geschäftskonto",
+              "meaning": "Firmenbankkonto"
+            },
+            {
+              "term": "ein Konto eröffnen",
+              "meaning": "ein Bankkonto anlegen"
+            },
+            {
+              "term": "von Anfang an",
+              "meaning": "von Beginn an"
+            },
+            {
+              "term": "im weiteren Verlauf",
+              "meaning": "im weiteren Fortgang, nachfolgend"
+            },
+            {
+              "term": "die Buchführung",
+              "meaning": "geordnete Aufzeichnung aller Finanzgeschäfte"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "in den eigenen Geldbeutel arbeiten",
+      "meaning": "für sich selbst / seinen eigenen Gewinn arbeiten"
+    },
+    {
+      "term": "weisungsgebunden",
+      "meaning": "von Anweisungen eines Vorgesetzten abhängig sein"
+    },
+    {
+      "term": "im Zusammenhang mit + DAT",
+      "meaning": "in Verbindung stehen mit"
+    },
+    {
+      "term": "etwas zu hören bekommen",
+      "meaning": "etwas akustisch erfahren/vernehmen"
+    },
+    {
+      "term": "In der Tat",
+      "meaning": "tatsächlich, wahrhaftig"
+    },
+    {
+      "term": "vielversprechend",
+      "meaning": "aussichtsreich, Erwartungen weckend"
+    },
+    {
+      "term": "innovativ",
+      "meaning": "neuartig, originell, ideenreich"
+    },
+    {
+      "term": "einen Schritt wagen",
+      "meaning": "mutig sein und etwas riskieren"
+    },
+    {
+      "term": "verlässlich",
+      "meaning": "zuverlässig, sicher"
+    },
+    {
+      "term": "einen Gewinn einstreichen",
+      "meaning": "Geld einnehmen, Profit machen"
+    },
+    {
+      "term": "einen Erfolg erzielen",
+      "meaning": "erfolgreich sein"
+    },
+    {
+      "term": "dennoch",
+      "meaning": "trotzdem"
+    },
+    {
+      "term": "erfolgversprechend",
+      "meaning": "gute Chancen auf Erfolg habend"
+    },
+    {
+      "term": "der Wiedererkennungswert",
+      "meaning": "Eigenschaft, leicht wiedererkannt zu werden"
+    },
+    {
+      "term": "jemandem etwas verpassen",
+      "meaning": "jemandem etwas verleihen/geben"
+    },
+    {
+      "term": "(sich) etwas ausdenken",
+      "meaning": "eine Idee entwickeln, erfinden"
+    },
+    {
+      "term": "herausstechend",
+      "meaning": "auffallend, prägnant"
+    },
+    {
+      "term": "angemessen",
+      "meaning": "passend, angemessen"
+    },
+    {
+      "term": "ratsam",
+      "meaning": "empfehlenswert, angebracht"
+    },
+    {
+      "term": "das Aushängeschild",
+      "meaning": "Vorzeigeobjekt, Repräsentationsmittel"
+    },
+    {
+      "term": "zuständig",
+      "meaning": "verantwortlich, berechtigt"
+    },
+    {
+      "term": "etwas einreichen",
+      "meaning": "Dokumente/Anträge offiziell vorlegen"
+    },
+    {
+      "term": "die Tätigkeit",
+      "meaning": "berufliche Beschäftigung/Arbeit"
+    },
+    {
+      "term": "etwas bedürfen",
+      "meaning": "etwas benötigen/brauchen (mit Genitiv)"
+    },
+    {
+      "term": "das Geschäftskonto",
+      "meaning": "Firmenbankkonto"
+    },
+    {
+      "term": "ein Konto eröffnen",
+      "meaning": "ein Bankkonto anlegen"
+    },
+    {
+      "term": "von Anfang an",
+      "meaning": "von Beginn an"
+    },
+    {
+      "term": "im weiteren Verlauf",
+      "meaning": "im weiteren Fortgang, nachfolgend"
+    },
+    {
+      "term": "die Buchführung",
+      "meaning": "geordnete Aufzeichnung aller Finanzgeschäfte"
+    }
+  ],
   "questions": [
     {
       "id": "sb-3-q1",

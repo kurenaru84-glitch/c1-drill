@@ -36,10 +36,272 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
       },
       {
         "original": "Die Vorteile für die anvisierte „Digitale Revolution“ liegen auf der Hand. [13] ________ wachsen zeitgleich zum Ausbau der dafür benötigten Infrastruktur auch die Ängste vor einer Gesundheitsgefährdung durch die neuartigen und [14] ________ erforschten Mobilfunkstrahlen. Einige Menschen befürchten, dass diese ein bis dato unkalkulierbares Risiko auf Krankheiten wie Krebs [15] ________. Wissenschaftlich belegt sind diese [16] ________ bis zum heutigen Tag allerdings nicht.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "der Mobilfunk",
+              "meaning": "der Betrieb von beweglichen (mobilen) Funkgeräten"
+            },
+            {
+              "term": "der Technikliebhaber",
+              "meaning": "ein Mensch, der sich sehr für Technik und Technologie interessiert"
+            },
+            {
+              "term": "bisherig",
+              "meaning": "bis jetzt, bis heute, bis zum jetzigen Zeitpunkt"
+            },
+            {
+              "term": "etwas aufweisen",
+              "meaning": "verfügen über + AKK, etwas bieten, etwas bereitstellen, ausgestattet sein mit + DAT"
+            },
+            {
+              "term": "riesig",
+              "meaning": "sehr groß, gigantisch, enorm, mächtig"
+            },
+            {
+              "term": "hochauflösend",
+              "meaning": "etwas, das durch eine hohe Auflösung (Pixel) eine hohe Bildschärfe bewirkt (HD, 4K usw.)"
+            },
+            {
+              "term": "beeindruckend",
+              "meaning": "faszinierend, imponierend"
+            },
+            {
+              "term": "zusätzlich zu + DAT",
+              "meaning": "etwas, das zu dem bereits Bestehenden dazukommt, außerdem, darüber hinaus, ferner"
+            },
+            {
+              "term": "sage und schreibe",
+              "meaning": "auch, wenn man es kaum glauben kann"
+            },
+            {
+              "term": "etwas vorantreiben",
+              "meaning": "etwas antreiben/energisch fördern"
+            },
+            {
+              "term": "die Grundlage für + AKK",
+              "meaning": "das Fundament/die Basis für etwas sein"
+            },
+            {
+              "term": "künftig",
+              "meaning": "zukünftig, in der Zukunft"
+            },
+            {
+              "term": "automatisiert",
+              "meaning": "etwas, das automatisch abläuft"
+            },
+            {
+              "term": "im Vordergrund stehen",
+              "meaning": "etwas ist besonders wichtig, etwas hat Priorität, auf etwas wird der Fokus gelegt"
+            },
+            {
+              "term": "(sich) konzentrieren auf + AKK",
+              "meaning": "(sich) fokussieren auf + AKK, den Fokus legen auf + AKK"
+            },
+            {
+              "term": "der Alltagsgegenstand",
+              "meaning": "ein Gegenstand, den man jeden Tag / tagtäglich benutzt"
+            },
+            {
+              "term": "nahezu",
+              "meaning": "fast, beinahe, annähernd"
+            },
+            {
+              "term": "die Echtzeit",
+              "meaning": "ohne Verzögerung, direkt, live (engl.)"
+            },
+            {
+              "term": "dienen als + NOM",
+              "meaning": "einer bestimmten Sache förderlich/dienlich sein"
+            },
+            {
+              "term": "das Fundament",
+              "meaning": "die Basis/Grundlage"
+            },
+            {
+              "term": "das Autonome Fahren",
+              "meaning": "das Fahren ohne menschlichen Fahrer"
+            },
+            {
+              "term": "in naher Zukunft",
+              "meaning": "sehr bald"
+            },
+            {
+              "term": "flächendeckend",
+              "meaning": "überall, allerorts, einen bestimmten Bereich vollständig erfassend"
+            },
+            {
+              "term": "lückenlos",
+              "meaning": "ohne Lücken, komplett, vollständig"
+            },
+            {
+              "term": "das Endgerät",
+              "meaning": "ein elektronisches Funkgerät, das der (End-)verbraucher (Kunde) benutzt"
+            },
+            {
+              "term": "entsprechend",
+              "meaning": "dazu passend, gemäß"
+            },
+            {
+              "term": "etwas liegt auf der Hand",
+              "meaning": "etwas ist klar/deutlich/offensichtlich"
+            },
+            {
+              "term": "etwas anvisieren",
+              "meaning": "etwas in den Blick nehmen, etwas anstreben/anpeilen/bezwecken/vorhaben"
+            },
+            {
+              "term": "zeitgleich",
+              "meaning": "gleichzeitig, synchron, parallel zu + DAT"
+            },
+            {
+              "term": "etwas befürchten",
+              "meaning": "Angst/Furcht haben vor + DAT"
+            },
+            {
+              "term": "bis dato",
+              "meaning": "bis heute, bis zum heutigen Tag, bis jetzt"
+            },
+            {
+              "term": "unkalkulierbar",
+              "meaning": "etwas, das man nicht planen/abschätzen/vorhersehen kann"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "der Mobilfunk",
+      "meaning": "der Betrieb von beweglichen (mobilen) Funkgeräten"
+    },
+    {
+      "term": "der Technikliebhaber",
+      "meaning": "ein Mensch, der sich sehr für Technik und Technologie interessiert"
+    },
+    {
+      "term": "bisherig",
+      "meaning": "bis jetzt, bis heute, bis zum jetzigen Zeitpunkt"
+    },
+    {
+      "term": "etwas aufweisen",
+      "meaning": "verfügen über + AKK, etwas bieten, etwas bereitstellen, ausgestattet sein mit + DAT"
+    },
+    {
+      "term": "riesig",
+      "meaning": "sehr groß, gigantisch, enorm, mächtig"
+    },
+    {
+      "term": "hochauflösend",
+      "meaning": "etwas, das durch eine hohe Auflösung (Pixel) eine hohe Bildschärfe bewirkt (HD, 4K usw.)"
+    },
+    {
+      "term": "beeindruckend",
+      "meaning": "faszinierend, imponierend"
+    },
+    {
+      "term": "zusätzlich zu + DAT",
+      "meaning": "etwas, das zu dem bereits Bestehenden dazukommt, außerdem, darüber hinaus, ferner"
+    },
+    {
+      "term": "sage und schreibe",
+      "meaning": "auch, wenn man es kaum glauben kann"
+    },
+    {
+      "term": "etwas vorantreiben",
+      "meaning": "etwas antreiben/energisch fördern"
+    },
+    {
+      "term": "die Grundlage für + AKK",
+      "meaning": "das Fundament/die Basis für etwas sein"
+    },
+    {
+      "term": "künftig",
+      "meaning": "zukünftig, in der Zukunft"
+    },
+    {
+      "term": "automatisiert",
+      "meaning": "etwas, das automatisch abläuft"
+    },
+    {
+      "term": "im Vordergrund stehen",
+      "meaning": "etwas ist besonders wichtig, etwas hat Priorität, auf etwas wird der Fokus gelegt"
+    },
+    {
+      "term": "(sich) konzentrieren auf + AKK",
+      "meaning": "(sich) fokussieren auf + AKK, den Fokus legen auf + AKK"
+    },
+    {
+      "term": "der Alltagsgegenstand",
+      "meaning": "ein Gegenstand, den man jeden Tag / tagtäglich benutzt"
+    },
+    {
+      "term": "nahezu",
+      "meaning": "fast, beinahe, annähernd"
+    },
+    {
+      "term": "die Echtzeit",
+      "meaning": "ohne Verzögerung, direkt, live (engl.)"
+    },
+    {
+      "term": "dienen als + NOM",
+      "meaning": "einer bestimmten Sache förderlich/dienlich sein"
+    },
+    {
+      "term": "das Fundament",
+      "meaning": "die Basis/Grundlage"
+    },
+    {
+      "term": "das Autonome Fahren",
+      "meaning": "das Fahren ohne menschlichen Fahrer"
+    },
+    {
+      "term": "in naher Zukunft",
+      "meaning": "sehr bald"
+    },
+    {
+      "term": "flächendeckend",
+      "meaning": "überall, allerorts, einen bestimmten Bereich vollständig erfassend"
+    },
+    {
+      "term": "lückenlos",
+      "meaning": "ohne Lücken, komplett, vollständig"
+    },
+    {
+      "term": "das Endgerät",
+      "meaning": "ein elektronisches Funkgerät, das der (End-)verbraucher (Kunde) benutzt"
+    },
+    {
+      "term": "entsprechend",
+      "meaning": "dazu passend, gemäß"
+    },
+    {
+      "term": "etwas liegt auf der Hand",
+      "meaning": "etwas ist klar/deutlich/offensichtlich"
+    },
+    {
+      "term": "etwas anvisieren",
+      "meaning": "etwas in den Blick nehmen, etwas anstreben/anpeilen/bezwecken/vorhaben"
+    },
+    {
+      "term": "zeitgleich",
+      "meaning": "gleichzeitig, synchron, parallel zu + DAT"
+    },
+    {
+      "term": "etwas befürchten",
+      "meaning": "Angst/Furcht haben vor + DAT"
+    },
+    {
+      "term": "bis dato",
+      "meaning": "bis heute, bis zum heutigen Tag, bis jetzt"
+    },
+    {
+      "term": "unkalkulierbar",
+      "meaning": "etwas, das man nicht planen/abschätzen/vorhersehen kann"
+    }
+  ],
   "questions": [
     {
       "id": "sb-11-q1",

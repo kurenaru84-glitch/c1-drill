@@ -36,10 +36,256 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
       },
       {
         "original": "Das junge Unternehmen beschäftigt heute, gerade einmal fünf Jahre nach dessen Gründung schon über 50 Mitarbeiter, die im Vertrieb, im Service oder in der Warenbeschaffung arbeiten. Weitere zehn, [15] ________ drei Freiberufler sind damit beschäftigt, stets neue Rezepte auszuprobieren und [16] ________ umfangreiche Sortiment von „Kochbox“ zu erweitern.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "etwas revolutionieren",
+              "meaning": "etwas grundlegend verändern, umwandeln, umgestalten"
+            },
+            {
+              "term": "(sich) ein Ziel setzen",
+              "meaning": "etwas anstreben, (sich) etwas fest vornehmen"
+            },
+            {
+              "term": "ambitioniert",
+              "meaning": "ehrgeizig, zielstrebig"
+            },
+            {
+              "term": "etwas expandieren",
+              "meaning": "etwas vergrößern, erweitern, ausweiten"
+            },
+            {
+              "term": "zunächst",
+              "meaning": "zuerst, an erster Stelle, am Anfang"
+            },
+            {
+              "term": "detailliert",
+              "meaning": "ausführlich, gründlich, mit vielen Details"
+            },
+            {
+              "term": "etwas beinhalten",
+              "meaning": "etwas zum Inhalt haben, etwas enthalten"
+            },
+            {
+              "term": "zuvor",
+              "meaning": "vorher, vor diesem Zeitpunkt"
+            },
+            {
+              "term": "die Paste",
+              "meaning": "eine streichbare und dickflüssige Masse"
+            },
+            {
+              "term": "lästig",
+              "meaning": "unangenehm, unbequem, unliebsam, nervig"
+            },
+            {
+              "term": "zeitaufwendig",
+              "meaning": "viel Zeit beanspruchend, zeitintensiv"
+            },
+            {
+              "term": "voll und ganz",
+              "meaning": "komplett, vollständig, ganz und gar"
+            },
+            {
+              "term": "optimistisch in die Zukunft blicken",
+              "meaning": "optimistisch sein, zuversichtlich sein"
+            },
+            {
+              "term": "jemanden ansprechen",
+              "meaning": "(sich) an jemanden richten, jemanden adressieren"
+            },
+            {
+              "term": "der Inhaltsstoff",
+              "meaning": "ein Bestandteil einer Substanz, eine Zutat"
+            },
+            {
+              "term": "auf die Minute getaktet",
+              "meaning": "genau/exakt/minutiös abgemessen"
+            },
+            {
+              "term": "zur Verfügung stehen",
+              "meaning": "verfügbar sein"
+            },
+            {
+              "term": "etwas zur Verfügung stellen",
+              "meaning": "verfügbar machen, bereitstellen"
+            },
+            {
+              "term": "straff",
+              "meaning": "fest, eng anliegend, stramm, knapp"
+            },
+            {
+              "term": "hektisch",
+              "meaning": "stressig, hastig, übereilt"
+            },
+            {
+              "term": "bewusst",
+              "meaning": "(sich) über etwas im Klaren sein, wissend, überlegt"
+            },
+            {
+              "term": "ausbalanciert",
+              "meaning": "etwas aufeinander abgestimmt, ins Gleichgewicht gebrachtes"
+            },
+            {
+              "term": "im Rahmen + GEN",
+              "meaning": "im Kontext von + DAT, im Zusammenhang mit + DAT"
+            },
+            {
+              "term": "etwas verköstigen",
+              "meaning": "etwas probieren (Essen)"
+            },
+            {
+              "term": "jemanden beschäftigen",
+              "meaning": "jemanden anstellen, jemandem eine Arbeit geben"
+            },
+            {
+              "term": "gerade (ein-)mal",
+              "meaning": "nur, lediglich, nicht mehr als"
+            },
+            {
+              "term": "die Warenbeschaffung",
+              "meaning": "die Arbeit, Waren zu besorgen/organisieren"
+            },
+            {
+              "term": "der Freiberufler",
+              "meaning": "eine selbstständige Tätigkeit (Arbeit)"
+            },
+            {
+              "term": "stets",
+              "meaning": "immer, stetig, ständig, allzeit, jederzeit"
+            },
+            {
+              "term": "umfangreich",
+              "meaning": "(zahlenmäßig) groß, in großem Umfang, komplex"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "etwas revolutionieren",
+      "meaning": "etwas grundlegend verändern, umwandeln, umgestalten"
+    },
+    {
+      "term": "(sich) ein Ziel setzen",
+      "meaning": "etwas anstreben, (sich) etwas fest vornehmen"
+    },
+    {
+      "term": "ambitioniert",
+      "meaning": "ehrgeizig, zielstrebig"
+    },
+    {
+      "term": "etwas expandieren",
+      "meaning": "etwas vergrößern, erweitern, ausweiten"
+    },
+    {
+      "term": "zunächst",
+      "meaning": "zuerst, an erster Stelle, am Anfang"
+    },
+    {
+      "term": "detailliert",
+      "meaning": "ausführlich, gründlich, mit vielen Details"
+    },
+    {
+      "term": "etwas beinhalten",
+      "meaning": "etwas zum Inhalt haben, etwas enthalten"
+    },
+    {
+      "term": "zuvor",
+      "meaning": "vorher, vor diesem Zeitpunkt"
+    },
+    {
+      "term": "die Paste",
+      "meaning": "eine streichbare und dickflüssige Masse"
+    },
+    {
+      "term": "lästig",
+      "meaning": "unangenehm, unbequem, unliebsam, nervig"
+    },
+    {
+      "term": "zeitaufwendig",
+      "meaning": "viel Zeit beanspruchend, zeitintensiv"
+    },
+    {
+      "term": "voll und ganz",
+      "meaning": "komplett, vollständig, ganz und gar"
+    },
+    {
+      "term": "optimistisch in die Zukunft blicken",
+      "meaning": "optimistisch sein, zuversichtlich sein"
+    },
+    {
+      "term": "jemanden ansprechen",
+      "meaning": "(sich) an jemanden richten, jemanden adressieren"
+    },
+    {
+      "term": "der Inhaltsstoff",
+      "meaning": "ein Bestandteil einer Substanz, eine Zutat"
+    },
+    {
+      "term": "auf die Minute getaktet",
+      "meaning": "genau/exakt/minutiös abgemessen"
+    },
+    {
+      "term": "zur Verfügung stehen",
+      "meaning": "verfügbar sein"
+    },
+    {
+      "term": "etwas zur Verfügung stellen",
+      "meaning": "verfügbar machen, bereitstellen"
+    },
+    {
+      "term": "straff",
+      "meaning": "fest, eng anliegend, stramm, knapp"
+    },
+    {
+      "term": "hektisch",
+      "meaning": "stressig, hastig, übereilt"
+    },
+    {
+      "term": "bewusst",
+      "meaning": "(sich) über etwas im Klaren sein, wissend, überlegt"
+    },
+    {
+      "term": "ausbalanciert",
+      "meaning": "etwas aufeinander abgestimmt, ins Gleichgewicht gebrachtes"
+    },
+    {
+      "term": "im Rahmen + GEN",
+      "meaning": "im Kontext von + DAT, im Zusammenhang mit + DAT"
+    },
+    {
+      "term": "etwas verköstigen",
+      "meaning": "etwas probieren (Essen)"
+    },
+    {
+      "term": "jemanden beschäftigen",
+      "meaning": "jemanden anstellen, jemandem eine Arbeit geben"
+    },
+    {
+      "term": "gerade (ein-)mal",
+      "meaning": "nur, lediglich, nicht mehr als"
+    },
+    {
+      "term": "die Warenbeschaffung",
+      "meaning": "die Arbeit, Waren zu besorgen/organisieren"
+    },
+    {
+      "term": "der Freiberufler",
+      "meaning": "eine selbstständige Tätigkeit (Arbeit)"
+    },
+    {
+      "term": "stets",
+      "meaning": "immer, stetig, ständig, allzeit, jederzeit"
+    },
+    {
+      "term": "umfangreich",
+      "meaning": "(zahlenmäßig) groß, in großem Umfang, komplex"
+    }
+  ],
   "questions": [
     {
       "id": "sb-5-q1",

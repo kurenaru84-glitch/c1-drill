@@ -80,6 +80,16 @@ function parseVocab(block) {
   return vocabulary;
 }
 
+function extractWortschatzBlock(body) {
+  const header = body.match(/### W Wortschatz:[^\n]*\n+/);
+  if (!header) return "";
+  const start = header.index + header[0].length;
+  const rest = body.slice(start);
+  const end = rest.search(/\n---\s*(?:\n|$)/);
+  const block = end >= 0 ? rest.slice(0, end) : rest;
+  return block.trim();
+}
+
 function cleanAufgabeText(text) {
   return text
     .replace(/\[cite:[^\]]+\]/g, "")
@@ -201,14 +211,14 @@ for (const unit of units) {
   }
   const tableM = unit.body.match(/(^\| Nr\. \|[\s\S]*?)(?=^---\s*$)/m);
   const loesungM = unit.body.match(/### L Lösung[\s\S]*?(?=^### W Wortschatz)/m);
-  const wortschatzM = unit.body.match(/### W Wortschatz:[^\n]*\n([\s\S]*?)(?=^---\s*$|^## \d+\.|$)/m);
+  const wortschatzBlock = extractWortschatzBlock(unit.body);
 
   const aufgabeRaw = aufgabeM[1];
   const optionsByNum = parseOptionsTable(tableM ? tableM[1] : unit.body);
   const solutions = parseSolutions(loesungM ? loesungM[0] : "");
   let aufgabeClean = cleanAufgabeText(aufgabeRaw);
   aufgabeClean = repairMissingGaps(aufgabeClean, solutions);
-  const vocabulary = wortschatzM ? parseVocab(wortschatzM[1]) : [];
+  const vocabulary = wortschatzBlock ? parseVocab(wortschatzBlock) : [];
 
   const paraTexts = aufgabeClean
     .split(/\n\n+/)
@@ -275,6 +285,7 @@ for (const unit of units) {
       subtitle: `Text ${unit.num}`,
       paragraphs,
     },
+    ...(vocabulary.length > 0 ? { wortschatz: vocabulary } : {}),
     questions,
   });
 }

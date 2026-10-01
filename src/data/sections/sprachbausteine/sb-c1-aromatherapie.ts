@@ -36,10 +36,240 @@ export const sb_c1_aromatherapie: ExamSection = {
       },
       {
         "original": "Um in den Genuss einer Aromatherapie zu kommen, lautet die gute Nachricht, dass eine Selbstbehandlung [13] ________ möglich ist, sofern auf bestimmte Dinge geachtet wird: Zum einen wird davon [14] ________, die Öle zu überdosieren, da sie [15] ________ nicht den gewünschten Effekt bringen könnten. Zum anderen sollten die Inhaltsstoffe des zu verwendenden Öls genau untersucht werden, ob es sich tatsächlich um reines ätherisches Öl handelt. Besonders bei importierten Produkten aus Fernost wurden in der Vergangenheit [16] ________ gesundheitsgefährdende Verunreinigungen festgestellt.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "anspruchsvoll",
+              "meaning": "anstrengend, aufwendig, mühsam, mühselig, schwierig"
+            },
+            {
+              "term": "hektisch",
+              "meaning": "hastig, eilig, übereilt"
+            },
+            {
+              "term": "das Wohlgefühl",
+              "meaning": "ein angenehmes, warmes, wohliges Gefühl"
+            },
+            {
+              "term": "etwas bevorstehen",
+              "meaning": "etwas, das auf jemanden zukommt"
+            },
+            {
+              "term": "die Beschwerden",
+              "meaning": "körperliche Leiden/Gebrechen/Schmerzen"
+            },
+            {
+              "term": "etwas lindern",
+              "meaning": "einen Zustand (meist Schmerzen) abschwächen/mildern/reduzieren"
+            },
+            {
+              "term": "magisch",
+              "meaning": "auf Magie beruhend, geheimnisvoll, übersinnlich"
+            },
+            {
+              "term": "hierzulande",
+              "meaning": "in diesem Land, hier (bei uns)"
+            },
+            {
+              "term": "etwas ist weit verbreitet",
+              "meaning": "etwas ist geläufig/bekannt/vertraut"
+            },
+            {
+              "term": "die Quelle",
+              "meaning": "der Ursprung/Ausgangspunkt, die Herkunft (einer Information)"
+            },
+            {
+              "term": "etwas anwenden",
+              "meaning": "etwas verwenden/benutzen/gebrauchen/einsetzen"
+            },
+            {
+              "term": "die Funktionsweise",
+              "meaning": "der Mechanismus/die Systematik, wie etwas funktioniert"
+            },
+            {
+              "term": "wohlriechend",
+              "meaning": "aromatisch, duftend, etwas, das gut riecht"
+            },
+            {
+              "term": "die Ausschüttung",
+              "meaning": "die Abgabe von etwas (hier: Hormone)"
+            },
+            {
+              "term": "der Zweck",
+              "meaning": "das Ziel/Vorhaben, die Absicht/Intention, der Sinn der Sache"
+            },
+            {
+              "term": "etwas abmildern",
+              "meaning": "etwas schwächen/abschwächen/dämpfen/mildern"
+            },
+            {
+              "term": "jemanden aufmuntern",
+              "meaning": "jemanden aufheitern/aufbauen/ermutigen"
+            },
+            {
+              "term": "jemandem/etwas etwas nachsagen",
+              "meaning": "jemand/etwas hat einen bestimmten Ruf"
+            },
+            {
+              "term": "signifikant",
+              "meaning": "deutlich, stark, ansehnlich, bedeutsam"
+            },
+            {
+              "term": "antiseptisch",
+              "meaning": "etwas, das Krankheitskeime abtötet"
+            },
+            {
+              "term": "jemandem etwas zusprechen",
+              "meaning": "jemand/etwas hat einen bestimmten Ruf, wird verantwortlich gemacht"
+            },
+            {
+              "term": "etwas stillen",
+              "meaning": "(Schmerzen) lindern/abmildern/abschwächen"
+            },
+            {
+              "term": "die richtige Wahl sein",
+              "meaning": "angebracht/passend/zu empfehlen sein"
+            },
+            {
+              "term": "in den Genuss kommen (von + DAT)",
+              "meaning": "etwas Positives/einen Vorteil erfahren können"
+            },
+            {
+              "term": "etwas überdosieren",
+              "meaning": "etwas in zu großer Menge zu sich nehmen"
+            },
+            {
+              "term": "Fernost",
+              "meaning": "Ostasien, „der Ferne Osten“"
+            },
+            {
+              "term": "gesundheitsgefährdend",
+              "meaning": "etwas, das die Gesundheit gefährdet, gesundheitsschädlich"
+            },
+            {
+              "term": "die Verunreinigung",
+              "meaning": "die Unreinheit/Unsauberkeit/Verschmutzung"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "anspruchsvoll",
+      "meaning": "anstrengend, aufwendig, mühsam, mühselig, schwierig"
+    },
+    {
+      "term": "hektisch",
+      "meaning": "hastig, eilig, übereilt"
+    },
+    {
+      "term": "das Wohlgefühl",
+      "meaning": "ein angenehmes, warmes, wohliges Gefühl"
+    },
+    {
+      "term": "etwas bevorstehen",
+      "meaning": "etwas, das auf jemanden zukommt"
+    },
+    {
+      "term": "die Beschwerden",
+      "meaning": "körperliche Leiden/Gebrechen/Schmerzen"
+    },
+    {
+      "term": "etwas lindern",
+      "meaning": "einen Zustand (meist Schmerzen) abschwächen/mildern/reduzieren"
+    },
+    {
+      "term": "magisch",
+      "meaning": "auf Magie beruhend, geheimnisvoll, übersinnlich"
+    },
+    {
+      "term": "hierzulande",
+      "meaning": "in diesem Land, hier (bei uns)"
+    },
+    {
+      "term": "etwas ist weit verbreitet",
+      "meaning": "etwas ist geläufig/bekannt/vertraut"
+    },
+    {
+      "term": "die Quelle",
+      "meaning": "der Ursprung/Ausgangspunkt, die Herkunft (einer Information)"
+    },
+    {
+      "term": "etwas anwenden",
+      "meaning": "etwas verwenden/benutzen/gebrauchen/einsetzen"
+    },
+    {
+      "term": "die Funktionsweise",
+      "meaning": "der Mechanismus/die Systematik, wie etwas funktioniert"
+    },
+    {
+      "term": "wohlriechend",
+      "meaning": "aromatisch, duftend, etwas, das gut riecht"
+    },
+    {
+      "term": "die Ausschüttung",
+      "meaning": "die Abgabe von etwas (hier: Hormone)"
+    },
+    {
+      "term": "der Zweck",
+      "meaning": "das Ziel/Vorhaben, die Absicht/Intention, der Sinn der Sache"
+    },
+    {
+      "term": "etwas abmildern",
+      "meaning": "etwas schwächen/abschwächen/dämpfen/mildern"
+    },
+    {
+      "term": "jemanden aufmuntern",
+      "meaning": "jemanden aufheitern/aufbauen/ermutigen"
+    },
+    {
+      "term": "jemandem/etwas etwas nachsagen",
+      "meaning": "jemand/etwas hat einen bestimmten Ruf"
+    },
+    {
+      "term": "signifikant",
+      "meaning": "deutlich, stark, ansehnlich, bedeutsam"
+    },
+    {
+      "term": "antiseptisch",
+      "meaning": "etwas, das Krankheitskeime abtötet"
+    },
+    {
+      "term": "jemandem etwas zusprechen",
+      "meaning": "jemand/etwas hat einen bestimmten Ruf, wird verantwortlich gemacht"
+    },
+    {
+      "term": "etwas stillen",
+      "meaning": "(Schmerzen) lindern/abmildern/abschwächen"
+    },
+    {
+      "term": "die richtige Wahl sein",
+      "meaning": "angebracht/passend/zu empfehlen sein"
+    },
+    {
+      "term": "in den Genuss kommen (von + DAT)",
+      "meaning": "etwas Positives/einen Vorteil erfahren können"
+    },
+    {
+      "term": "etwas überdosieren",
+      "meaning": "etwas in zu großer Menge zu sich nehmen"
+    },
+    {
+      "term": "Fernost",
+      "meaning": "Ostasien, „der Ferne Osten“"
+    },
+    {
+      "term": "gesundheitsgefährdend",
+      "meaning": "etwas, das die Gesundheit gefährdet, gesundheitsschädlich"
+    },
+    {
+      "term": "die Verunreinigung",
+      "meaning": "die Unreinheit/Unsauberkeit/Verschmutzung"
+    }
+  ],
   "questions": [
     {
       "id": "sb-4-q1",

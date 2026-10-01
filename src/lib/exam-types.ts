@@ -45,6 +45,11 @@ export type Transcript = {
   paragraphs: PassageParagraph[];
 };
 
+export type WortschatzEntry = {
+  term: string;
+  meaning: string;
+};
+
 export type ExamSection = {
   id: string;
   provider: ExamProvider;
@@ -57,6 +62,8 @@ export type ExamSection = {
   instruction: string;
   passage?: Passage;
   transcript?: Transcript;
+  /** Sprachbausteine: 書籍の Wortschatz 一覧 */
+  wortschatz?: WortschatzEntry[];
   questions: Question[];
 };
 

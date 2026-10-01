@@ -44,10 +44,216 @@ export const sb_c1_hausordnung: ExamSection = {
       },
       {
         "original": "Mit freundlichen Grüßen  \nDie Hausverwaltung, der Verwaltungsbeirat",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "in den vergangenen Monaten",
+              "meaning": "in den letzten Monaten"
+            },
+            {
+              "term": "die Verhaltensweise",
+              "meaning": "die Art und Weise des Verhaltens"
+            },
+            {
+              "term": "etwas hat sich eingebürgert",
+              "meaning": "etwas ist zur Gewohnheit geworden (meist negativ)"
+            },
+            {
+              "term": "die Wohnanlage",
+              "meaning": "ein Gebäudekomplex mit Wohnungen"
+            },
+            {
+              "term": "künftig",
+              "meaning": "zukünftig, in Zukunft"
+            },
+            {
+              "term": "vermeidbar",
+              "meaning": "etwas, das sich vermeiden lässt"
+            },
+            {
+              "term": "etwas unterbleiben",
+              "meaning": "nicht geschehen, ausbleiben, entfallen"
+            },
+            {
+              "term": "die Rücksichtnahme",
+              "meaning": "Rücksicht nehmen auf + AKK"
+            },
+            {
+              "term": "die Zimmerlautstärke",
+              "meaning": "die Lautstärke, die nicht über ein Zimmer hinausgelangt"
+            },
+            {
+              "term": "aus besonderem Anlass",
+              "meaning": "zu einer besonderen/speziellen Situation"
+            },
+            {
+              "term": "ständig",
+              "meaning": "immer, pausenlos, dauernd,輪ablässig"
+            },
+            {
+              "term": "eine Verwarnung aussprechen",
+              "meaning": "jemanden verwarnen/ermahnen"
+            },
+            {
+              "term": "die Zuwiderhandlung",
+              "meaning": "ein Verstoß gegen etwas (Regel, Gesetz)"
+            },
+            {
+              "term": "einen Schaden beheben",
+              "meaning": "einen Schaden beseitigen/reparieren"
+            },
+            {
+              "term": "konsequent",
+              "meaning": "zielstrebig, zielbewusst, planmäßig"
+            },
+            {
+              "term": "beziehungsweise",
+              "meaning": "oder (genauer gesagt), und/oder in anderem Falle"
+            },
+            {
+              "term": "die Eigentümerversammlung",
+              "meaning": "ein Treffen aller in einer Wohnanlage lebenden Eigentümer"
+            },
+            {
+              "term": "letztendlich",
+              "meaning": "schließlich, am Ende"
+            },
+            {
+              "term": "jemanden hinweisen auf + AKK",
+              "meaning": "jemanden aufmerksam machen auf + AKK"
+            },
+            {
+              "term": "etwas ist streng(-stens) verboten",
+              "meaning": "etwas ist (sehr) stark verboten"
+            },
+            {
+              "term": "widerrechtlich",
+              "meaning": "gegen eine Regel, gegen das Gesetz/Recht"
+            },
+            {
+              "term": "ein Fahrzeug (an einem Ort) abstellen",
+              "meaning": "ein Fahrzeug (an einem Ort) parken"
+            },
+            {
+              "term": "kostenpflichtig",
+              "meaning": "gebührenpflichtig, nicht kostenlos"
+            },
+            {
+              "term": "grundsätzlich",
+              "meaning": "generell, prinzipiell, im Allgemeinen"
+            },
+            {
+              "term": "jemandem etwas gestatten",
+              "meaning": "jemandem etwas erlauben/bewilligen/genehmigen"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "in den vergangenen Monaten",
+      "meaning": "in den letzten Monaten"
+    },
+    {
+      "term": "die Verhaltensweise",
+      "meaning": "die Art und Weise des Verhaltens"
+    },
+    {
+      "term": "etwas hat sich eingebürgert",
+      "meaning": "etwas ist zur Gewohnheit geworden (meist negativ)"
+    },
+    {
+      "term": "die Wohnanlage",
+      "meaning": "ein Gebäudekomplex mit Wohnungen"
+    },
+    {
+      "term": "künftig",
+      "meaning": "zukünftig, in Zukunft"
+    },
+    {
+      "term": "vermeidbar",
+      "meaning": "etwas, das sich vermeiden lässt"
+    },
+    {
+      "term": "etwas unterbleiben",
+      "meaning": "nicht geschehen, ausbleiben, entfallen"
+    },
+    {
+      "term": "die Rücksichtnahme",
+      "meaning": "Rücksicht nehmen auf + AKK"
+    },
+    {
+      "term": "die Zimmerlautstärke",
+      "meaning": "die Lautstärke, die nicht über ein Zimmer hinausgelangt"
+    },
+    {
+      "term": "aus besonderem Anlass",
+      "meaning": "zu einer besonderen/speziellen Situation"
+    },
+    {
+      "term": "ständig",
+      "meaning": "immer, pausenlos, dauernd,輪ablässig"
+    },
+    {
+      "term": "eine Verwarnung aussprechen",
+      "meaning": "jemanden verwarnen/ermahnen"
+    },
+    {
+      "term": "die Zuwiderhandlung",
+      "meaning": "ein Verstoß gegen etwas (Regel, Gesetz)"
+    },
+    {
+      "term": "einen Schaden beheben",
+      "meaning": "einen Schaden beseitigen/reparieren"
+    },
+    {
+      "term": "konsequent",
+      "meaning": "zielstrebig, zielbewusst, planmäßig"
+    },
+    {
+      "term": "beziehungsweise",
+      "meaning": "oder (genauer gesagt), und/oder in anderem Falle"
+    },
+    {
+      "term": "die Eigentümerversammlung",
+      "meaning": "ein Treffen aller in einer Wohnanlage lebenden Eigentümer"
+    },
+    {
+      "term": "letztendlich",
+      "meaning": "schließlich, am Ende"
+    },
+    {
+      "term": "jemanden hinweisen auf + AKK",
+      "meaning": "jemanden aufmerksam machen auf + AKK"
+    },
+    {
+      "term": "etwas ist streng(-stens) verboten",
+      "meaning": "etwas ist (sehr) stark verboten"
+    },
+    {
+      "term": "widerrechtlich",
+      "meaning": "gegen eine Regel, gegen das Gesetz/Recht"
+    },
+    {
+      "term": "ein Fahrzeug (an einem Ort) abstellen",
+      "meaning": "ein Fahrzeug (an einem Ort) parken"
+    },
+    {
+      "term": "kostenpflichtig",
+      "meaning": "gebührenpflichtig, nicht kostenlos"
+    },
+    {
+      "term": "grundsätzlich",
+      "meaning": "generell, prinzipiell, im Allgemeinen"
+    },
+    {
+      "term": "jemandem etwas gestatten",
+      "meaning": "jemandem etwas erlauben/bewilligen/genehmigen"
+    }
+  ],
   "questions": [
     {
       "id": "sb-6-q1",

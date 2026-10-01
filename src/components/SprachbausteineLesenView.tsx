@@ -3,11 +3,12 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { ExamParagraphBlock } from "@/components/ExamParagraphBlock";
+import { StudyNotesPanel } from "@/components/StudyNotesPanel";
 import { FullTextPlayer } from "@/components/FullTextPlayer";
 import { IconChevron } from "@/components/icons";
 import { unlockAudioPlayback } from "@/lib/audio-playback";
 import { playSectionParagraphAudio } from "@/lib/exam-tts";
-import { buildFilledPassage } from "@/lib/sprachbausteine-utils";
+import { buildFilledPassage, collectSprachbausteineVocab } from "@/lib/sprachbausteine-utils";
 import { getLanguage } from "@/lib/languages";
 import {
   getCachedPassageTranslations,
@@ -22,6 +23,7 @@ type Props = {
 
 export function SprachbausteineLesenView({ section }: Props) {
   const filled = useMemo(() => buildFilledPassage(section), [section]);
+  const wortschatz = useMemo(() => collectSprachbausteineVocab(section), [section]);
   const docId = `${section.id}-filled`;
   const { speak, speakingId } = useSpeech();
   const lang = getLanguage("de");
@@ -198,6 +200,23 @@ export function SprachbausteineLesenView({ section }: Props) {
             />
           </div>
         ))}
+
+        {wortschatz.length > 0 && (
+          <section className="mt-4 rounded-2xl border border-stone-200 bg-white p-4">
+            <h2 className="mb-2 text-sm font-semibold text-stone-900">
+              Wortschatz（本の語彙リスト · {wortschatz.length} 件）
+            </h2>
+            <p className="mb-3 text-xs text-stone-500">
+              ドイツ語の説明付き。日本語は「語彙確認」で自動訳できます。
+            </p>
+            <StudyNotesPanel
+              notes={{ chunks: [], grammar: [], vocabulary: wortschatz }}
+              language="de"
+              source={`${section.titleJa} · Wortschatz`}
+              onToast={showToast}
+            />
+          </section>
+        )}
       </article>
 
       {toast && (

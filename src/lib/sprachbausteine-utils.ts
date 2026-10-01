@@ -65,9 +65,62 @@ export function buildFilledPassage(section: ExamSection): Passage | undefined {
 
 export type VocabItem = { term: string; meaning: string };
 
+function isGenericGapPrompt(prompt: string): boolean {
+  return /^Lücke \d+: Wählen Sie die richtige Lösung\.?$/i.test(prompt.trim());
+}
+
+/** 問題画面用：該当 Lücke の前後を含む短い抜粋 */
+export function gapContextText(section: ExamSection, gapNumber: number): string {
+  const question = section.questions.find((q) => q.number === gapNumber);
+  if (question?.prompt && !isGenericGapPrompt(question.prompt)) {
+    return question.prompt;
+  }
+
+  const paragraphs = section.passage?.paragraphs ?? [];
+  for (const paragraph of paragraphs) {
+    const text = paragraph.original;
+    if (!new RegExp(`\\[${gapNumber}\\]\\s*________`).test(text)) continue;
+
+    const idx = text.search(new RegExp(`\\[${gapNumber}\\]\\s*________`));
+    const before = text.slice(0, idx);
+    const afterStart = text.slice(idx);
+    const sentenceStart = Math.max(
+      before.lastIndexOf(". ") + 1,
+      before.lastIndexOf("! ") + 1,
+      before.lastIndexOf("? ") + 1,
+      before.lastIndexOf(", ") + 1,
+      0
+    );
+    let sentenceEnd = afterStart.search(/\.\s|!\s|\?\s/);
+    if (sentenceEnd < 0) sentenceEnd = afterStart.length;
+    else sentenceEnd += idx + sentenceEnd + 1;
+
+    let snippet = text.slice(sentenceStart, Math.min(text.length, sentenceEnd)).trim();
+    if (snippet.length < 80) {
+      const pad = 160;
+      snippet = text.slice(Math.max(0, idx - pad), Math.min(text.length, idx + pad)).trim();
+    }
+    if (snippet.length > 420) {
+      snippet = `${snippet.slice(0, 420)}…`;
+    }
+    return snippet;
+  }
+
+  return question?.prompt ?? `Lücke ${gapNumber}`;
+}
+
 export function collectSprachbausteineVocab(section: ExamSection): VocabItem[] {
   const items: VocabItem[] = [];
   const seen = new Set<string>();
+  if (section.wortschatz?.length) {
+    for (const v of section.wortschatz) {
+      const key = v.term.toLowerCase();
+      if (seen.has(key)) continue;
+      seen.add(key);
+      items.push({ term: v.term, meaning: v.meaning });
+    }
+    return items;
+  }
   for (const p of section.passage?.paragraphs ?? []) {
     const vocab = p.studyNotes?.vocabulary ?? [];
     for (const v of vocab) {

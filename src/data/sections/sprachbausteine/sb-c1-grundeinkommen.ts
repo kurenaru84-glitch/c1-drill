@@ -32,10 +32,152 @@ export const sb_c1_grundeinkommen: ExamSection = {
       },
       {
         "original": "Ob ein BGE eine sinnvolle oder [14] ________ waghalsige Idee für die Zukunft des Sozialstaates ist, ist umstritten. [15] ________ Befürworter argumentieren, dass mit einem BGE der Existenzangst der Bürger entgegengewirkt werde, [16] ________ Kritiker, dass dadurch die Motivation zu arbeiten sinke.",
-        "translation": ""
+        "translation": "",
+        "studyNotes": {
+          "vocabulary": [
+            {
+              "term": "der stetige Wandel",
+              "meaning": "eine kontinuierliche, ununterbrochene Veränderung"
+            },
+            {
+              "term": "das Versagen",
+              "meaning": "das Scheitern, der Ausfall, das Nichtfunktionieren"
+            },
+            {
+              "term": "etwas offenbaren",
+              "meaning": "etwas enthüllen, ein Geheimnis/eine Wahrheit zeigen"
+            },
+            {
+              "term": "etwas vorsehen",
+              "meaning": "etwas einplanen, beabsichtigen, festlegen"
+            },
+            {
+              "term": "etwas gutschreiben",
+              "meaning": "einen Geldbetrag auf einem Konto verbuchen/anrechnen"
+            },
+            {
+              "term": "geknüpft sein an + AKK",
+              "meaning": "gebunden/verbunden sein an eine Bedingung"
+            },
+            {
+              "term": "zukunftsträchtig",
+              "meaning": "aussichtsreich, vielversprechend für die Zukunft"
+            },
+            {
+              "term": "die Existenzangst",
+              "meaning": "die Angst vor dem wirtschaftlichen/finanziellen Ruin"
+            },
+            {
+              "term": "Wege einschlagen",
+              "meaning": "eine bestimmte Richtung oder Entscheidung im Leben wählen"
+            },
+            {
+              "term": "jemandem steht etwas zu",
+              "meaning": "jemand hat einen rechtlichen Anspruch auf etwas"
+            },
+            {
+              "term": "etwas vorbringen",
+              "meaning": "Argumente oder Bedenken äußern/vortragen"
+            },
+            {
+              "term": "immens",
+              "meaning": "extrem groß, riesig, gewaltig"
+            },
+            {
+              "term": "die Kosten decken",
+              "meaning": "genügend Geld haben, um Ausgaben zu bezahlen"
+            },
+            {
+              "term": "zusteuern auf + AKK",
+              "meaning": "sich in Richtung eines Zieles oder einer Gefahr bewegen"
+            },
+            {
+              "term": "waghalsig",
+              "meaning": "sehr gewagt, risikoreich, kühn"
+            },
+            {
+              "term": "fußen auf + DAT",
+              "meaning": "sich gründen auf, basieren auf"
+            },
+            {
+              "term": "Verantwortung übernehmen",
+              "meaning": "für die Folgen einer Handlung einstehen"
+            }
+          ]
+        }
       }
     ]
   },
+  "wortschatz": [
+    {
+      "term": "der stetige Wandel",
+      "meaning": "eine kontinuierliche, ununterbrochene Veränderung"
+    },
+    {
+      "term": "das Versagen",
+      "meaning": "das Scheitern, der Ausfall, das Nichtfunktionieren"
+    },
+    {
+      "term": "etwas offenbaren",
+      "meaning": "etwas enthüllen, ein Geheimnis/eine Wahrheit zeigen"
+    },
+    {
+      "term": "etwas vorsehen",
+      "meaning": "etwas einplanen, beabsichtigen, festlegen"
+    },
+    {
+      "term": "etwas gutschreiben",
+      "meaning": "einen Geldbetrag auf einem Konto verbuchen/anrechnen"
+    },
+    {
+      "term": "geknüpft sein an + AKK",
+      "meaning": "gebunden/verbunden sein an eine Bedingung"
+    },
+    {
+      "term": "zukunftsträchtig",
+      "meaning": "aussichtsreich, vielversprechend für die Zukunft"
+    },
+    {
+      "term": "die Existenzangst",
+      "meaning": "die Angst vor dem wirtschaftlichen/finanziellen Ruin"
+    },
+    {
+      "term": "Wege einschlagen",
+      "meaning": "eine bestimmte Richtung oder Entscheidung im Leben wählen"
+    },
+    {
+      "term": "jemandem steht etwas zu",
+      "meaning": "jemand hat einen rechtlichen Anspruch auf etwas"
+    },
+    {
+      "term": "etwas vorbringen",
+      "meaning": "Argumente oder Bedenken äußern/vortragen"
+    },
+    {
+      "term": "immens",
+      "meaning": "extrem groß, riesig, gewaltig"
+    },
+    {
+      "term": "die Kosten decken",
+      "meaning": "genügend Geld haben, um Ausgaben zu bezahlen"
+    },
+    {
+      "term": "zusteuern auf + AKK",
+      "meaning": "sich in Richtung eines Zieles oder einer Gefahr bewegen"
+    },
+    {
+      "term": "waghalsig",
+      "meaning": "sehr gewagt, risikoreich, kühn"
+    },
+    {
+      "term": "fußen auf + DAT",
+      "meaning": "sich gründen auf, basieren auf"
+    },
+    {
+      "term": "Verantwortung übernehmen",
+      "meaning": "für die Folgen einer Handlung einstehen"
+    }
+  ],
   "questions": [
     {
       "id": "sb-7-q1",
