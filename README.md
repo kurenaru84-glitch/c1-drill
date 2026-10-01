@@ -23,6 +23,14 @@ npm run dev
 
 `src/data/sections/` に TypeScript モジュールを追加し、`index.ts` に登録してください。
 
+### Sprachbausteine Deutsch C1
+
+```bash
+node scripts/import-sprachbausteine.mjs "/path/to/Sprachbausteine Deutsch C1 のコピー.txt"
+```
+
+1テーマ＝1セクション（全文を段落表示、空所は16問ずつ）。市販書の全文公開に注意。
+
 ### Deutsch mit Schmidt（NVV）
 
 ```bash

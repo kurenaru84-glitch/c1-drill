@@ -72,7 +72,9 @@ export function WordListView() {
         <p className="mt-1 text-sm text-stone-600">
           {lang.label} で保存したフレーズ（{languageEntries.length}件）
         </p>
-        <p className="mt-1 text-xs text-stone-500">意味は追加時に自動で日本語訳されます</p>
+        <p className="mt-1 text-xs text-stone-500">
+          意味は追加時に自動で日本語訳されます。問題文・本文は範囲選択、NVV はチップで追加できます。
+        </p>
       </header>
 
       <div className="mb-4 flex rounded-xl bg-stone-100 p-1">
