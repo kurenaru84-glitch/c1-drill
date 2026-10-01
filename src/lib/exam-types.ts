@@ -1,6 +1,6 @@
 import type { StudyNotes } from "@/lib/types";
 
-export type ExamProvider = "goethe" | "telc" | "schmidt";
+export type ExamProvider = "goethe" | "telc" | "schmidt" | "sprachbausteine";
 
 export type ExamSkill = "lesen" | "horen" | "sprachbausteine" | "schreiben" | "nvv";
 

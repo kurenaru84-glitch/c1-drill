@@ -1,12 +1,23 @@
+"use client";
+
+import { SelectableText } from "@/components/SelectableText";
 import type { Question, QuestionExplanation } from "@/lib/exam-types";
 
 type Props = {
   question: Question;
   selectedId: string;
   explanation: QuestionExplanation;
+  source: string;
+  onToast?: (message: string) => void;
 };
 
-export function ExplanationPanel({ question, selectedId, explanation }: Props) {
+export function ExplanationPanel({
+  question,
+  selectedId,
+  explanation,
+  source,
+  onToast,
+}: Props) {
   const correct = selectedId === question.correctOptionId;
   const correctLabel =
     question.options.find((o) => o.id === question.correctOptionId)?.text ?? question.correctOptionId;
@@ -26,21 +37,39 @@ export function ExplanationPanel({ question, selectedId, explanation }: Props) {
         )}
       </p>
 
-      <p className="mb-3 whitespace-pre-wrap text-sm leading-relaxed text-stone-800">
-        {explanation.summary}
-      </p>
+      <div className="mb-3 rounded-xl bg-white/50 p-2">
+        <SelectableText
+          text={explanation.summary}
+          language="de"
+          source={`${source} · 解説`}
+          className="whitespace-pre-wrap text-sm leading-relaxed text-stone-800"
+          onToast={onToast}
+        />
+      </div>
 
       {explanation.german && (
-        <p className="mb-3 rounded-xl bg-white/70 p-3 text-sm leading-relaxed text-stone-600">
-          <span className="text-xs font-medium text-stone-500">Deutsch (Original): </span>
-          {explanation.german}
-        </p>
+        <div className="mb-3 rounded-xl bg-white/70 p-3">
+          <p className="mb-1 text-xs font-medium text-stone-500">Deutsch (Original)</p>
+          <SelectableText
+            text={explanation.german}
+            language="de"
+            source={`${source} · 解説 DE`}
+            className="text-sm leading-relaxed text-stone-600"
+            onToast={onToast}
+          />
+        </div>
       )}
 
       {explanation.wrong && selectedId !== question.correctOptionId && explanation.wrong[selectedId] && (
         <div className="mb-3 rounded-xl bg-white/70 p-3">
           <p className="mb-1 text-xs font-medium text-stone-500">あなたの選択（{selectedId}）が違う理由</p>
-          <p className="text-sm text-stone-700">{explanation.wrong[selectedId]}</p>
+          <SelectableText
+            text={explanation.wrong[selectedId]}
+            language="de"
+            source={`${source} · 誤答解説`}
+            className="text-sm text-stone-700"
+            onToast={onToast}
+          />
         </div>
       )}
 
@@ -52,7 +81,14 @@ export function ExplanationPanel({ question, selectedId, explanation }: Props) {
           <ul className="mt-2 space-y-2">
             {Object.entries(explanation.wrong).map(([id, text]) => (
               <li key={id} className="rounded-lg bg-white/60 px-3 py-2 text-sm text-stone-700">
-                <span className="font-semibold text-stone-900">{id}:</span> {text}
+                <span className="font-semibold text-stone-900">{id}:</span>
+                <SelectableText
+                  text={text}
+                  language="de"
+                  source={`${source} · 選択肢 ${id}`}
+                  className="mt-1 text-sm text-stone-700"
+                  onToast={onToast}
+                />
               </li>
             ))}
           </ul>

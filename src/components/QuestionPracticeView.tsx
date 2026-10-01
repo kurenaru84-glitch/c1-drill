@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useState } from "react";
 import { ExplanationPanel } from "@/components/ExplanationPanel";
 import { PassageReader } from "@/components/PassageReader";
+import { QuestionTextBlock } from "@/components/QuestionTextBlock";
 import { IconChevron } from "@/components/icons";
 import { getQuestionAnswer, saveQuestionAnswer } from "@/lib/exam-progress";
 import type { ExamSection } from "@/lib/exam-types";
@@ -20,6 +21,13 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
 
   const [selectedId, setSelectedId] = useState<string | null>(existing?.selectedOptionId ?? null);
   const [submitted, setSubmitted] = useState(!!existing);
+  const [toast, setToast] = useState("");
+
+  const wordSource = `${section.titleJa} · 問${question.number}`;
+  const showToast = useCallback((message: string) => {
+    setToast(message);
+    window.setTimeout(() => setToast(""), 2000);
+  }, []);
 
   const handleSubmit = useCallback(() => {
     if (!selectedId || submitted) return;
@@ -66,15 +74,39 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
           passage={section.passage}
           transcript={section.transcript}
           sourceLabel={section.titleJa}
-          compact
-          defaultExpanded={false}
+          compact={section.skill !== "sprachbausteine"}
+          defaultExpanded={section.skill === "sprachbausteine"}
         />
 
+        {section.skill === "sprachbausteine" && (
+          <p className="mb-2 text-[11px] text-stone-500">
+            本文は段落ごとに読めます。空所は下の Lücke 番号と [番号] が対応します。
+          </p>
+        )}
+
         <div className="mt-4 rounded-2xl border border-stone-200 bg-white p-4">
-          <p className="mb-1 text-xs font-medium text-stone-500">Aufgabe {question.number}</p>
-          <p className="text-sm font-medium leading-relaxed text-stone-900">{question.prompt}</p>
+          <QuestionTextBlock
+            label={
+              section.skill === "sprachbausteine"
+                ? `Lücke ${question.number}`
+                : `Aufgabe ${question.number}`
+            }
+            text={question.prompt}
+            language="de"
+            source={wordSource}
+            onToast={showToast}
+            nvvQuick={
+              section.skill === "nvv"
+                ? {
+                    prompt: question.prompt,
+                    options: question.options,
+                    correctOptionId: question.correctOptionId,
+                  }
+                : undefined
+            }
+          />
           {question.promptJa && (
-            <p className="mt-2 border-t border-stone-100 pt-2 text-sm leading-relaxed text-stone-600">
+            <p className="mt-3 border-t border-stone-100 pt-2 text-sm leading-relaxed text-stone-600">
               <span className="mr-1.5 text-xs font-medium text-stone-400">訳</span>
               {question.promptJa}
             </p>
@@ -116,6 +148,8 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
               question={question}
               selectedId={selectedId}
               explanation={question.explanation}
+              source={wordSource}
+              onToast={showToast}
             />
           </div>
         )}
@@ -162,6 +196,15 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
           </div>
         )}
       </footer>
+
+      {toast && (
+        <div
+          className="pointer-events-none fixed inset-x-0 top-14 z-[90] flex justify-center px-4"
+          role="status"
+        >
+          <p className="rounded-full bg-stone-900 px-4 py-2 text-sm text-white shadow-lg">{toast}</p>
+        </div>
+      )}
     </div>
   );
 }

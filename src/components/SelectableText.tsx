@@ -12,11 +12,6 @@ type SelectableTextProps = {
   onToast?: (message: string) => void;
 };
 
-function isTouchUi() {
-  if (typeof window === "undefined") return false;
-  return window.matchMedia("(hover: none) and (pointer: coarse)").matches;
-}
-
 function estimateRows(text: string) {
   const lines = text.split("\n").length;
   return Math.min(12, Math.max(2, lines + Math.ceil(text.length / 48)));
@@ -33,7 +28,6 @@ export function SelectableText({
   const selectionTimerRef = useRef<number | null>(null);
   const { addEntry } = useWordList();
   const [selected, setSelected] = useState("");
-  const [touchUi, setTouchUi] = useState(false);
 
   const scheduleSelectionCheck = useCallback((delay = 120) => {
     if (selectionTimerRef.current) window.clearTimeout(selectionTimerRef.current);
@@ -52,11 +46,7 @@ export function SelectableText({
   }, []);
 
   useEffect(() => {
-    setTouchUi(isTouchUi());
-  }, []);
-
-  useEffect(() => {
-    if (selected && touchUi) {
+    if (selected) {
       document.body.dataset.wordSelectOpen = "1";
     } else {
       delete document.body.dataset.wordSelectOpen;
@@ -64,7 +54,7 @@ export function SelectableText({
     return () => {
       delete document.body.dataset.wordSelectOpen;
     };
-  }, [selected, touchUi]);
+  }, [selected]);
 
   function handleAdd() {
     if (!selected) return;
@@ -94,11 +84,14 @@ export function SelectableText({
         autoCapitalize="off"
         spellCheck={false}
         onSelect={() => scheduleSelectionCheck(0)}
+        onMouseUp={() => scheduleSelectionCheck(0)}
         onTouchEnd={() => scheduleSelectionCheck(250)}
+        onKeyUp={() => scheduleSelectionCheck(0)}
       />
-      {selected && touchUi && (
+      {selected && (
         <div
-          className="fixed inset-x-0 bottom-0 z-[100] border-t border-stone-200 bg-white px-4 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.15)]"
+          className="fixed inset-x-0 bottom-0 z-[110] border-t border-stone-200 bg-white px-4 py-3 shadow-[0_-8px_30px_rgba(0,0,0,0.15)]"
+          data-add-word-popup
           style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
         >
           <p className="mb-2 truncate text-xs text-stone-500">選択: {preview}</p>
