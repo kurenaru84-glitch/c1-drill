@@ -299,9 +299,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】hervorrufen\n\n【解説】\nTrennbares Verb („etwas hervorrufen“ = etwas bewirken/verursachen/auslösen/herbeiführen).",
         "german": "Trennbares Verb („etwas hervorrufen“ = etwas bewirken/verursachen/auslösen/herbeiführen).",
         "wrong": {
-          "a": "「aufrufen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「durchrufen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「einberufen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「aufrufen」はこの空所の意味・搭配・文法と合いません。正解は「hervorrufen」。根拠：Trennbares Verb („etwas hervorrufen“ = etwas bewirken/verursachen/auslösen/herbeiführen).",
+          "c": "不正解。「durchrufen」はこの空所の意味・搭配・文法と合いません。正解は「hervorrufen」。根拠：Trennbares Verb („etwas hervorrufen“ = etwas bewirken/verursachen/auslösen/herbeiführen).",
+          "d": "不正解。「einberufen」はこの空所の意味・搭配・文法と合いません。正解は「hervorrufen」。根拠：Trennbares Verb („etwas hervorrufen“ = etwas bewirken/verursachen/auslösen/herbeiführen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -334,9 +334,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】erfreut\n\n【解説】\nReflexives Verb mit Präposition („(sich) erfreuen an + DAT“ = Freude bereiten, etwas genießen).",
         "german": "Reflexives Verb mit Präposition („(sich) erfreuen an + DAT“ = Freude bereiten, etwas genießen).",
         "wrong": {
-          "a": "「freut」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「findet」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「empfindet」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「freut」はこの空所の意味・搭配・文法と合いません。正解は「erfreut」。根拠：Reflexives Verb mit Präposition („(sich) erfreuen an + DAT“ = Freude bereiten, etwas genießen).",
+          "c": "不正解。「findet」はこの空所の意味・搭配・文法と合いません。正解は「erfreut」。根拠：Reflexives Verb mit Präposition („(sich) erfreuen an + DAT“ = Freude bereiten, etwas genießen).",
+          "d": "不正解。「empfindet」はこの空所の意味・搭配・文法と合いません。正解は「erfreut」。根拠：Reflexives Verb mit Präposition („(sich) erfreuen an + DAT“ = Freude bereiten, etwas genießen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -369,9 +369,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】Weiterhin\n\n【解説】\nAdverb, additiv („außerdem, ferner, darüber hinaus“).",
         "german": "Adverb, additiv („außerdem, ferner, darüber hinaus“).",
         "wrong": {
-          "a": "「Von daher」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Deswegen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Dessen ungeachtet」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Von daher」はこの空所の意味・搭配・文法と合いません。正解は「Weiterhin」。根拠：Adverb, additiv („außerdem, ferner, darüber hinaus“).",
+          "b": "不正解。「Deswegen」はこの空所の意味・搭配・文法と合いません。正解は「Weiterhin」。根拠：Adverb, additiv („außerdem, ferner, darüber hinaus“).",
+          "d": "不正解。「Dessen ungeachtet」はこの空所の意味・搭配・文法と合いません。正解は「Weiterhin」。根拠：Adverb, additiv („außerdem, ferner, darüber hinaus“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -404,9 +404,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】nachdem\n\n【解説】\nSubjunktion („nachdem“ = nach etwas, danach, folgend).",
         "german": "Subjunktion („nachdem“ = nach etwas, danach, folgend).",
         "wrong": {
-          "b": "「nach dem」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「seitdem」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「seit dem」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「nach dem」はこの空所の意味・搭配・文法と合いません。正解は「nachdem」。根拠：Subjunktion („nachdem“ = nach etwas, danach, folgend).",
+          "c": "不正解。「seitdem」はこの空所の意味・搭配・文法と合いません。正解は「nachdem」。根拠：Subjunktion („nachdem“ = nach etwas, danach, folgend).",
+          "d": "不正解。「seit dem」はこの空所の意味・搭配・文法と合いません。正解は「nachdem」。根拠：Subjunktion („nachdem“ = nach etwas, danach, folgend)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -439,9 +439,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】Noch\n\n【解説】\nAdverb, temporal („sogar im Mittelalter noch war der medizinische Einsatz...“).",
         "german": "Adverb, temporal („sogar im Mittelalter noch war der medizinische Einsatz...“).",
         "wrong": {
-          "a": "「Zusätzlich」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Neben」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Zumal」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Zusätzlich」はこの空所の意味・搭配・文法と合いません。正解は「Noch」。根拠：Adverb, temporal („sogar im Mittelalter noch war der medizinische Einsatz...“).",
+          "b": "不正解。「Neben」はこの空所の意味・搭配・文法と合いません。正解は「Noch」。根拠：Adverb, temporal („sogar im Mittelalter noch war der medizinische Einsatz...“).",
+          "c": "不正解。「Zumal」はこの空所の意味・搭配・文法と合いません。正解は「Noch」。根拠：Adverb, temporal („sogar im Mittelalter noch war der medizinische Einsatz...“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -474,9 +474,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】Verlässliche\n\n【解説】\nAdjektiv, Feststehende Wendung („Verlässliche Quellen“ = zuverlässig, vertrauenswürdig).",
         "german": "Adjektiv, Feststehende Wendung („Verlässliche Quellen“ = zuverlässig, vertrauenswürdig).",
         "wrong": {
-          "b": "「Altbekannte」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Ordentliche」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Gewissenhafte」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Altbekannte」はこの空所の意味・搭配・文法と合いません。正解は「Verlässliche」。根拠：Adjektiv, Feststehende Wendung („Verlässliche Quellen“ = zuverlässig, vertrauenswürdig).",
+          "c": "不正解。「Ordentliche」はこの空所の意味・搭配・文法と合いません。正解は「Verlässliche」。根拠：Adjektiv, Feststehende Wendung („Verlässliche Quellen“ = zuverlässig, vertrauenswürdig).",
+          "d": "不正解。「Gewissenhafte」はこの空所の意味・搭配・文法と合いません。正解は「Verlässliche」。根拠：Adjektiv, Feststehende Wendung („Verlässliche Quellen“ = zuverlässig, vertrauenswürdig)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -509,9 +509,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】dringen\n\n【解説】\nVerb mit Präposition („dringen in + AKK“ = sich einen Weg suchen/bahnen).",
         "german": "Verb mit Präposition („dringen in + AKK“ = sich einen Weg suchen/bahnen).",
         "wrong": {
-          "a": "「führen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「befallen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「brechen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「führen」はこの空所の意味・搭配・文法と合いません。正解は「dringen」。根拠：Verb mit Präposition („dringen in + AKK“ = sich einen Weg suchen/bahnen).",
+          "c": "不正解。「befallen」はこの空所の意味・搭配・文法と合いません。正解は「dringen」。根拠：Verb mit Präposition („dringen in + AKK“ = sich einen Weg suchen/bahnen).",
+          "d": "不正解。「brechen」はこの空所の意味・搭配・文法と合いません。正解は「dringen」。根拠：Verb mit Präposition („dringen in + AKK“ = sich einen Weg suchen/bahnen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -544,9 +544,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】hellen\n\n【解説】\nNomen-Verb-Verbindung („die Stimmung aufhellen“ = die Stimmung/Laune verbessern).",
         "german": "Nomen-Verb-Verbindung („die Stimmung aufhellen“ = die Stimmung/Laune verbessern).",
         "wrong": {
-          "a": "「verbessern」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「fordern」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「ermutigen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「verbessern」はこの空所の意味・搭配・文法と合いません。正解は「hellen」。根拠：Nomen-Verb-Verbindung („die Stimmung aufhellen“ = die Stimmung/Laune verbessern).",
+          "b": "不正解。「fordern」はこの空所の意味・搭配・文法と合いません。正解は「hellen」。根拠：Nomen-Verb-Verbindung („die Stimmung aufhellen“ = die Stimmung/Laune verbessern).",
+          "c": "不正解。「ermutigen」はこの空所の意味・搭配・文法と合いません。正解は「hellen」。根拠：Nomen-Verb-Verbindung („die Stimmung aufhellen“ = die Stimmung/Laune verbessern)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -579,9 +579,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】unerheblich\n\n【解説】\nDoppelnegativ = positiv („Es ist nicht unerheblich“ = wichtig, nicht unwichtig).",
         "german": "Doppelnegativ = positiv („Es ist nicht unerheblich“ = wichtig, nicht unwichtig).",
         "wrong": {
-          "a": "「erheblich」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「abkömmlich」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「unabkömmlich」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「erheblich」はこの空所の意味・搭配・文法と合いません。正解は「unerheblich」。根拠：Doppelnegativ = positiv („Es ist nicht unerheblich“ = wichtig, nicht unwichtig).",
+          "c": "不正解。「abkömmlich」はこの空所の意味・搭配・文法と合いません。正解は「unerheblich」。根拠：Doppelnegativ = positiv („Es ist nicht unerheblich“ = wichtig, nicht unwichtig).",
+          "d": "不正解。「unabkömmlich」はこの空所の意味・搭配・文法と合いません。正解は「unerheblich」。根拠：Doppelnegativ = positiv („Es ist nicht unerheblich“ = wichtig, nicht unwichtig)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -614,9 +614,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】zugeschrieben\n\n【解説】\nPassiv mit Verb („jemandem/etwas etwas zuschreiben“ = als Ursache/Grund ansehen).",
         "german": "Passiv mit Verb („jemandem/etwas etwas zuschreiben“ = als Ursache/Grund ansehen).",
         "wrong": {
-          "a": "「auferlegt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「unterstellt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「verantwortlich」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「auferlegt」はこの空所の意味・搭配・文法と合いません。正解は「zugeschrieben」。根拠：Passiv mit Verb („jemandem/etwas etwas zuschreiben“ = als Ursache/Grund ansehen).",
+          "b": "不正解。「unterstellt」はこの空所の意味・搭配・文法と合いません。正解は「zugeschrieben」。根拠：Passiv mit Verb („jemandem/etwas etwas zuschreiben“ = als Ursache/Grund ansehen).",
+          "c": "不正解。「verantwortlich」はこの空所の意味・搭配・文法と合いません。正解は「zugeschrieben」。根拠：Passiv mit Verb („jemandem/etwas etwas zuschreiben“ = als Ursache/Grund ansehen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -649,9 +649,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】anregend\n\n【解説】\nPartizip als Adjektiv („jemanden/etwas anregen“ = antreiben, stärken, stimulieren).",
         "german": "Partizip als Adjektiv („jemanden/etwas anregen“ = antreiben, stärken, stimulieren).",
         "wrong": {
-          "a": "「auslösend」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「bereichernd」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「aufbessernd」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「auslösend」はこの空所の意味・搭配・文法と合いません。正解は「anregend」。根拠：Partizip als Adjektiv („jemanden/etwas anregen“ = antreiben, stärken, stimulieren).",
+          "b": "不正解。「bereichernd」はこの空所の意味・搭配・文法と合いません。正解は「anregend」。根拠：Partizip als Adjektiv („jemanden/etwas anregen“ = antreiben, stärken, stimulieren).",
+          "c": "不正解。「aufbessernd」はこの空所の意味・搭配・文法と合いません。正解は「anregend」。根拠：Partizip als Adjektiv („jemanden/etwas anregen“ = antreiben, stärken, stimulieren)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -684,9 +684,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】zurückgreifen\n\n【解説】\nTrennbares Verb mit Präposition („zurückgreifen auf + AKK“ = im Bedarfsfall etwas verwenden).",
         "german": "Trennbares Verb mit Präposition („zurückgreifen auf + AKK“ = im Bedarfsfall etwas verwenden).",
         "wrong": {
-          "a": "「zurücknehmen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「vornehmen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「vorgreifen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「zurücknehmen」はこの空所の意味・搭配・文法と合いません。正解は「zurückgreifen」。根拠：Trennbares Verb mit Präposition („zurückgreifen auf + AKK“ = im Bedarfsfall etwas verwenden).",
+          "b": "不正解。「vornehmen」はこの空所の意味・搭配・文法と合いません。正解は「zurückgreifen」。根拠：Trennbares Verb mit Präposition („zurückgreifen auf + AKK“ = im Bedarfsfall etwas verwenden).",
+          "d": "不正解。「vorgreifen」はこの空所の意味・搭配・文法と合いません。正解は「zurückgreifen」。根拠：Trennbares Verb mit Präposition („zurückgreifen auf + AKK“ = im Bedarfsfall etwas verwenden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -719,9 +719,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】durchaus\n\n【解説】\nAdverb, Modalpartikel („absolut, in der Tat, tatsächlich, bekräftigend“).",
         "german": "Adverb, Modalpartikel („absolut, in der Tat, tatsächlich, bekräftigend“).",
         "wrong": {
-          "a": "「geradezu」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「nebenher」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「gewissermaßen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「geradezu」はこの空所の意味・搭配・文法と合いません。正解は「durchaus」。根拠：Adverb, Modalpartikel („absolut, in der Tat, tatsächlich, bekräftigend“).",
+          "b": "不正解。「nebenher」はこの空所の意味・搭配・文法と合いません。正解は「durchaus」。根拠：Adverb, Modalpartikel („absolut, in der Tat, tatsächlich, bekräftigend“).",
+          "d": "不正解。「gewissermaßen」はこの空所の意味・搭配・文法と合いません。正解は「durchaus」。根拠：Adverb, Modalpartikel („absolut, in der Tat, tatsächlich, bekräftigend“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -754,9 +754,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】abgeraten\n\n【解説】\nTrennbares Verb mit Präposition („(jemandem) abraten von + DAT“ = stark nicht empfehlen).",
         "german": "Trennbares Verb mit Präposition („(jemandem) abraten von + DAT“ = stark nicht empfehlen).",
         "wrong": {
-          "a": "「ausgesetzt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「angedeutet」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「aufgefordert」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「ausgesetzt」はこの空所の意味・搭配・文法と合いません。正解は「abgeraten」。根拠：Trennbares Verb mit Präposition („(jemandem) abraten von + DAT“ = stark nicht empfehlen).",
+          "b": "不正解。「angedeutet」はこの空所の意味・搭配・文法と合いません。正解は「abgeraten」。根拠：Trennbares Verb mit Präposition („(jemandem) abraten von + DAT“ = stark nicht empfehlen).",
+          "d": "不正解。「aufgefordert」はこの空所の意味・搭配・文法と合いません。正解は「abgeraten」。根拠：Trennbares Verb mit Präposition („(jemandem) abraten von + DAT“ = stark nicht empfehlen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -789,9 +789,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】ansonsten\n\n【解説】\nAdverb, substitutiv („sonst, anderenfalls, wenn nicht“).",
         "german": "Adverb, substitutiv („sonst, anderenfalls, wenn nicht“).",
         "wrong": {
-          "a": "「sondern」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「anderweitig」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「abgesehen davon」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「sondern」はこの空所の意味・搭配・文法と合いません。正解は「ansonsten」。根拠：Adverb, substitutiv („sonst, anderenfalls, wenn nicht“).",
+          "b": "不正解。「anderweitig」はこの空所の意味・搭配・文法と合いません。正解は「ansonsten」。根拠：Adverb, substitutiv („sonst, anderenfalls, wenn nicht“).",
+          "d": "不正解。「abgesehen davon」はこの空所の意味・搭配・文法と合いません。正解は「ansonsten」。根拠：Adverb, substitutiv („sonst, anderenfalls, wenn nicht“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -824,9 +824,9 @@ export const sb_c1_aromatherapie: ExamSection = {
         "summary": "【正解】des Öfteren\n\n【解説】\nFeststehende Wendung („des Öfteren“ = etwas, das häufig/mehrmals/oft passiert).",
         "german": "Feststehende Wendung („des Öfteren“ = etwas, das häufig/mehrmals/oft passiert).",
         "wrong": {
-          "b": "「desöfteren」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「des Weiteren」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「desweiteren」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「desöfteren」はこの空所の意味・搭配・文法と合いません。正解は「des Öfteren」。根拠：Feststehende Wendung („des Öfteren“ = etwas, das häufig/mehrmals/oft passiert).",
+          "c": "不正解。「des Weiteren」はこの空所の意味・搭配・文法と合いません。正解は「des Öfteren」。根拠：Feststehende Wendung („des Öfteren“ = etwas, das häufig/mehrmals/oft passiert).",
+          "d": "不正解。「desweiteren」はこの空所の意味・搭配・文法と合いません。正解は「des Öfteren」。根拠：Feststehende Wendung („des Öfteren“ = etwas, das häufig/mehrmals/oft passiert)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

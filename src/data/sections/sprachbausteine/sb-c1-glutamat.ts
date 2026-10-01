@@ -323,9 +323,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】Abgesehen von\n\n【解説】\nPräposition mit Dativ, Feststehende Wendung, negativ-restriktiv („Abgesehen von + DAT“ = außer, bezeichnet eine Einschränkung oder eine Ausnahme von etwas).",
         "german": "Präposition mit Dativ, Feststehende Wendung, negativ-restriktiv („Abgesehen von + DAT“ = außer, bezeichnet eine Einschränkung oder eine Ausnahme von etwas).",
         "wrong": {
-          "b": "「Außerhalb」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Ausgenommen von」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Außerdem」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Außerhalb」はこの空所の意味・搭配・文法と合いません。正解は「Abgesehen von」。根拠：Präposition mit Dativ, Feststehende Wendung, negativ-restriktiv („Abgesehen von + DAT“ = außer, bezeichnet eine Einschränkung oder eine Ausnahme von etwas).",
+          "c": "不正解。「Ausgenommen von」はこの空所の意味・搭配・文法と合いません。正解は「Abgesehen von」。根拠：Präposition mit Dativ, Feststehende Wendung, negativ-restriktiv („Abgesehen von + DAT“ = außer, bezeichnet eine Einschränkung oder eine Ausnahme von etwas).",
+          "d": "不正解。「Außerdem」はこの空所の意味・搭配・文法と合いません。正解は「Abgesehen von」。根拠：Präposition mit Dativ, Feststehende Wendung, negativ-restriktiv („Abgesehen von + DAT“ = außer, bezeichnet eine Einschränkung oder eine Ausnahme von etwas)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -358,9 +358,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】bereichert\n\n【解説】\nVerb mit Präposition („A um B bereichern“ = (sich) vorteilhaft auswirken auf + AKK, etwas fördern/verbessern/aufwerten).",
         "german": "Verb mit Präposition („A um B bereichern“ = (sich) vorteilhaft auswirken auf + AKK, etwas fördern/verbessern/aufwerten).",
         "wrong": {
-          "a": "「begünstigt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「verschafft」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「zugutekommt」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「begünstigt」はこの空所の意味・搭配・文法と合いません。正解は「bereichert」。根拠：Verb mit Präposition („A um B bereichern“ = (sich) vorteilhaft auswirken auf + AKK, etwas fördern/verbessern/aufwerten).",
+          "b": "不正解。「verschafft」はこの空所の意味・搭配・文法と合いません。正解は「bereichert」。根拠：Verb mit Präposition („A um B bereichern“ = (sich) vorteilhaft auswirken auf + AKK, etwas fördern/verbessern/aufwerten).",
+          "d": "不正解。「zugutekommt」はこの空所の意味・搭配・文法と合いません。正解は「bereichert」。根拠：Verb mit Präposition („A um B bereichern“ = (sich) vorteilhaft auswirken auf + AKK, etwas fördern/verbessern/aufwerten)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -393,9 +393,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】Sinngemäß\n\n【解説】\nAdjektiv/Adverb („Sinngemäß“ = nicht dem genauen Wortlaut nach, aber mit dem gleichen Inhalt).",
         "german": "Adjektiv/Adverb („Sinngemäß“ = nicht dem genauen Wortlaut nach, aber mit dem gleichen Inhalt).",
         "wrong": {
-          "b": "「Folglich」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Sinnvoll」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Als Folge dessen」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Folglich」はこの空所の意味・搭配・文法と合いません。正解は「Sinngemäß」。根拠：Adjektiv/Adverb („Sinngemäß“ = nicht dem genauen Wortlaut nach, aber mit dem gleichen Inhalt).",
+          "c": "不正解。「Sinnvoll」はこの空所の意味・搭配・文法と合いません。正解は「Sinngemäß」。根拠：Adjektiv/Adverb („Sinngemäß“ = nicht dem genauen Wortlaut nach, aber mit dem gleichen Inhalt).",
+          "d": "不正解。「Als Folge dessen」はこの空所の意味・搭配・文法と合いません。正解は「Sinngemäß」。根拠：Adjektiv/Adverb („Sinngemäß“ = nicht dem genauen Wortlaut nach, aber mit dem gleichen Inhalt)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -428,9 +428,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】sich bis auf\n\n【解説】\nVerb mit Präposition, bis auf = außer („beschränken auf + AKK, bis auf“ = von den wenigen Ausnahmen abgesehen, eingrenzend/limitiert sein).",
         "german": "Verb mit Präposition, bis auf = außer („beschränken auf + AKK, bis auf“ = von den wenigen Ausnahmen abgesehen, eingrenzend/limitiert sein).",
         "wrong": {
-          "a": "「sich durch」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「durch」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「bis auf」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「sich durch」はこの空所の意味・搭配・文法と合いません。正解は「sich bis auf」。根拠：Verb mit Präposition, bis auf = außer („beschränken auf + AKK, bis auf“ = von den wenigen Ausnahmen abgesehen, eingrenzend/limitiert sein).",
+          "b": "不正解。「durch」はこの空所の意味・搭配・文法と合いません。正解は「sich bis auf」。根拠：Verb mit Präposition, bis auf = außer („beschränken auf + AKK, bis auf“ = von den wenigen Ausnahmen abgesehen, eingrenzend/limitiert sein).",
+          "d": "不正解。「bis auf」はこの空所の意味・搭配・文法と合いません。正解は「sich bis auf」。根拠：Verb mit Präposition, bis auf = außer („beschränken auf + AKK, bis auf“ = von den wenigen Ausnahmen abgesehen, eingrenzend/limitiert sein)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -463,9 +463,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】beheimatet\n\n【解説】\nVerb, Metapher („jemanden/etwas beheimaten“ = jemand/etwas hat dort seine Heimat, jemand/etwas stammt von dort).",
         "german": "Verb, Metapher („jemanden/etwas beheimaten“ = jemand/etwas hat dort seine Heimat, jemand/etwas stammt von dort).",
         "wrong": {
-          "a": "「bewohnt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「benutzt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「besorgt」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「bewohnt」はこの空所の意味・搭配・文法と合いません。正解は「beheimatet」。根拠：Verb, Metapher („jemanden/etwas beheimaten“ = jemand/etwas hat dort seine Heimat, jemand/etwas stammt von dort).",
+          "c": "不正解。「benutzt」はこの空所の意味・搭配・文法と合いません。正解は「beheimatet」。根拠：Verb, Metapher („jemanden/etwas beheimaten“ = jemand/etwas hat dort seine Heimat, jemand/etwas stammt von dort).",
+          "d": "不正解。「besorgt」はこの空所の意味・搭配・文法と合いません。正解は「beheimatet」。根拠：Verb, Metapher („jemanden/etwas beheimaten“ = jemand/etwas hat dort seine Heimat, jemand/etwas stammt von dort)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -498,9 +498,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】vergleichsweise\n\n【解説】\nAdverb („eine vergleichsweise hohe Konzentration“ = im Vergleich mit anderen Sachen, verhältnismäßig).",
         "german": "Adverb („eine vergleichsweise hohe Konzentration“ = im Vergleich mit anderen Sachen, verhältnismäßig).",
         "wrong": {
-          "a": "「beispielsweise」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「korrekterweise」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「massenweise」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「beispielsweise」はこの空所の意味・搭配・文法と合いません。正解は「vergleichsweise」。根拠：Adverb („eine vergleichsweise hohe Konzentration“ = im Vergleich mit anderen Sachen, verhältnismäßig).",
+          "c": "不正解。「korrekterweise」はこの空所の意味・搭配・文法と合いません。正解は「vergleichsweise」。根拠：Adverb („eine vergleichsweise hohe Konzentration“ = im Vergleich mit anderen Sachen, verhältnismäßig).",
+          "d": "不正解。「massenweise」はこの空所の意味・搭配・文法と合いません。正解は「vergleichsweise」。根拠：Adverb („eine vergleichsweise hohe Konzentration“ = im Vergleich mit anderen Sachen, verhältnismäßig)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -533,9 +533,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】dahin\n\n【解説】\nAdverb, temporal, Feststehende Wendung („bis dahin unbekannt“ = bis zu diesem Zeitpunkt).",
         "german": "Adverb, temporal, Feststehende Wendung („bis dahin unbekannt“ = bis zu diesem Zeitpunkt).",
         "wrong": {
-          "a": "「dazu」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「daher」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「dorthin」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「dazu」はこの空所の意味・搭配・文法と合いません。正解は「dahin」。根拠：Adverb, temporal, Feststehende Wendung („bis dahin unbekannt“ = bis zu diesem Zeitpunkt).",
+          "b": "不正解。「daher」はこの空所の意味・搭配・文法と合いません。正解は「dahin」。根拠：Adverb, temporal, Feststehende Wendung („bis dahin unbekannt“ = bis zu diesem Zeitpunkt).",
+          "c": "不正解。「dorthin」はこの空所の意味・搭配・文法と合いません。正解は「dahin」。根拠：Adverb, temporal, Feststehende Wendung („bis dahin unbekannt“ = bis zu diesem Zeitpunkt)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -568,9 +568,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】seither\n\n【解説】\nAdverb, temporal („seither“ = seit diesem Zeitpunkt, seit dieser Zeit, seitdem, von diesem Zeitpunkt an bis heute).",
         "german": "Adverb, temporal („seither“ = seit diesem Zeitpunkt, seit dieser Zeit, seitdem, von diesem Zeitpunkt an bis heute).",
         "wrong": {
-          "a": "「solange」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「sobald」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「seitab」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「solange」はこの空所の意味・搭配・文法と合いません。正解は「seither」。根拠：Adverb, temporal („seither“ = seit diesem Zeitpunkt, seit dieser Zeit, seitdem, von diesem Zeitpunkt an bis heute).",
+          "c": "不正解。「sobald」はこの空所の意味・搭配・文法と合いません。正解は「seither」。根拠：Adverb, temporal („seither“ = seit diesem Zeitpunkt, seit dieser Zeit, seitdem, von diesem Zeitpunkt an bis heute).",
+          "d": "不正解。「seitab」はこの空所の意味・搭配・文法と合いません。正解は「seither」。根拠：Adverb, temporal („seither“ = seit diesem Zeitpunkt, seit dieser Zeit, seitdem, von diesem Zeitpunkt an bis heute)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -603,9 +603,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】in welcher\n\n【解説】\nFeststehende Wendung („in welcher Weise“ = wie, auf welche Art und Weise, mit welcher Methode, in welcher Form).",
         "german": "Feststehende Wendung („in welcher Weise“ = wie, auf welche Art und Weise, mit welcher Methode, in welcher Form).",
         "wrong": {
-          "a": "「mit dieser」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「gegen diese」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「durch welche」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「mit dieser」はこの空所の意味・搭配・文法と合いません。正解は「in welcher」。根拠：Feststehende Wendung („in welcher Weise“ = wie, auf welche Art und Weise, mit welcher Methode, in welcher Form).",
+          "b": "不正解。「gegen diese」はこの空所の意味・搭配・文法と合いません。正解は「in welcher」。根拠：Feststehende Wendung („in welcher Weise“ = wie, auf welche Art und Weise, mit welcher Methode, in welcher Form).",
+          "d": "不正解。「durch welche」はこの空所の意味・搭配・文法と合いません。正解は「in welcher」。根拠：Feststehende Wendung („in welcher Weise“ = wie, auf welche Art und Weise, mit welcher Methode, in welcher Form)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -638,9 +638,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】deuteten\n\n【解説】\nTrennbares Verb mit Präposition, Präteritum („hindeuten auf + AKK“ = hinweisen auf + AKK, etwas vermuten lassen, ein Hinweis sein auf + AKK).",
         "german": "Trennbares Verb mit Präposition, Präteritum („hindeuten auf + AKK“ = hinweisen auf + AKK, etwas vermuten lassen, ein Hinweis sein auf + AKK).",
         "wrong": {
-          "a": "「zeigten」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「brachten」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「führten」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「zeigten」はこの空所の意味・搭配・文法と合いません。正解は「deuteten」。根拠：Trennbares Verb mit Präposition, Präteritum („hindeuten auf + AKK“ = hinweisen auf + AKK, etwas vermuten lassen, ein Hinweis sein auf + AKK).",
+          "c": "不正解。「brachten」はこの空所の意味・搭配・文法と合いません。正解は「deuteten」。根拠：Trennbares Verb mit Präposition, Präteritum („hindeuten auf + AKK“ = hinweisen auf + AKK, etwas vermuten lassen, ein Hinweis sein auf + AKK).",
+          "d": "不正解。「führten」はこの空所の意味・搭配・文法と合いません。正解は「deuteten」。根拠：Trennbares Verb mit Präposition, Präteritum („hindeuten auf + AKK“ = hinweisen auf + AKK, etwas vermuten lassen, ein Hinweis sein auf + AKK)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -673,9 +673,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】zeichnen\n\n【解説】\nNomen-Verb-Verbindung mit Präposition („verantwortlich zeichnen für + AKK“ = der Grund/die Ursache sein für + AKK, verantwortlich sein für + AKK).",
         "german": "Nomen-Verb-Verbindung mit Präposition („verantwortlich zeichnen für + AKK“ = der Grund/die Ursache sein für + AKK, verantwortlich sein für + AKK).",
         "wrong": {
-          "a": "「haben」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「übernimmt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「tragen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「haben」はこの空所の意味・搭配・文法と合いません。正解は「zeichnen」。根拠：Nomen-Verb-Verbindung mit Präposition („verantwortlich zeichnen für + AKK“ = der Grund/die Ursache sein für + AKK, verantwortlich sein für + AKK).",
+          "b": "不正解。「übernimmt」はこの空所の意味・搭配・文法と合いません。正解は「zeichnen」。根拠：Nomen-Verb-Verbindung mit Präposition („verantwortlich zeichnen für + AKK“ = der Grund/die Ursache sein für + AKK, verantwortlich sein für + AKK).",
+          "d": "不正解。「tragen」はこの空所の意味・搭配・文法と合いません。正解は「zeichnen」。根拠：Nomen-Verb-Verbindung mit Präposition („verantwortlich zeichnen für + AKK“ = der Grund/die Ursache sein für + AKK, verantwortlich sein für + AKK)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -708,9 +708,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】zuträglich\n\n【解説】\nAdjektiv („zuträglich“ = förderlich, hilfreich, dienlich, nützlich, behilflich, unterstützend).",
         "german": "Adjektiv („zuträglich“ = förderlich, hilfreich, dienlich, nützlich, behilflich, unterstützend).",
         "wrong": {
-          "a": "「fördernd」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「vorteilhaft」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「günstig」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「fördernd」はこの空所の意味・搭配・文法と合いません。正解は「zuträglich」。根拠：Adjektiv („zuträglich“ = förderlich, hilfreich, dienlich, nützlich, behilflich, unterstützend).",
+          "b": "不正解。「vorteilhaft」はこの空所の意味・搭配・文法と合いません。正解は「zuträglich」。根拠：Adjektiv („zuträglich“ = förderlich, hilfreich, dienlich, nützlich, behilflich, unterstützend).",
+          "c": "不正解。「günstig」はこの空所の意味・搭配・文法と合いません。正解は「zuträglich」。根拠：Adjektiv („zuträglich“ = förderlich, hilfreich, dienlich, nützlich, behilflich, unterstützend)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -743,9 +743,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】genießt\n\n【解説】\nNomen-Verb-Verbindung („einen guten/schlechten Ruf genießen“ = einen guten/schlechten Ruf haben).",
         "german": "Nomen-Verb-Verbindung („einen guten/schlechten Ruf genießen“ = einen guten/schlechten Ruf haben).",
         "wrong": {
-          "a": "「beschädigt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「schadet」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「erwirbt」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「beschädigt」はこの空所の意味・搭配・文法と合いません。正解は「genießt」。根拠：Nomen-Verb-Verbindung („einen guten/schlechten Ruf genießen“ = einen guten/schlechten Ruf haben).",
+          "b": "不正解。「schadet」はこの空所の意味・搭配・文法と合いません。正解は「genießt」。根拠：Nomen-Verb-Verbindung („einen guten/schlechten Ruf genießen“ = einen guten/schlechten Ruf haben).",
+          "d": "不正解。「erwirbt」はこの空所の意味・搭配・文法と合いません。正解は「genießt」。根拠：Nomen-Verb-Verbindung („einen guten/schlechten Ruf genießen“ = einen guten/schlechten Ruf haben)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -778,9 +778,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】fälschlicherweise\n\n【解説】\nAdverb („fälschlicherweise“ = auf einem Fehler beruhend, irrtümlicherweise).",
         "german": "Adverb („fälschlicherweise“ = auf einem Fehler beruhend, irrtümlicherweise).",
         "wrong": {
-          "a": "「deswegen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「jedenfalls」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「stattdessen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「deswegen」はこの空所の意味・搭配・文法と合いません。正解は「fälschlicherweise」。根拠：Adverb („fälschlicherweise“ = auf einem Fehler beruhend, irrtümlicherweise).",
+          "c": "不正解。「jedenfalls」はこの空所の意味・搭配・文法と合いません。正解は「fälschlicherweise」。根拠：Adverb („fälschlicherweise“ = auf einem Fehler beruhend, irrtümlicherweise).",
+          "d": "不正解。「stattdessen」はこの空所の意味・搭配・文法と合いません。正解は「fälschlicherweise」。根拠：Adverb („fälschlicherweise“ = auf einem Fehler beruhend, irrtümlicherweise)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -813,9 +813,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】Ferner\n\n【解説】\nAdverb, additiv („Ferner vermuten britische Wissenschaftler“ = außerdem, darüber hinaus).",
         "german": "Adverb, additiv („Ferner vermuten britische Wissenschaftler“ = außerdem, darüber hinaus).",
         "wrong": {
-          "a": "「Trotzdem」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Sowie」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Daher」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Trotzdem」はこの空所の意味・搭配・文法と合いません。正解は「Ferner」。根拠：Adverb, additiv („Ferner vermuten britische Wissenschaftler“ = außerdem, darüber hinaus).",
+          "c": "不正解。「Sowie」はこの空所の意味・搭配・文法と合いません。正解は「Ferner」。根拠：Adverb, additiv („Ferner vermuten britische Wissenschaftler“ = außerdem, darüber hinaus).",
+          "d": "不正解。「Daher」はこの空所の意味・搭配・文法と合いません。正解は「Ferner」。根拠：Adverb, additiv („Ferner vermuten britische Wissenschaftler“ = außerdem, darüber hinaus)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -848,9 +848,9 @@ export const sb_c1_glutamat: ExamSection = {
         "summary": "【正解】auftreten\n\n【解説】\nTrennbares Verb („ein Symptom tritt auf“ = erscheinen, entstehen, (sich) zeigen/ereignen, sichtbar/bemerkbar/spürbar werden).",
         "german": "Trennbares Verb („ein Symptom tritt auf“ = erscheinen, entstehen, (sich) zeigen/ereignen, sichtbar/bemerkbar/spürbar werden).",
         "wrong": {
-          "a": "「hervorgerufen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「gezeigt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「entwickeln」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「hervorgerufen」はこの空所の意味・搭配・文法と合いません。正解は「auftreten」。根拠：Trennbares Verb („ein Symptom tritt auf“ = erscheinen, entstehen, (sich) zeigen/ereignen, sichtbar/bemerkbar/spürbar werden).",
+          "c": "不正解。「gezeigt」はこの空所の意味・搭配・文法と合いません。正解は「auftreten」。根拠：Trennbares Verb („ein Symptom tritt auf“ = erscheinen, entstehen, (sich) zeigen/ereignen, sichtbar/bemerkbar/spürbar werden).",
+          "d": "不正解。「entwickeln」はこの空所の意味・搭配・文法と合いません。正解は「auftreten」。根拠：Trennbares Verb („ein Symptom tritt auf“ = erscheinen, entstehen, (sich) zeigen/ereignen, sichtbar/bemerkbar/spürbar werden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

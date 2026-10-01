@@ -207,9 +207,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】Bedingt\n\n【解説】\nPartizip als Präposition („Bedingt durch + AKK“ = verursacht durch, wegen, aufgrund).",
         "german": "Partizip als Präposition („Bedingt durch + AKK“ = verursacht durch, wegen, aufgrund).",
         "wrong": {
-          "b": "「Vorbedingt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Unbedingt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Anbedingt」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Vorbedingt」はこの空所の意味・搭配・文法と合いません。正解は「Bedingt」。根拠：Partizip als Präposition („Bedingt durch + AKK“ = verursacht durch, wegen, aufgrund).",
+          "c": "不正解。「Unbedingt」はこの空所の意味・搭配・文法と合いません。正解は「Bedingt」。根拠：Partizip als Präposition („Bedingt durch + AKK“ = verursacht durch, wegen, aufgrund).",
+          "d": "不正解。「Anbedingt」はこの空所の意味・搭配・文法と合いません。正解は「Bedingt」。根拠：Partizip als Präposition („Bedingt durch + AKK“ = verursacht durch, wegen, aufgrund)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -242,9 +242,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】davon\n\n【解説】\nPronominaladverb („ausgehen von + DAT“ = annehmen, vermuten, erwarten).",
         "german": "Pronominaladverb („ausgehen von + DAT“ = annehmen, vermuten, erwarten).",
         "wrong": {
-          "a": "「daran」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「dafür」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「davor」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「daran」はこの空所の意味・搭配・文法と合いません。正解は「davon」。根拠：Pronominaladverb („ausgehen von + DAT“ = annehmen, vermuten, erwarten).",
+          "b": "不正解。「dafür」はこの空所の意味・搭配・文法と合いません。正解は「davon」。根拠：Pronominaladverb („ausgehen von + DAT“ = annehmen, vermuten, erwarten).",
+          "c": "不正解。「davor」はこの空所の意味・搭配・文法と合いません。正解は「davon」。根拠：Pronominaladverb („ausgehen von + DAT“ = annehmen, vermuten, erwarten)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -277,9 +277,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】fallen\n\n【解説】\nNomen-Verb-Verbindung („einem Umstand zum Opfer fallen“ = durch etwas Schaden nehmen / vernichtet werden).",
         "german": "Nomen-Verb-Verbindung („einem Umstand zum Opfer fallen“ = durch etwas Schaden nehmen / vernichtet werden).",
         "wrong": {
-          "b": "「bringen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「geraten」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「führen」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「bringen」はこの空所の意味・搭配・文法と合いません。正解は「fallen」。根拠：Nomen-Verb-Verbindung („einem Umstand zum Opfer fallen“ = durch etwas Schaden nehmen / vernichtet werden).",
+          "c": "不正解。「geraten」はこの空所の意味・搭配・文法と合いません。正解は「fallen」。根拠：Nomen-Verb-Verbindung („einem Umstand zum Opfer fallen“ = durch etwas Schaden nehmen / vernichtet werden).",
+          "d": "不正解。「führen」はこの空所の意味・搭配・文法と合いません。正解は「fallen」。根拠：Nomen-Verb-Verbindung („einem Umstand zum Opfer fallen“ = durch etwas Schaden nehmen / vernichtet werden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -312,9 +312,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】geraumer\n\n【解説】\nFeststehende Wendung („Seit geraumer Zeit“ = seit einer recht langen Zeit).",
         "german": "Feststehende Wendung („Seit geraumer Zeit“ = seit einer recht langen Zeit).",
         "wrong": {
-          "a": "「vieler」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「mancher」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「kurzer」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「vieler」はこの空所の意味・搭配・文法と合いません。正解は「geraumer」。根拠：Feststehende Wendung („Seit geraumer Zeit“ = seit einer recht langen Zeit).",
+          "b": "不正解。「mancher」はこの空所の意味・搭配・文法と合いません。正解は「geraumer」。根拠：Feststehende Wendung („Seit geraumer Zeit“ = seit einer recht langen Zeit).",
+          "c": "不正解。「kurzer」はこの空所の意味・搭配・文法と合いません。正解は「geraumer」。根拠：Feststehende Wendung („Seit geraumer Zeit“ = seit einer recht langen Zeit)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -347,9 +347,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】unabhängig\n\n【解説】\nAdjektiv / Adverb mit Präposition („unabhängig von + DAT“ = ohne Rücksicht auf, nicht beeinflusst von).",
         "german": "Adjektiv / Adverb mit Präposition („unabhängig von + DAT“ = ohne Rücksicht auf, nicht beeinflusst von).",
         "wrong": {
-          "a": "「ungeachtet」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「unabdingbar」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「unerheblich」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「ungeachtet」はこの空所の意味・搭配・文法と合いません。正解は「unabhängig」。根拠：Adjektiv / Adverb mit Präposition („unabhängig von + DAT“ = ohne Rücksicht auf, nicht beeinflusst von).",
+          "c": "不正解。「unabdingbar」はこの空所の意味・搭配・文法と合いません。正解は「unabhängig」。根拠：Adjektiv / Adverb mit Präposition („unabhängig von + DAT“ = ohne Rücksicht auf, nicht beeinflusst von).",
+          "d": "不正解。「unerheblich」はこの空所の意味・搭配・文法と合いません。正解は「unabhängig」。根拠：Adjektiv / Adverb mit Präposition („unabhängig von + DAT“ = ohne Rücksicht auf, nicht beeinflusst von)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -382,9 +382,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】erbringt\n\n【解説】\nNomen-Verb-Verbindung („eine Leistung erbringen“ = arbeiten, etwas leisten).",
         "german": "Nomen-Verb-Verbindung („eine Leistung erbringen“ = arbeiten, etwas leisten).",
         "wrong": {
-          "a": "「Leistung zahlt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Leistung bezieht」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Leistung ausführt」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Leistung zahlt」はこの空所の意味・搭配・文法と合いません。正解は「Leistung erbringt」。根拠：Nomen-Verb-Verbindung („eine Leistung erbringen“ = arbeiten, etwas leisten).",
+          "b": "不正解。「Leistung bezieht」はこの空所の意味・搭配・文法と合いません。正解は「Leistung erbringt」。根拠：Nomen-Verb-Verbindung („eine Leistung erbringen“ = arbeiten, etwas leisten).",
+          "d": "不正解。「Leistung ausführt」はこの空所の意味・搭配・文法と合いません。正解は「Leistung erbringt」。根拠：Nomen-Verb-Verbindung („eine Leistung erbringen“ = arbeiten, etwas leisten)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -417,9 +417,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】befreit\n\n【解説】\nPartizip/Adjektiv mit Präposition („befreit sein von + DAT“ = frei von etwas sein, eine Last nicht mehr haben).",
         "german": "Partizip/Adjektiv mit Präposition („befreit sein von + DAT“ = frei von etwas sein, eine Last nicht mehr haben).",
         "wrong": {
-          "a": "「entsorgt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「abgelegt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「erlöst」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「entsorgt」はこの空所の意味・搭配・文法と合いません。正解は「befreit」。根拠：Partizip/Adjektiv mit Präposition („befreit sein von + DAT“ = frei von etwas sein, eine Last nicht mehr haben).",
+          "b": "不正解。「abgelegt」はこの空所の意味・搭配・文法と合いません。正解は「befreit」。根拠：Partizip/Adjektiv mit Präposition („befreit sein von + DAT“ = frei von etwas sein, eine Last nicht mehr haben).",
+          "d": "不正解。「erlöst」はこの空所の意味・搭配・文法と合いません。正解は「befreit」。根拠：Partizip/Adjektiv mit Präposition („befreit sein von + DAT“ = frei von etwas sein, eine Last nicht mehr haben)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -452,9 +452,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】vorzufinden\n\n【解説】\nTrennbares Verb („etwas vorfinden“ = etwas an einem Ort vorrätig/vorhanden sehen).",
         "german": "Trennbares Verb („etwas vorfinden“ = etwas an einem Ort vorrätig/vorhanden sehen).",
         "wrong": {
-          "b": "「aufzufinden」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「nachzufinden」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「abzufinden」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「aufzufinden」はこの空所の意味・搭配・文法と合いません。正解は「vorzufinden」。根拠：Trennbares Verb („etwas vorfinden“ = etwas an einem Ort vorrätig/vorhanden sehen).",
+          "c": "不正解。「nachzufinden」はこの空所の意味・搭配・文法と合いません。正解は「vorzufinden」。根拠：Trennbares Verb („etwas vorfinden“ = etwas an einem Ort vorrätig/vorhanden sehen).",
+          "d": "不正解。「abzufinden」はこの空所の意味・搭配・文法と合いません。正解は「vorzufinden」。根拠：Trennbares Verb („etwas vorfinden“ = etwas an einem Ort vorrätig/vorhanden sehen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -487,9 +487,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】Aufgrund der Tatsache\n\n【解説】\nFeststehende kausale Wendung („Aufgrund der Tatsache, dass...“ = weil, da).",
         "german": "Feststehende kausale Wendung („Aufgrund der Tatsache, dass...“ = weil, da).",
         "wrong": {
-          "a": "「Wegen der Tatsache」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Durch die Tatsache」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Von der Tatsache」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Wegen der Tatsache」はこの空所の意味・搭配・文法と合いません。正解は「Aufgrund der Tatsache」。根拠：Feststehende kausale Wendung („Aufgrund der Tatsache, dass...“ = weil, da).",
+          "b": "不正解。「Durch die Tatsache」はこの空所の意味・搭配・文法と合いません。正解は「Aufgrund der Tatsache」。根拠：Feststehende kausale Wendung („Aufgrund der Tatsache, dass...“ = weil, da).",
+          "c": "不正解。「Von der Tatsache」はこの空所の意味・搭配・文法と合いません。正解は「Aufgrund der Tatsache」。根拠：Feststehende kausale Wendung („Aufgrund der Tatsache, dass...“ = weil, da)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -522,9 +522,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】dementsprechend\n\n【解説】\nKonnektor / Adverb („dementsprechend“ = folglich, diesem Umstand gemäß).",
         "german": "Konnektor / Adverb („dementsprechend“ = folglich, diesem Umstand gemäß).",
         "wrong": {
-          "a": "「demzufolge」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「demgemäß」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「demgegenüber」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「demzufolge」はこの空所の意味・搭配・文法と合いません。正解は「dementsprechend」。根拠：Konnektor / Adverb („dementsprechend“ = folglich, diesem Umstand gemäß).",
+          "c": "不正解。「demgemäß」はこの空所の意味・搭配・文法と合いません。正解は「dementsprechend」。根拠：Konnektor / Adverb („dementsprechend“ = folglich, diesem Umstand gemäß).",
+          "d": "不正解。「demgegenüber」はこの空所の意味・搭配・文法と合いません。正解は「dementsprechend」。根拠：Konnektor / Adverb („dementsprechend“ = folglich, diesem Umstand gemäß)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -557,9 +557,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】nach wie vor\n\n【解説】\nFeststehende Wendung („nach wie vor“ = unverändert, immer noch, weiterhin).",
         "german": "Feststehende Wendung („nach wie vor“ = unverändert, immer noch, weiterhin).",
         "wrong": {
-          "a": "「nach wie vor」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「vor wie nach」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「nach und vor」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「nach wie vor」はこの空所の意味・搭配・文法と合いません。正解は「vor und nach」。根拠：Feststehende Wendung („nach wie vor“ = unverändert, immer noch, weiterhin).",
+          "b": "不正解。「vor wie nach」はこの空所の意味・搭配・文法と合いません。正解は「vor und nach」。根拠：Feststehende Wendung („nach wie vor“ = unverändert, immer noch, weiterhin).",
+          "d": "不正解。「nach und vor」はこの空所の意味・搭配・文法と合いません。正解は「vor und nach」。根拠：Feststehende Wendung („nach wie vor“ = unverändert, immer noch, weiterhin)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -592,9 +592,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】Schließlich\n\n【解説】\nAdverb / Partikel zur Begründung („Schließlich“ = denn, letztlich, bekanntlich).",
         "german": "Adverb / Partikel zur Begründung („Schließlich“ = denn, letztlich, bekanntlich).",
         "wrong": {
-          "a": "「Schließlich」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Folglich」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Dementsprechend」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Schließlich」はこの空所の意味・搭配・文法と合いません。正解は「Somit」。根拠：Adverb / Partikel zur Begründung („Schließlich“ = denn, letztlich, bekanntlich).",
+          "b": "不正解。「Folglich」はこの空所の意味・搭配・文法と合いません。正解は「Somit」。根拠：Adverb / Partikel zur Begründung („Schließlich“ = denn, letztlich, bekanntlich).",
+          "d": "不正解。「Dementsprechend」はこの空所の意味・搭配・文法と合いません。正解は「Somit」。根拠：Adverb / Partikel zur Begründung („Schließlich“ = denn, letztlich, bekanntlich)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -627,9 +627,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】Aber\n\n【解説】\nPaarformel / Feststehende Wendung („ohne Wenn und Aber“ = ohne Ausreden, ohne Vorbehalte).",
         "german": "Paarformel / Feststehende Wendung („ohne Wenn und Aber“ = ohne Ausreden, ohne Vorbehalte).",
         "wrong": {
-          "a": "「Oder」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Noch」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Und」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Oder」はこの空所の意味・搭配・文法と合いません。正解は「Aber」。根拠：Paarformel / Feststehende Wendung („ohne Wenn und Aber“ = ohne Ausreden, ohne Vorbehalte).",
+          "b": "不正解。「Noch」はこの空所の意味・搭配・文法と合いません。正解は「Aber」。根拠：Paarformel / Feststehende Wendung („ohne Wenn und Aber“ = ohne Ausreden, ohne Vorbehalte).",
+          "c": "不正解。「Und」はこの空所の意味・搭配・文法と合いません。正解は「Aber」。根拠：Paarformel / Feststehende Wendung („ohne Wenn und Aber“ = ohne Ausreden, ohne Vorbehalte)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -662,9 +662,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】eher\n\n【解説】\nGradadverb („eher“ = vielmehr, eher/wahrscheinlicher).",
         "german": "Gradadverb („eher“ = vielmehr, eher/wahrscheinlicher).",
         "wrong": {
-          "b": "「ziemlich」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「recht」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「vielmehr」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「ziemlich」はこの空所の意味・搭配・文法と合いません。正解は「eher」。根拠：Gradadverb („eher“ = vielmehr, eher/wahrscheinlicher).",
+          "c": "不正解。「recht」はこの空所の意味・搭配・文法と合いません。正解は「eher」。根拠：Gradadverb („eher“ = vielmehr, eher/wahrscheinlicher).",
+          "d": "不正解。「vielmehr」はこの空所の意味・搭配・文法と合いません。正解は「eher」。根拠：Gradadverb („eher“ = vielmehr, eher/wahrscheinlicher)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -697,9 +697,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】Während\n\n【解説】\nSubjunktion, adversativ („Während A..., erwidern B...“ = Ausdrücken eines Gegensatzes).",
         "german": "Subjunktion, adversativ („Während A..., erwidern B...“ = Ausdrücken eines Gegensatzes).",
         "wrong": {
-          "b": "「Wohingegen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Indessen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Solange」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Wohingegen」はこの空所の意味・搭配・文法と合いません。正解は「Während」。根拠：Subjunktion, adversativ („Während A..., erwidern B...“ = Ausdrücken eines Gegensatzes).",
+          "c": "不正解。「Indessen」はこの空所の意味・搭配・文法と合いません。正解は「Während」。根拠：Subjunktion, adversativ („Während A..., erwidern B...“ = Ausdrücken eines Gegensatzes).",
+          "d": "不正解。「Solange」はこの空所の意味・搭配・文法と合いません。正解は「Während」。根拠：Subjunktion, adversativ („Während A..., erwidern B...“ = Ausdrücken eines Gegensatzes)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -732,9 +732,9 @@ export const sb_c1_grundeinkommen: ExamSection = {
         "summary": "【正解】erwidern\n\n【解説】\nVerb („etwas erwidern“ = auf ein Argument gehaltvoll entgegnen/antworten).",
         "german": "Verb („etwas erwidern“ = auf ein Argument gehaltvoll entgegnen/antworten).",
         "wrong": {
-          "a": "「entgegnen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「antworten」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「aussprechen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「entgegnen」はこの空所の意味・搭配・文法と合いません。正解は「erwidern」。根拠：Verb („etwas erwidern“ = auf ein Argument gehaltvoll entgegnen/antworten).",
+          "c": "不正解。「antworten」はこの空所の意味・搭配・文法と合いません。正解は「erwidern」。根拠：Verb („etwas erwidern“ = auf ein Argument gehaltvoll entgegnen/antworten).",
+          "d": "不正解。「aussprechen」はこの空所の意味・搭配・文法と合いません。正解は「erwidern」。根拠：Verb („etwas erwidern“ = auf ein Argument gehaltvoll entgegnen/antworten)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

@@ -315,9 +315,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】jüngst\n\n【解説】\nAdverb, temporal („kürzlich, vor Kurzem, neulich“).",
         "german": "Adverb, temporal („kürzlich, vor Kurzem, neulich“).",
         "wrong": {
-          "b": "「zeitgemäß」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「modern」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「aktuellst」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「zeitgemäß」はこの空所の意味・搭配・文法と合いません。正解は「jüngst」。根拠：Adverb, temporal („kürzlich, vor Kurzem, neulich“).",
+          "c": "不正解。「modern」はこの空所の意味・搭配・文法と合いません。正解は「jüngst」。根拠：Adverb, temporal („kürzlich, vor Kurzem, neulich“).",
+          "d": "不正解。「aktuellst」はこの空所の意味・搭配・文法と合いません。正解は「jüngst」。根拠：Adverb, temporal („kürzlich, vor Kurzem, neulich“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -350,9 +350,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】neuerdings\n\n【解説】\nAdverb, temporal („seit Kurzem, seit Neuestem“).",
         "german": "Adverb, temporal („seit Kurzem, seit Neuestem“).",
         "wrong": {
-          "a": "「ehemalige」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「kommende」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「ebendiese」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「ehemalige」はこの空所の意味・搭配・文法と合いません。正解は「neuerdings」。根拠：Adverb, temporal („seit Kurzem, seit Neuestem“).",
+          "b": "不正解。「kommende」はこの空所の意味・搭配・文法と合いません。正解は「neuerdings」。根拠：Adverb, temporal („seit Kurzem, seit Neuestem“).",
+          "c": "不正解。「ebendiese」はこの空所の意味・搭配・文法と合いません。正解は「neuerdings」。根拠：Adverb, temporal („seit Kurzem, seit Neuestem“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -385,9 +385,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】während\n\n【解説】\nKonnektor, adversativ (drückt einen Gegensatz aus).",
         "german": "Konnektor, adversativ (drückt einen Gegensatz aus).",
         "wrong": {
-          "a": "「dadurch, dass」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「obwohl」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「bedingt durch」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「dadurch, dass」はこの空所の意味・搭配・文法と合いません。正解は「während」。根拠：Konnektor, adversativ (drückt einen Gegensatz aus).",
+          "b": "不正解。「obwohl」はこの空所の意味・搭配・文法と合いません。正解は「während」。根拠：Konnektor, adversativ (drückt einen Gegensatz aus).",
+          "d": "不正解。「bedingt durch」はこの空所の意味・搭配・文法と合いません。正解は「während」。根拠：Konnektor, adversativ (drückt einen Gegensatz aus)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -420,9 +420,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】abwickeln\n\n【解説】\nNomen-Verb-Verbindung („Geschäfte abwickeln“ = Geschäfte erledigen/durchführen).",
         "german": "Nomen-Verb-Verbindung („Geschäfte abwickeln“ = Geschäfte erledigen/durchführen).",
         "wrong": {
-          "b": "「ablegen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「einstellen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「einlösen」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「ablegen」はこの空所の意味・搭配・文法と合いません。正解は「abwickeln」。根拠：Nomen-Verb-Verbindung („Geschäfte abwickeln“ = Geschäfte erledigen/durchführen).",
+          "c": "不正解。「einstellen」はこの空所の意味・搭配・文法と合いません。正解は「abwickeln」。根拠：Nomen-Verb-Verbindung („Geschäfte abwickeln“ = Geschäfte erledigen/durchführen).",
+          "d": "不正解。「einlösen」はこの空所の意味・搭配・文法と合いません。正解は「abwickeln」。根拠：Nomen-Verb-Verbindung („Geschäfte abwickeln“ = Geschäfte erledigen/durchführen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -455,9 +455,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】zu Tage\n\n【解説】\nFeststehende Wendung („etwas zu Tage bringen“ = etwas bekanntmachen/ans Licht bringen).",
         "german": "Feststehende Wendung („etwas zu Tage bringen“ = etwas bekanntmachen/ans Licht bringen).",
         "wrong": {
-          "a": "「auf Tage」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「vor Tagen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「nach Tagen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「auf Tage」はこの空所の意味・搭配・文法と合いません。正解は「zu Tage」。根拠：Feststehende Wendung („etwas zu Tage bringen“ = etwas bekanntmachen/ans Licht bringen).",
+          "c": "不正解。「vor Tagen」はこの空所の意味・搭配・文法と合いません。正解は「zu Tage」。根拠：Feststehende Wendung („etwas zu Tage bringen“ = etwas bekanntmachen/ans Licht bringen).",
+          "d": "不正解。「nach Tagen」はこの空所の意味・搭配・文法と合いません。正解は「zu Tage」。根拠：Feststehende Wendung („etwas zu Tage bringen“ = etwas bekanntmachen/ans Licht bringen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -490,9 +490,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】gegenüberzustehen\n\n【解説】\nTrennbares Verb, Zusammenschreibung („etwas/jemandem gegenüberstehen“).",
         "german": "Trennbares Verb, Zusammenschreibung („etwas/jemandem gegenüberstehen“).",
         "wrong": {
-          "a": "「entgegenzustehen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「entgegen zu stehen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「gegenüber zu stehen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「entgegenzustehen」はこの空所の意味・搭配・文法と合いません。正解は「gegenüberzustehen」。根拠：Trennbares Verb, Zusammenschreibung („etwas/jemandem gegenüberstehen“).",
+          "b": "不正解。「entgegen zu stehen」はこの空所の意味・搭配・文法と合いません。正解は「gegenüberzustehen」。根拠：Trennbares Verb, Zusammenschreibung („etwas/jemandem gegenüberstehen“).",
+          "d": "不正解。「gegenüber zu stehen」はこの空所の意味・搭配・文法と合いません。正解は「gegenüberzustehen」。根拠：Trennbares Verb, Zusammenschreibung („etwas/jemandem gegenüberstehen“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -525,9 +525,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】Selbst\n\n【解説】\nAdverb, inkrementiv („sogar, sogar auch“).",
         "german": "Adverb, inkrementiv („sogar, sogar auch“).",
         "wrong": {
-          "a": "「Sowie」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Sonst」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Sowohl」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Sowie」はこの空所の意味・搭配・文法と合いません。正解は「Selbst」。根拠：Adverb, inkrementiv („sogar, sogar auch“).",
+          "b": "不正解。「Sonst」はこの空所の意味・搭配・文法と合いません。正解は「Selbst」。根拠：Adverb, inkrementiv („sogar, sogar auch“).",
+          "c": "不正解。「Sowohl」はこの空所の意味・搭配・文法と合いません。正解は「Selbst」。根拠：Adverb, inkrementiv („sogar, sogar auch“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -560,9 +560,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】Anklang\n\n【解説】\nNomen-Verb-Verbindung („Anklang finden“ = mit Zustimmung aufgenommen werden).",
         "german": "Nomen-Verb-Verbindung („Anklang finden“ = mit Zustimmung aufgenommen werden).",
         "wrong": {
-          "a": "「Andeutung」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Ächtung」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Ähnlichkeit」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Andeutung」はこの空所の意味・搭配・文法と合いません。正解は「Anklang」。根拠：Nomen-Verb-Verbindung („Anklang finden“ = mit Zustimmung aufgenommen werden).",
+          "b": "不正解。「Ächtung」はこの空所の意味・搭配・文法と合いません。正解は「Anklang」。根拠：Nomen-Verb-Verbindung („Anklang finden“ = mit Zustimmung aufgenommen werden).",
+          "d": "不正解。「Ähnlichkeit」はこの空所の意味・搭配・文法と合いません。正解は「Anklang」。根拠：Nomen-Verb-Verbindung („Anklang finden“ = mit Zustimmung aufgenommen werden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -595,9 +595,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】gerade\n\n【解説】\nPartizipiales Adverb / Füllwort („wieso gerade...“ = ausgerechnet).",
         "german": "Partizipiales Adverb / Füllwort („wieso gerade...“ = ausgerechnet).",
         "wrong": {
-          "a": "「direkt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「soeben」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「gerechnet」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「direkt」はこの空所の意味・搭配・文法と合いません。正解は「gerade」。根拠：Partizipiales Adverb / Füllwort („wieso gerade...“ = ausgerechnet).",
+          "c": "不正解。「soeben」はこの空所の意味・搭配・文法と合いません。正解は「gerade」。根拠：Partizipiales Adverb / Füllwort („wieso gerade...“ = ausgerechnet).",
+          "d": "不正解。「gerechnet」はこの空所の意味・搭配・文法と合いません。正解は「gerade」。根拠：Partizipiales Adverb / Füllwort („wieso gerade...“ = ausgerechnet)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -630,9 +630,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】ebendiese\n\n【解説】\nDemonstrativpronomen („ebendiese Frage“ = genau diese / die bereits erwähnte Frage).",
         "german": "Demonstrativpronomen („ebendiese Frage“ = genau diese / die bereits erwähnte Frage).",
         "wrong": {
-          "a": "「ehemalige」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「kommende」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「folgende」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「ehemalige」はこの空所の意味・搭配・文法と合いません。正解は「ebendiese」。根拠：Demonstrativpronomen („ebendiese Frage“ = genau diese / die bereits erwähnte Frage).",
+          "b": "不正解。「kommende」はこの空所の意味・搭配・文法と合いません。正解は「ebendiese」。根拠：Demonstrativpronomen („ebendiese Frage“ = genau diese / die bereits erwähnte Frage).",
+          "d": "不正解。「folgende」はこの空所の意味・搭配・文法と合いません。正解は「ebendiese」。根拠：Demonstrativpronomen („ebendiese Frage“ = genau diese / die bereits erwähnte Frage)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -665,9 +665,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】Anliegen\n\n【解説】\nFeststehende Wendung („ein Anliegen sein“ = etwas ist jemandem wichtig).",
         "german": "Feststehende Wendung („ein Anliegen sein“ = etwas ist jemandem wichtig).",
         "wrong": {
-          "b": "「Sensibilität」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Verständnis」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Merkmal」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Sensibilität」はこの空所の意味・搭配・文法と合いません。正解は「Anliegen」。根拠：Feststehende Wendung („ein Anliegen sein“ = etwas ist jemandem wichtig).",
+          "c": "不正解。「Verständnis」はこの空所の意味・搭配・文法と合いません。正解は「Anliegen」。根拠：Feststehende Wendung („ein Anliegen sein“ = etwas ist jemandem wichtig).",
+          "d": "不正解。「Merkmal」はこの空所の意味・搭配・文法と合いません。正解は「Anliegen」。根拠：Feststehende Wendung („ein Anliegen sein“ = etwas ist jemandem wichtig)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -700,9 +700,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】Somit\n\n【解説】\nKonnektor, instrumental („folglich, infolgedessen, als Konsequenz“).",
         "german": "Konnektor, instrumental („folglich, infolgedessen, als Konsequenz“).",
         "wrong": {
-          "b": "「Sofern」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Sobald」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Sozusagen」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Sofern」はこの空所の意味・搭配・文法と合いません。正解は「Somit」。根拠：Konnektor, instrumental („folglich, infolgedessen, als Konsequenz“).",
+          "c": "不正解。「Sobald」はこの空所の意味・搭配・文法と合いません。正解は「Somit」。根拠：Konnektor, instrumental („folglich, infolgedessen, als Konsequenz“).",
+          "d": "不正解。「Sozusagen」はこの空所の意味・搭配・文法と合いません。正解は「Somit」。根拠：Konnektor, instrumental („folglich, infolgedessen, als Konsequenz“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -735,9 +735,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】eines jeden\n\n【解説】\nGenitiv-Attribut („eines jeden einzelnen Menschen“).",
         "german": "Genitiv-Attribut („eines jeden einzelnen Menschen“).",
         "wrong": {
-          "a": "「jeden einen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「jedes einen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「einen jedes」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「jeden einen」はこの空所の意味・搭配・文法と合いません。正解は「eines jeden」。根拠：Genitiv-Attribut („eines jeden einzelnen Menschen“).",
+          "b": "不正解。「jedes einen」はこの空所の意味・搭配・文法と合いません。正解は「eines jeden」。根拠：Genitiv-Attribut („eines jeden einzelnen Menschen“).",
+          "c": "不正解。「einen jedes」はこの空所の意味・搭配・文法と合いません。正解は「eines jeden」。根拠：Genitiv-Attribut („eines jeden einzelnen Menschen“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -770,9 +770,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】nach in erster\n\n【解説】\nKombinierte Wendung („seiner Auffassung nach“ + „in erster Linie“).",
         "german": "Kombinierte Wendung („seiner Auffassung nach“ + „in erster Linie“).",
         "wrong": {
-          "a": "「davor in der ersten」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「danach in der ersten」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「vor in erster」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「davor in der ersten」はこの空所の意味・搭配・文法と合いません。正解は「nach in erster」。根拠：Kombinierte Wendung („seiner Auffassung nach“ + „in erster Linie“).",
+          "b": "不正解。「danach in der ersten」はこの空所の意味・搭配・文法と合いません。正解は「nach in erster」。根拠：Kombinierte Wendung („seiner Auffassung nach“ + „in erster Linie“).",
+          "c": "不正解。「vor in erster」はこの空所の意味・搭配・文法と合いません。正解は「nach in erster」。根拠：Kombinierte Wendung („seiner Auffassung nach“ + „in erster Linie“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -805,9 +805,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】verrät\n\n【解説】\nFeststehende Wendung („Ein Blick nach China verrät, dass...“ = gibt Auskunft darüber).",
         "german": "Feststehende Wendung („Ein Blick nach China verrät, dass...“ = gibt Auskunft darüber).",
         "wrong": {
-          "a": "「drückt aus」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「entspricht」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「bedeutet」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「drückt aus」はこの空所の意味・搭配・文法と合いません。正解は「verrät」。根拠：Feststehende Wendung („Ein Blick nach China verrät, dass...“ = gibt Auskunft darüber).",
+          "c": "不正解。「entspricht」はこの空所の意味・搭配・文法と合いません。正解は「verrät」。根拠：Feststehende Wendung („Ein Blick nach China verrät, dass...“ = gibt Auskunft darüber).",
+          "d": "不正解。「bedeutet」はこの空所の意味・搭配・文法と合いません。正解は「verrät」。根拠：Feststehende Wendung („Ein Blick nach China verrät, dass...“ = gibt Auskunft darüber)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -840,9 +840,9 @@ export const sb_c1_bargeldlose_gesellschaft: ExamSection = {
         "summary": "【正解】hervorzurufen\n\n【解説】\nNomen-Verb-Verbindung („eine Angst hervorrufen“ = auslösen/verursachen).",
         "german": "Nomen-Verb-Verbindung („eine Angst hervorrufen“ = auslösen/verursachen).",
         "wrong": {
-          "a": "「einzulösen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「abzuregen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「heranzuführen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「einzulösen」はこの空所の意味・搭配・文法と合いません。正解は「hervorzurufen」。根拠：Nomen-Verb-Verbindung („eine Angst hervorrufen“ = auslösen/verursachen).",
+          "c": "不正解。「abzuregen」はこの空所の意味・搭配・文法と合いません。正解は「hervorzurufen」。根拠：Nomen-Verb-Verbindung („eine Angst hervorrufen“ = auslösen/verursachen).",
+          "d": "不正解。「heranzuführen」はこの空所の意味・搭配・文法と合いません。正解は「hervorzurufen」。根拠：Nomen-Verb-Verbindung („eine Angst hervorrufen“ = auslösen/verursachen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

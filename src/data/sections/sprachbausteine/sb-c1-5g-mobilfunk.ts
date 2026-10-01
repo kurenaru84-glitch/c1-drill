@@ -331,9 +331,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】versprechen\n\n【解説】\nReflexives Verb mit Präposition („(sich) etwas versprechen von + DAT“ = etwas stark erwarten, (sich) etwas erhoffen/wünschen/erträumen).",
         "german": "Reflexives Verb mit Präposition („(sich) etwas versprechen von + DAT“ = etwas stark erwarten, (sich) etwas erhoffen/wünschen/erträumen).",
         "wrong": {
-          "a": "「versichern」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「zusagen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「zusichern」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「versichern」はこの空所の意味・搭配・文法と合いません。正解は「versprechen」。根拠：Reflexives Verb mit Präposition („(sich) etwas versprechen von + DAT“ = etwas stark erwarten, (sich) etwas erhoffen/wünschen/erträumen).",
+          "b": "不正解。「zusagen」はこの空所の意味・搭配・文法と合いません。正解は「versprechen」。根拠：Reflexives Verb mit Präposition („(sich) etwas versprechen von + DAT“ = etwas stark erwarten, (sich) etwas erhoffen/wünschen/erträumen).",
+          "d": "不正解。「zusichern」はこの空所の意味・搭配・文法と合いません。正解は「versprechen」。根拠：Reflexives Verb mit Präposition („(sich) etwas versprechen von + DAT“ = etwas stark erwarten, (sich) etwas erhoffen/wünschen/erträumen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -366,9 +366,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】übertragen\n\n【解説】\nFeststehende Wendung, Verb („Datenpakete übertragen“ = Daten von A nach B senden/transferieren/übermitteln/schicken).",
         "german": "Feststehende Wendung, Verb („Datenpakete übertragen“ = Daten von A nach B senden/transferieren/übermitteln/schicken).",
         "wrong": {
-          "a": "「übernehmen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「überlassen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「übersetzen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「übernehmen」はこの空所の意味・搭配・文法と合いません。正解は「übertragen」。根拠：Feststehende Wendung, Verb („Datenpakete übertragen“ = Daten von A nach B senden/transferieren/übermitteln/schicken).",
+          "b": "不正解。「überlassen」はこの空所の意味・搭配・文法と合いません。正解は「übertragen」。根拠：Feststehende Wendung, Verb („Datenpakete übertragen“ = Daten von A nach B senden/transferieren/übermitteln/schicken).",
+          "d": "不正解。「übersetzen」はこの空所の意味・搭配・文法と合いません。正解は「übertragen」。根拠：Feststehende Wendung, Verb („Datenpakete übertragen“ = Daten von A nach B senden/transferieren/übermitteln/schicken)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -401,9 +401,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】aufwarten\n\n【解説】\nTrennbares Verb mit Präposition („aufwarten mit + DAT“ = jemandem etwas bieten/anbieten, eine bestimmte Fähigkeit anbietend).",
         "german": "Trennbares Verb mit Präposition („aufwarten mit + DAT“ = jemandem etwas bieten/anbieten, eine bestimmte Fähigkeit anbietend).",
         "wrong": {
-          "b": "「abwarten」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「anbieten」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「anfordern」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「abwarten」はこの空所の意味・搭配・文法と合いません。正解は「aufwarten」。根拠：Trennbares Verb mit Präposition („aufwarten mit + DAT“ = jemandem etwas bieten/anbieten, eine bestimmte Fähigkeit anbietend).",
+          "c": "不正解。「anbieten」はこの空所の意味・搭配・文法と合いません。正解は「aufwarten」。根拠：Trennbares Verb mit Präposition („aufwarten mit + DAT“ = jemandem etwas bieten/anbieten, eine bestimmte Fähigkeit anbietend).",
+          "d": "不正解。「anfordern」はこの空所の意味・搭配・文法と合いません。正解は「aufwarten」。根拠：Trennbares Verb mit Präposition („aufwarten mit + DAT“ = jemandem etwas bieten/anbieten, eine bestimmte Fähigkeit anbietend)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -436,9 +436,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】angestrebte\n\n【解説】\nTrennbares Verb („etwas anstreben“ = etwas zum Ziel haben, streben nach + DAT, etwas anvisieren/vorhaben/anpeilen).",
         "german": "Trennbares Verb („etwas anstreben“ = etwas zum Ziel haben, streben nach + DAT, etwas anvisieren/vorhaben/anpeilen).",
         "wrong": {
-          "a": "「erzielte」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「aufgenommene」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「vollbrachte」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「erzielte」はこの空所の意味・搭配・文法と合いません。正解は「angestrebte」。根拠：Trennbares Verb („etwas anstreben“ = etwas zum Ziel haben, streben nach + DAT, etwas anvisieren/vorhaben/anpeilen).",
+          "c": "不正解。「aufgenommene」はこの空所の意味・搭配・文法と合いません。正解は「angestrebte」。根拠：Trennbares Verb („etwas anstreben“ = etwas zum Ziel haben, streben nach + DAT, etwas anvisieren/vorhaben/anpeilen).",
+          "d": "不正解。「vollbrachte」はこの空所の意味・搭配・文法と合いません。正解は「angestrebte」。根拠：Trennbares Verb („etwas anstreben“ = etwas zum Ziel haben, streben nach + DAT, etwas anvisieren/vorhaben/anpeilen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -471,9 +471,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】zufolge\n\n【解説】\nPräposition („IT-Experten zufolge“ = wie IT-Experten sagen..., laut, nach, gemäß, wie... sagen/sagt).",
         "german": "Präposition („IT-Experten zufolge“ = wie IT-Experten sagen..., laut, nach, gemäß, wie... sagen/sagt).",
         "wrong": {
-          "a": "「demzufolge」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「dementsprechend」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「entsprechend」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「demzufolge」はこの空所の意味・搭配・文法と合いません。正解は「zufolge」。根拠：Präposition („IT-Experten zufolge“ = wie IT-Experten sagen..., laut, nach, gemäß, wie... sagen/sagt).",
+          "c": "不正解。「dementsprechend」はこの空所の意味・搭配・文法と合いません。正解は「zufolge」。根拠：Präposition („IT-Experten zufolge“ = wie IT-Experten sagen..., laut, nach, gemäß, wie... sagen/sagt).",
+          "d": "不正解。「entsprechend」はこの空所の意味・搭配・文法と合いません。正解は「zufolge」。根拠：Präposition („IT-Experten zufolge“ = wie IT-Experten sagen..., laut, nach, gemäß, wie... sagen/sagt)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -506,9 +506,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】bislang\n\n【解説】\nAdverb, temporal („bislang“ = bis jetzt, bisher, bis dato, bis zum heutigen Tag, bis zum jetzigen Zeitpunkt, aktuell [noch]).",
         "german": "Adverb, temporal („bislang“ = bis jetzt, bisher, bis dato, bis zum heutigen Tag, bis zum jetzigen Zeitpunkt, aktuell [noch]).",
         "wrong": {
-          "a": "「vorläufig」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「fortlaufend」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「endgültig」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「vorläufig」はこの空所の意味・搭配・文法と合いません。正解は「bislang」。根拠：Adverb, temporal („bislang“ = bis jetzt, bisher, bis dato, bis zum heutigen Tag, bis zum jetzigen Zeitpunkt, aktuell [noch]).",
+          "b": "不正解。「fortlaufend」はこの空所の意味・搭配・文法と合いません。正解は「bislang」。根拠：Adverb, temporal („bislang“ = bis jetzt, bisher, bis dato, bis zum heutigen Tag, bis zum jetzigen Zeitpunkt, aktuell [noch]).",
+          "c": "不正解。「endgültig」はこの空所の意味・搭配・文法と合いません。正解は「bislang」。根拠：Adverb, temporal („bislang“ = bis jetzt, bisher, bis dato, bis zum heutigen Tag, bis zum jetzigen Zeitpunkt, aktuell [noch])."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -541,9 +541,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】stattfindenden\n\n【解説】\nVerb, Partizip I, Genitiv („in Echtzeit stattfindenden...“ = die Datenübertragung, die nahezu/fast in Echtzeit stattfindet/passiert).",
         "german": "Verb, Partizip I, Genitiv („in Echtzeit stattfindenden...“ = die Datenübertragung, die nahezu/fast in Echtzeit stattfindet/passiert).",
         "wrong": {
-          "a": "「abwickelnden」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「abgewickelten」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「stattgefundenen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「abwickelnden」はこの空所の意味・搭配・文法と合いません。正解は「stattfindenden」。根拠：Verb, Partizip I, Genitiv („in Echtzeit stattfindenden...“ = die Datenübertragung, die nahezu/fast in Echtzeit stattfindet/passiert).",
+          "c": "不正解。「abgewickelten」はこの空所の意味・搭配・文法と合いません。正解は「stattfindenden」。根拠：Verb, Partizip I, Genitiv („in Echtzeit stattfindenden...“ = die Datenübertragung, die nahezu/fast in Echtzeit stattfindet/passiert).",
+          "d": "不正解。「stattgefundenen」はこの空所の意味・搭配・文法と合いません。正解は「stattfindenden」。根拠：Verb, Partizip I, Genitiv („in Echtzeit stattfindenden...“ = die Datenübertragung, die nahezu/fast in Echtzeit stattfindet/passiert)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -576,9 +576,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】unmittelbare\n\n【解説】\nAdjektiv („die unmittelbare Vernetzung“ = ohne Umwege, direkt, in gerader Richtung, augenblicklich, auf der Stelle, umgehend).",
         "german": "Adjektiv („die unmittelbare Vernetzung“ = ohne Umwege, direkt, in gerader Richtung, augenblicklich, auf der Stelle, umgehend).",
         "wrong": {
-          "b": "「verzögerte」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「unveränderte」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「verlangsamte」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「verzögerte」はこの空所の意味・搭配・文法と合いません。正解は「unmittelbare」。根拠：Adjektiv („die unmittelbare Vernetzung“ = ohne Umwege, direkt, in gerader Richtung, augenblicklich, auf der Stelle, umgehend).",
+          "c": "不正解。「unveränderte」はこの空所の意味・搭配・文法と合いません。正解は「unmittelbare」。根拠：Adjektiv („die unmittelbare Vernetzung“ = ohne Umwege, direkt, in gerader Richtung, augenblicklich, auf der Stelle, umgehend).",
+          "d": "不正解。「verlangsamte」はこの空所の意味・搭配・文法と合いません。正解は「unmittelbare」。根拠：Adjektiv („die unmittelbare Vernetzung“ = ohne Umwege, direkt, in gerader Richtung, augenblicklich, auf der Stelle, umgehend)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -611,9 +611,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】rückt\n\n【解説】\nFeststehende Wendung („in greifbare Nähe rücken“ = etwas dauert nicht mehr lange, etwas ist [sehr] bald erreicht/fertig).",
         "german": "Feststehende Wendung („in greifbare Nähe rücken“ = etwas dauert nicht mehr lange, etwas ist [sehr] bald erreicht/fertig).",
         "wrong": {
-          "a": "「schafft」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「bringt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「erreicht」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「schafft」はこの空所の意味・搭配・文法と合いません。正解は「rückt」。根拠：Feststehende Wendung („in greifbare Nähe rücken“ = etwas dauert nicht mehr lange, etwas ist [sehr] bald erreicht/fertig).",
+          "b": "不正解。「bringt」はこの空所の意味・搭配・文法と合いません。正解は「rückt」。根拠：Feststehende Wendung („in greifbare Nähe rücken“ = etwas dauert nicht mehr lange, etwas ist [sehr] bald erreicht/fertig).",
+          "d": "不正解。「erreicht」はこの空所の意味・搭配・文法と合いません。正解は「rückt」。根拠：Feststehende Wendung („in greifbare Nähe rücken“ = etwas dauert nicht mehr lange, etwas ist [sehr] bald erreicht/fertig)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -646,9 +646,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】einige weitere\n\n【解説】\nIndefinitpronomen + Adjektiv, Plural („einige weitere Voraussetzungen“ = einige andere Voraussetzungen).",
         "german": "Indefinitpronomen + Adjektiv, Plural („einige weitere Voraussetzungen“ = einige andere Voraussetzungen).",
         "wrong": {
-          "b": "「einige weiteren」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「einigen weitere」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「einigen weiteren」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「einige weiteren」はこの空所の意味・搭配・文法と合いません。正解は「einige weitere」。根拠：Indefinitpronomen + Adjektiv, Plural („einige weitere Voraussetzungen“ = einige andere Voraussetzungen).",
+          "c": "不正解。「einigen weitere」はこの空所の意味・搭配・文法と合いません。正解は「einige weitere」。根拠：Indefinitpronomen + Adjektiv, Plural („einige weitere Voraussetzungen“ = einige andere Voraussetzungen).",
+          "d": "不正解。「einigen weiteren」はこの空所の意味・搭配・文法と合いません。正解は「einige weitere」。根拠：Indefinitpronomen + Adjektiv, Plural („einige weitere Voraussetzungen“ = einige andere Voraussetzungen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -681,9 +681,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】geschaffen\n\n【解説】\nNomen-Verb-Verbindung („die Voraussetzung schaffen“ = die Möglichkeit geben, damit etwas anderes gelingen/erreicht werden kann).",
         "german": "Nomen-Verb-Verbindung („die Voraussetzung schaffen“ = die Möglichkeit geben, damit etwas anderes gelingen/erreicht werden kann).",
         "wrong": {
-          "b": "「verursacht」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「unterlassen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「angefertigt」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「verursacht」はこの空所の意味・搭配・文法と合いません。正解は「geschaffen」。根拠：Nomen-Verb-Verbindung („die Voraussetzung schaffen“ = die Möglichkeit geben, damit etwas anderes gelingen/erreicht werden kann).",
+          "c": "不正解。「unterlassen」はこの空所の意味・搭配・文法と合いません。正解は「geschaffen」。根拠：Nomen-Verb-Verbindung („die Voraussetzung schaffen“ = die Möglichkeit geben, damit etwas anderes gelingen/erreicht werden kann).",
+          "d": "不正解。「angefertigt」はこの空所の意味・搭配・文法と合いません。正解は「geschaffen」。根拠：Nomen-Verb-Verbindung („die Voraussetzung schaffen“ = die Möglichkeit geben, damit etwas anderes gelingen/erreicht werden kann)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -716,9 +716,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】zwingend\n\n【解説】\nFeststehende Wendung („zwingend erforderlich“ = dringend erforderlich/notwendig, unerlässlich, unbedingt nötig sein).",
         "german": "Feststehende Wendung („zwingend erforderlich“ = dringend erforderlich/notwendig, unerlässlich, unbedingt nötig sein).",
         "wrong": {
-          "b": "「verbindlich」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「unzweifelhaft」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「abhängig」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「verbindlich」はこの空所の意味・搭配・文法と合いません。正解は「zwingend」。根拠：Feststehende Wendung („zwingend erforderlich“ = dringend erforderlich/notwendig, unerlässlich, unbedingt nötig sein).",
+          "c": "不正解。「unzweifelhaft」はこの空所の意味・搭配・文法と合いません。正解は「zwingend」。根拠：Feststehende Wendung („zwingend erforderlich“ = dringend erforderlich/notwendig, unerlässlich, unbedingt nötig sein).",
+          "d": "不正解。「abhängig」はこの空所の意味・搭配・文法と合いません。正解は「zwingend」。根拠：Feststehende Wendung („zwingend erforderlich“ = dringend erforderlich/notwendig, unerlässlich, unbedingt nötig sein)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -751,9 +751,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】Jedoch\n\n【解説】\nAdverb, Konjunktion, adversativ („Jedoch wachsen zeitgleich...“ = allerdings, aber, hingegen, dagegen, demgegenüber, wogegen, wohingegen).",
         "german": "Adverb, Konjunktion, adversativ („Jedoch wachsen zeitgleich...“ = allerdings, aber, hingegen, dagegen, demgegenüber, wogegen, wohingegen).",
         "wrong": {
-          "a": "「Obwohl」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Insofern」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Stattdessen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Obwohl」はこの空所の意味・搭配・文法と合いません。正解は「Jedoch」。根拠：Adverb, Konjunktion, adversativ („Jedoch wachsen zeitgleich...“ = allerdings, aber, hingegen, dagegen, demgegenüber, wogegen, wohingegen).",
+          "b": "不正解。「Insofern」はこの空所の意味・搭配・文法と合いません。正解は「Jedoch」。根拠：Adverb, Konjunktion, adversativ („Jedoch wachsen zeitgleich...“ = allerdings, aber, hingegen, dagegen, demgegenüber, wogegen, wohingegen).",
+          "d": "不正解。「Stattdessen」はこの空所の意味・搭配・文法と合いません。正解は「Jedoch」。根拠：Adverb, Konjunktion, adversativ („Jedoch wachsen zeitgleich...“ = allerdings, aber, hingegen, dagegen, demgegenüber, wogegen, wohingegen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -786,9 +786,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】kaum\n\n【解説】\nAdverb („kaum erforschte Mobilfunkstrahlen“ = fast [gar/überhaupt] nicht, so gut wie nicht, zu wenig, sehr wenig).",
         "german": "Adverb („kaum erforschte Mobilfunkstrahlen“ = fast [gar/überhaupt] nicht, so gut wie nicht, zu wenig, sehr wenig).",
         "wrong": {
-          "a": "「nahezu」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「beinahe」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「fast」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「nahezu」はこの空所の意味・搭配・文法と合いません。正解は「kaum」。根拠：Adverb („kaum erforschte Mobilfunkstrahlen“ = fast [gar/überhaupt] nicht, so gut wie nicht, zu wenig, sehr wenig).",
+          "b": "不正解。「beinahe」はこの空所の意味・搭配・文法と合いません。正解は「kaum」。根拠：Adverb („kaum erforschte Mobilfunkstrahlen“ = fast [gar/überhaupt] nicht, so gut wie nicht, zu wenig, sehr wenig).",
+          "c": "不正解。「fast」はこの空所の意味・搭配・文法と合いません。正解は「kaum」。根拠：Adverb („kaum erforschte Mobilfunkstrahlen“ = fast [gar/überhaupt] nicht, so gut wie nicht, zu wenig, sehr wenig)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -821,9 +821,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】bergen\n\n【解説】\nNomen-Verb-Verbindung („ein Risiko bergen“ = etwas ist gefährlich/gefahrvoll/risikobehaftet, etwas ist mit einem Risiko verbunden).",
         "german": "Nomen-Verb-Verbindung („ein Risiko bergen“ = etwas ist gefährlich/gefahrvoll/risikobehaftet, etwas ist mit einem Risiko verbunden).",
         "wrong": {
-          "a": "「beachten」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「eingehen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「tragen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「beachten」はこの空所の意味・搭配・文法と合いません。正解は「bergen」。根拠：Nomen-Verb-Verbindung („ein Risiko bergen“ = etwas ist gefährlich/gefahrvoll/risikobehaftet, etwas ist mit einem Risiko verbunden).",
+          "b": "不正解。「eingehen」はこの空所の意味・搭配・文法と合いません。正解は「bergen」。根拠：Nomen-Verb-Verbindung („ein Risiko bergen“ = etwas ist gefährlich/gefahrvoll/risikobehaftet, etwas ist mit einem Risiko verbunden).",
+          "d": "不正解。「tragen」はこの空所の意味・搭配・文法と合いません。正解は「bergen」。根拠：Nomen-Verb-Verbindung („ein Risiko bergen“ = etwas ist gefährlich/gefahrvoll/risikobehaftet, etwas ist mit einem Risiko verbunden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -856,9 +856,9 @@ export const sb_c1_5g_mobilfunk: ExamSection = {
         "summary": "【正解】Bedenken\n\n【解説】\nNomen, Plural („die Bedenken“ = der Zweifel, der Vorbehalt, die Sorge, die Verunsicherung, die Unsicherheit).",
         "german": "Nomen, Plural („die Bedenken“ = der Zweifel, der Vorbehalt, die Sorge, die Verunsicherung, die Unsicherheit).",
         "wrong": {
-          "b": "「Ahnungen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Gedanken」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Unschlüssigkeiten」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Ahnungen」はこの空所の意味・搭配・文法と合いません。正解は「Bedenken」。根拠：Nomen, Plural („die Bedenken“ = der Zweifel, der Vorbehalt, die Sorge, die Verunsicherung, die Unsicherheit).",
+          "c": "不正解。「Gedanken」はこの空所の意味・搭配・文法と合いません。正解は「Bedenken」。根拠：Nomen, Plural („die Bedenken“ = der Zweifel, der Vorbehalt, die Sorge, die Verunsicherung, die Unsicherheit).",
+          "d": "不正解。「Unschlüssigkeiten」はこの空所の意味・搭配・文法と合いません。正解は「Bedenken」。根拠：Nomen, Plural („die Bedenken“ = der Zweifel, der Vorbehalt, die Sorge, die Verunsicherung, die Unsicherheit)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

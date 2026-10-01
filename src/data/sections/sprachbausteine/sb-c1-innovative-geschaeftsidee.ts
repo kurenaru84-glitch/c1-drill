@@ -315,9 +315,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】Derzeit\n\n【解説】\nAdverb, temporal („gegenwärtig, zum gegenwärtigen Zeitpunkt, zurzeit, aktuell“).",
         "german": "Adverb, temporal („gegenwärtig, zum gegenwärtigen Zeitpunkt, zurzeit, aktuell“).",
         "wrong": {
-          "a": "「Seinerzeit」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「In dieser Zeit」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Heutzutage」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Seinerzeit」はこの空所の意味・搭配・文法と合いません。正解は「Derzeit」。根拠：Adverb, temporal („gegenwärtig, zum gegenwärtigen Zeitpunkt, zurzeit, aktuell“).",
+          "b": "不正解。「In dieser Zeit」はこの空所の意味・搭配・文法と合いません。正解は「Derzeit」。根拠：Adverb, temporal („gegenwärtig, zum gegenwärtigen Zeitpunkt, zurzeit, aktuell“).",
+          "d": "不正解。「Heutzutage」はこの空所の意味・搭配・文法と合いません。正解は「Derzeit」。根拠：Adverb, temporal („gegenwärtig, zum gegenwärtigen Zeitpunkt, zurzeit, aktuell“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -350,9 +350,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】ausgewogener\n\n【解説】\nAdjektiv, Komparativ („ausgeglichen, balanciert, harmonisch“).",
         "german": "Adjektiv, Komparativ („ausgeglichen, balanciert, harmonisch“).",
         "wrong": {
-          "a": "「gewogener」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「eingewogener」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「abgewogener」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「gewogener」はこの空所の意味・搭配・文法と合いません。正解は「ausgewogener」。根拠：Adjektiv, Komparativ („ausgeglichen, balanciert, harmonisch“).",
+          "c": "不正解。「eingewogener」はこの空所の意味・搭配・文法と合いません。正解は「ausgewogener」。根拠：Adjektiv, Komparativ („ausgeglichen, balanciert, harmonisch“).",
+          "d": "不正解。「abgewogener」はこの空所の意味・搭配・文法と合いません。正解は「ausgewogener」。根拠：Adjektiv, Komparativ („ausgeglichen, balanciert, harmonisch“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -385,9 +385,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】zu gestalten\n\n【解説】\nVerb, zu + Infinitiv („setzte sich das Ziel, ... zu gestalten“ = einer Sache eine Form geben).",
         "german": "Verb, zu + Infinitiv („setzte sich das Ziel, ... zu gestalten“ = einer Sache eine Form geben).",
         "wrong": {
-          "a": "「zusammenzustellen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「zu schaffen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「anzulegen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「zusammenzustellen」はこの空所の意味・搭配・文法と合いません。正解は「zu gestalten」。根拠：Verb, zu + Infinitiv („setzte sich das Ziel, ... zu gestalten“ = einer Sache eine Form geben).",
+          "b": "不正解。「zu schaffen」はこの空所の意味・搭配・文法と合いません。正解は「zu gestalten」。根拠：Verb, zu + Infinitiv („setzte sich das Ziel, ... zu gestalten“ = einer Sache eine Form geben).",
+          "c": "不正解。「anzulegen」はこの空所の意味・搭配・文法と合いません。正解は「zu gestalten」。根拠：Verb, zu + Infinitiv („setzte sich das Ziel, ... zu gestalten“ = einer Sache eine Form geben)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -420,9 +420,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】spielt\n\n【解説】\nNomen-Verb-Verbindung („mit dem/einem Gedanken spielen“ = etwas in Erwägung ziehen).",
         "german": "Nomen-Verb-Verbindung („mit dem/einem Gedanken spielen“ = etwas in Erwägung ziehen).",
         "wrong": {
-          "b": "「setzt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「überlegt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「vormerkt」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「setzt」はこの空所の意味・搭配・文法と合いません。正解は「spielt」。根拠：Nomen-Verb-Verbindung („mit dem/einem Gedanken spielen“ = etwas in Erwägung ziehen).",
+          "c": "不正解。「überlegt」はこの空所の意味・搭配・文法と合いません。正解は「spielt」。根拠：Nomen-Verb-Verbindung („mit dem/einem Gedanken spielen“ = etwas in Erwägung ziehen).",
+          "d": "不正解。「vormerkt」はこの空所の意味・搭配・文法と合いません。正解は「spielt」。根拠：Nomen-Verb-Verbindung („mit dem/einem Gedanken spielen“ = etwas in Erwägung ziehen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -455,9 +455,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】wie genial\n\n【解説】\nFeststehende Wendung („...ist so simpel wie genial“ = A ist genauso stark/viel wie B).",
         "german": "Feststehende Wendung („...ist so simpel wie genial“ = A ist genauso stark/viel wie B).",
         "wrong": {
-          "b": "「als auch genial」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「sondern auch genial」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「sondern wie genial」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「als auch genial」はこの空所の意味・搭配・文法と合いません。正解は「wie genial」。根拠：Feststehende Wendung („...ist so simpel wie genial“ = A ist genauso stark/viel wie B).",
+          "c": "不正解。「sondern auch genial」はこの空所の意味・搭配・文法と合いません。正解は「wie genial」。根拠：Feststehende Wendung („...ist so simpel wie genial“ = A ist genauso stark/viel wie B).",
+          "d": "不正解。「sondern wie genial」はこの空所の意味・搭配・文法と合いません。正解は「wie genial」。根拠：Feststehende Wendung („...ist so simpel wie genial“ = A ist genauso stark/viel wie B)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -490,9 +490,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】anspricht\n\n【解説】\nTrennbares Verb („jemanden ansprechen“ = jemanden faszinieren/interessieren).",
         "german": "Trennbares Verb („jemanden ansprechen“ = jemanden faszinieren/interessieren).",
         "wrong": {
-          "a": "「abspricht」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「ausspricht」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「dafürspricht」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「abspricht」はこの空所の意味・搭配・文法と合いません。正解は「anspricht」。根拠：Trennbares Verb („jemanden ansprechen“ = jemanden faszinieren/interessieren).",
+          "c": "不正解。「ausspricht」はこの空所の意味・搭配・文法と合いません。正解は「anspricht」。根拠：Trennbares Verb („jemanden ansprechen“ = jemanden faszinieren/interessieren).",
+          "d": "不正解。「dafürspricht」はこの空所の意味・搭配・文法と合いません。正解は「anspricht」。根拠：Trennbares Verb („jemanden ansprechen“ = jemanden faszinieren/interessieren)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -525,9 +525,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】jene Zutaten\n\n【解説】\nDemonstrativpronomen, Plural („jene Zutaten“ = diese/diejenigen Zutaten).",
         "german": "Demonstrativpronomen, Plural („jene Zutaten“ = diese/diejenigen Zutaten).",
         "wrong": {
-          "a": "「jene Zutat」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「jede Zutat」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「jede Zutaten」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「jene Zutat」はこの空所の意味・搭配・文法と合いません。正解は「jene Zutaten」。根拠：Demonstrativpronomen, Plural („jene Zutaten“ = diese/diejenigen Zutaten).",
+          "b": "不正解。「jede Zutat」はこの空所の意味・搭配・文法と合いません。正解は「jene Zutaten」。根拠：Demonstrativpronomen, Plural („jene Zutaten“ = diese/diejenigen Zutaten).",
+          "d": "不正解。「jede Zutaten」はこの空所の意味・搭配・文法と合いません。正解は「jene Zutaten」。根拠：Demonstrativpronomen, Plural („jene Zutaten“ = diese/diejenigen Zutaten)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -560,9 +560,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】entfällt\n\n【解説】\nVerb („entfällt der Gang...“ = wegfallen, ausfallen, nicht mehr nötig sein).",
         "german": "Verb („entfällt der Gang...“ = wegfallen, ausfallen, nicht mehr nötig sein).",
         "wrong": {
-          "b": "「erübrigt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「streicht」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「verhindert」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「erübrigt」はこの空所の意味・搭配・文法と合いません。正解は「entfällt」。根拠：Verb („entfällt der Gang...“ = wegfallen, ausfallen, nicht mehr nötig sein).",
+          "c": "不正解。「streicht」はこの空所の意味・搭配・文法と合いません。正解は「entfällt」。根拠：Verb („entfällt der Gang...“ = wegfallen, ausfallen, nicht mehr nötig sein).",
+          "d": "不正解。「verhindert」はこの空所の意味・搭配・文法と合いません。正解は「entfällt」。根拠：Verb („entfällt der Gang...“ = wegfallen, ausfallen, nicht mehr nötig sein)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -595,9 +595,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】den anschließenden\n\n【解説】\nVerb mit Präposition + Akkusativ („konzentrieren auf + AKK“).",
         "german": "Verb mit Präposition + Akkusativ („konzentrieren auf + AKK“).",
         "wrong": {
-          "a": "「anschließenden」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「anschließend den」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「dem anschließenden」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「anschließenden」はこの空所の意味・搭配・文法と合いません。正解は「den anschließenden」。根拠：Verb mit Präposition + Akkusativ („konzentrieren auf + AKK“).",
+          "b": "不正解。「anschließend den」はこの空所の意味・搭配・文法と合いません。正解は「den anschließenden」。根拠：Verb mit Präposition + Akkusativ („konzentrieren auf + AKK“).",
+          "d": "不正解。「dem anschließenden」はこの空所の意味・搭配・文法と合いません。正解は「den anschließenden」。根拠：Verb mit Präposition + Akkusativ („konzentrieren auf + AKK“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -630,9 +630,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】zeigt\n\n【解説】\nReflexives Verb mit Präposition („(sich) zufrieden zeigen mit + DAT“).",
         "german": "Reflexives Verb mit Präposition („(sich) zufrieden zeigen mit + DAT“).",
         "wrong": {
-          "a": "「erscheint」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「erwähnt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「wirkt」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「erscheint」はこの空所の意味・搭配・文法と合いません。正解は「zeigt」。根拠：Reflexives Verb mit Präposition („(sich) zufrieden zeigen mit + DAT“).",
+          "b": "不正解。「erwähnt」はこの空所の意味・搭配・文法と合いません。正解は「zeigt」。根拠：Reflexives Verb mit Präposition („(sich) zufrieden zeigen mit + DAT“).",
+          "c": "不正解。「wirkt」はこの空所の意味・搭配・文法と合いません。正解は「zeigt」。根拠：Reflexives Verb mit Präposition („(sich) zufrieden zeigen mit + DAT“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -665,9 +665,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】einen hohen Anspruch\n\n【解説】\nNomen-Verb-Verbindung („einen hohen Anspruch stellen an + AKK“).",
         "german": "Nomen-Verb-Verbindung („einen hohen Anspruch stellen an + AKK“).",
         "wrong": {
-          "a": "「einen großen Bedarf」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「eine große Forderung」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「ein hohes Verlangen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「einen großen Bedarf」はこの空所の意味・搭配・文法と合いません。正解は「einen hohen Anspruch」。根拠：Nomen-Verb-Verbindung („einen hohen Anspruch stellen an + AKK“).",
+          "b": "不正解。「eine große Forderung」はこの空所の意味・搭配・文法と合いません。正解は「einen hohen Anspruch」。根拠：Nomen-Verb-Verbindung („einen hohen Anspruch stellen an + AKK“).",
+          "d": "不正解。「ein hohes Verlangen」はこの空所の意味・搭配・文法と合いません。正解は「einen hohen Anspruch」。根拠：Nomen-Verb-Verbindung („einen hohen Anspruch stellen an + AKK“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -700,9 +700,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】deren\n\n【解説】\nRelativpronomen, Genitiv, Plural („die Leute, ... in deren stressigem Alltag“).",
         "german": "Relativpronomen, Genitiv, Plural („die Leute, ... in deren stressigem Alltag“).",
         "wrong": {
-          "b": "「dessen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「einem」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「seinem」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「dessen」はこの空所の意味・搭配・文法と合いません。正解は「deren」。根拠：Relativpronomen, Genitiv, Plural („die Leute, ... in deren stressigem Alltag“).",
+          "c": "不正解。「einem」はこの空所の意味・搭配・文法と合いません。正解は「deren」。根拠：Relativpronomen, Genitiv, Plural („die Leute, ... in deren stressigem Alltag“).",
+          "d": "不正解。「seinem」はこの空所の意味・搭配・文法と合いません。正解は「deren」。根拠：Relativpronomen, Genitiv, Plural („die Leute, ... in deren stressigem Alltag“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -735,9 +735,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】trotz eines\n\n【解説】\nPräposition + GEN („trotz eines straffen... Zeitplans“ = obwohl es einen Zeitplan gibt).",
         "german": "Präposition + GEN („trotz eines straffen... Zeitplans“ = obwohl es einen Zeitplan gibt).",
         "wrong": {
-          "a": "「hinsichtlich eines」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「wegen eines」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「innerhalb eines」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「hinsichtlich eines」はこの空所の意味・搭配・文法と合いません。正解は「trotz eines」。根拠：Präposition + GEN („trotz eines straffen... Zeitplans“ = obwohl es einen Zeitplan gibt).",
+          "b": "不正解。「wegen eines」はこの空所の意味・搭配・文法と合いません。正解は「trotz eines」。根拠：Präposition + GEN („trotz eines straffen... Zeitplans“ = obwohl es einen Zeitplan gibt).",
+          "d": "不正解。「innerhalb eines」はこの空所の意味・搭配・文法と合いません。正解は「trotz eines」。根拠：Präposition + GEN („trotz eines straffen... Zeitplans“ = obwohl es einen Zeitplan gibt)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -770,9 +770,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】als dass\n\n【解説】\nIrrealer Folgesatz („sind zu lecker, als dass man sie nicht...“).",
         "german": "Irrealer Folgesatz („sind zu lecker, als dass man sie nicht...“).",
         "wrong": {
-          "b": "「dass」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「sodass」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「so als dass」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「dass」はこの空所の意味・搭配・文法と合いません。正解は「als dass」。根拠：Irrealer Folgesatz („sind zu lecker, als dass man sie nicht...“).",
+          "c": "不正解。「sodass」はこの空所の意味・搭配・文法と合いません。正解は「als dass」。根拠：Irrealer Folgesatz („sind zu lecker, als dass man sie nicht...“).",
+          "d": "不正解。「so als dass」はこの空所の意味・搭配・文法と合いません。正解は「als dass」。根拠：Irrealer Folgesatz („sind zu lecker, als dass man sie nicht...“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -805,9 +805,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】darunter\n\n【解説】\nPronominaladverb („darunter drei Freiberufler“ = drei von den zehn Mitarbeiter).",
         "german": "Pronominaladverb („darunter drei Freiberufler“ = drei von den zehn Mitarbeiter).",
         "wrong": {
-          "a": "「allerdings」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「vereinzelt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「zuzeiten」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「allerdings」はこの空所の意味・搭配・文法と合いません。正解は「darunter」。根拠：Pronominaladverb („darunter drei Freiberufler“ = drei von den zehn Mitarbeiter).",
+          "c": "不正解。「vereinzelt」はこの空所の意味・搭配・文法と合いません。正解は「darunter」。根拠：Pronominaladverb („darunter drei Freiberufler“ = drei von den zehn Mitarbeiter).",
+          "d": "不正解。「zuzeiten」はこの空所の意味・搭配・文法と合いません。正解は「darunter」。根拠：Pronominaladverb („darunter drei Freiberufler“ = drei von den zehn Mitarbeiter)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -840,9 +840,9 @@ export const sb_c1_innovative_geschaeftsidee: ExamSection = {
         "summary": "【正解】somit das bereits\n\n【解説】\nAdverb, instrumental („... und somit das bereits umfangreiche Sortiment...“).",
         "german": "Adverb, instrumental („... und somit das bereits umfangreiche Sortiment...“).",
         "wrong": {
-          "a": "「bereits somit das」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「bereits das somit」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「somit bereits das」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「bereits somit das」はこの空所の意味・搭配・文法と合いません。正解は「somit das bereits」。根拠：Adverb, instrumental („... und somit das bereits umfangreiche Sortiment...“).",
+          "b": "不正解。「bereits das somit」はこの空所の意味・搭配・文法と合いません。正解は「somit das bereits」。根拠：Adverb, instrumental („... und somit das bereits umfangreiche Sortiment...“).",
+          "d": "不正解。「somit bereits das」はこの空所の意味・搭配・文法と合いません。正解は「somit das bereits」。根拠：Adverb, instrumental („... und somit das bereits umfangreiche Sortiment...“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

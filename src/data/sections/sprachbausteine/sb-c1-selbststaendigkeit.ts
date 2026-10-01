@@ -315,9 +315,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】verlockend\n\n【解説】\nPartizip als Adjektiv („verlockend“ = anziehend, verlockend, attraktiv).",
         "german": "Partizip als Adjektiv („verlockend“ = anziehend, verlockend, attraktiv).",
         "wrong": {
-          "a": "「interessiert」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「fasziniert」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「unversucht」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「interessiert」はこの空所の意味・搭配・文法と合いません。正解は「verlockend」。根拠：Partizip als Adjektiv („verlockend“ = anziehend, verlockend, attraktiv).",
+          "b": "不正解。「fasziniert」はこの空所の意味・搭配・文法と合いません。正解は「verlockend」。根拠：Partizip als Adjektiv („verlockend“ = anziehend, verlockend, attraktiv).",
+          "c": "不正解。「unversucht」はこの空所の意味・搭配・文法と合いません。正解は「verlockend」。根拠：Partizip als Adjektiv („verlockend“ = anziehend, verlockend, attraktiv)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -350,9 +350,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】scheuen\n\n【解説】\nReflexives Verb mit Präposition („sich scheuen vor + DAT“ = Angst vor etwas haben / meiden).",
         "german": "Reflexives Verb mit Präposition („sich scheuen vor + DAT“ = Angst vor etwas haben / meiden).",
         "wrong": {
-          "b": "「trauen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「vermeiden」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「riskieren」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「trauen」はこの空所の意味・搭配・文法と合いません。正解は「scheuen」。根拠：Reflexives Verb mit Präposition („sich scheuen vor + DAT“ = Angst vor etwas haben / meiden).",
+          "c": "不正解。「vermeiden」はこの空所の意味・搭配・文法と合いません。正解は「scheuen」。根拠：Reflexives Verb mit Präposition („sich scheuen vor + DAT“ = Angst vor etwas haben / meiden).",
+          "d": "不正解。「riskieren」はこの空所の意味・搭配・文法と合いません。正解は「scheuen」。根拠：Reflexives Verb mit Präposition („sich scheuen vor + DAT“ = Angst vor etwas haben / meiden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -385,9 +385,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】schließlich\n\n【解説】\nAdverb, konsekutiv/begründend („schließlich“ = denn, bekanntlich).",
         "german": "Adverb, konsekutiv/begründend („schließlich“ = denn, bekanntlich).",
         "wrong": {
-          "a": "「daher」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「obwohl」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「trotzdem」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「daher」はこの空所の意味・搭配・文法と合いません。正解は「schließlich」。根拠：Adverb, konsekutiv/begründend („schließlich“ = denn, bekanntlich).",
+          "b": "不正解。「obwohl」はこの空所の意味・搭配・文法と合いません。正解は「schließlich」。根拠：Adverb, konsekutiv/begründend („schließlich“ = denn, bekanntlich).",
+          "c": "不正解。「trotzdem」はこの空所の意味・搭配・文法と合いません。正解は「schließlich」。根拠：Adverb, konsekutiv/begründend („schließlich“ = denn, bekanntlich)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -420,9 +420,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】trägt\n\n【解説】\nNomen-Verb-Verbindung („das Risiko tragen“ = die Verantwortung übernehmen).",
         "german": "Nomen-Verb-Verbindung („das Risiko tragen“ = die Verantwortung übernehmen).",
         "wrong": {
-          "a": "「besteht」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「antritt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「begeht」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「besteht」はこの空所の意味・搭配・文法と合いません。正解は「trägt」。根拠：Nomen-Verb-Verbindung („das Risiko tragen“ = die Verantwortung übernehmen).",
+          "b": "不正解。「antritt」はこの空所の意味・搭配・文法と合いません。正解は「trägt」。根拠：Nomen-Verb-Verbindung („das Risiko tragen“ = die Verantwortung übernehmen).",
+          "c": "不正解。「begeht」はこの空所の意味・搭配・文法と合いません。正解は「trägt」。根拠：Nomen-Verb-Verbindung („das Risiko tragen“ = die Verantwortung übernehmen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -455,9 +455,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】Für all jene\n\n【解説】\nFeststehende Wendung mit Dativ Plural („Für all jene, die...“).",
         "german": "Feststehende Wendung mit Dativ Plural („Für all jene, die...“).",
         "wrong": {
-          "a": "「All jene」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Alle jenen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Für alle jenen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「All jene」はこの空所の意味・搭配・文法と合いません。正解は「Für all jene」。根拠：Feststehende Wendung mit Dativ Plural („Für all jene, die...“).",
+          "c": "不正解。「Alle jenen」はこの空所の意味・搭配・文法と合いません。正解は「Für all jene」。根拠：Feststehende Wendung mit Dativ Plural („Für all jene, die...“).",
+          "d": "不正解。「Für alle jenen」はこの空所の意味・搭配・文法と合いません。正解は「Für all jene」。根拠：Feststehende Wendung mit Dativ Plural („Für all jene, die...“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -490,9 +490,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】empfiehlt\n\n【解説】\nUnpersönliches Verb („es empfiehlt sich“ = es ist ratsam).",
         "german": "Unpersönliches Verb („es empfiehlt sich“ = es ist ratsam).",
         "wrong": {
-          "b": "「bestätigt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「anvertraut」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「verbittet」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「bestätigt」はこの空所の意味・搭配・文法と合いません。正解は「empfiehlt」。根拠：Unpersönliches Verb („es empfiehlt sich“ = es ist ratsam).",
+          "c": "不正解。「anvertraut」はこの空所の意味・搭配・文法と合いません。正解は「empfiehlt」。根拠：Unpersönliches Verb („es empfiehlt sich“ = es ist ratsam).",
+          "d": "不正解。「verbittet」はこの空所の意味・搭配・文法と合いません。正解は「empfiehlt」。根拠：Unpersönliches Verb („es empfiehlt sich“ = es ist ratsam)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -525,9 +525,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】zu verkaufenden\n\n【解説】\nGerundiv (zu + Partizip I) im Genitiv („des zu verkaufenden Produktes“).",
         "german": "Gerundiv (zu + Partizip I) im Genitiv („des zu verkaufenden Produktes“).",
         "wrong": {
-          "a": "「verkaufenden」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「verkauften」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「zu verkauften」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「verkaufenden」はこの空所の意味・搭配・文法と合いません。正解は「zu verkaufenden」。根拠：Gerundiv (zu + Partizip I) im Genitiv („des zu verkaufenden Produktes“).",
+          "c": "不正解。「verkauften」はこの空所の意味・搭配・文法と合いません。正解は「zu verkaufenden」。根拠：Gerundiv (zu + Partizip I) im Genitiv („des zu verkaufenden Produktes“).",
+          "d": "不正解。「zu verkauften」はこの空所の意味・搭配・文法と合いません。正解は「zu verkaufenden」。根拠：Gerundiv (zu + Partizip I) im Genitiv („des zu verkaufenden Produktes“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -560,9 +560,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】ausfindig\n\n【解説】\nFeststehende Wendung („etwas ausfindig machen“ = ausfindig machen / entdecken).",
         "german": "Feststehende Wendung („etwas ausfindig machen“ = ausfindig machen / entdecken).",
         "wrong": {
-          "a": "「ausgesucht」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「spitzfindig」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「—」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「ausgesucht」はこの空所の意味・搭配・文法と合いません。正解は「ausfindig」。根拠：Feststehende Wendung („etwas ausfindig machen“ = ausfindig machen / entdecken).",
+          "c": "不正解。「spitzfindig」はこの空所の意味・搭配・文法と合いません。正解は「ausfindig」。根拠：Feststehende Wendung („etwas ausfindig machen“ = ausfindig machen / entdecken).",
+          "d": "不正解。「—」はこの空所の意味・搭配・文法と合いません。正解は「ausfindig」。根拠：Feststehende Wendung („etwas ausfindig machen“ = ausfindig machen / entdecken)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -595,9 +595,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】einprägsamen\n\n【解説】\nAdjektiv im Akkusativ („einen einprägsamen Namen“ = leicht zu merken).",
         "german": "Adjektiv im Akkusativ („einen einprägsamen Namen“ = leicht zu merken).",
         "wrong": {
-          "b": "「beliebigen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「gleichgültigen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「willkürlichen」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「beliebigen」はこの空所の意味・搭配・文法と合いません。正解は「einprägsamen」。根拠：Adjektiv im Akkusativ („einen einprägsamen Namen“ = leicht zu merken).",
+          "c": "不正解。「gleichgültigen」はこの空所の意味・搭配・文法と合いません。正解は「einprägsamen」。根拠：Adjektiv im Akkusativ („einen einprägsamen Namen“ = leicht zu merken).",
+          "d": "不正解。「willkürlichen」はこの空所の意味・搭配・文法と合いません。正解は「einprägsamen」。根拠：Adjektiv im Akkusativ („einen einprägsamen Namen“ = leicht zu merken)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -630,9 +630,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】geben\n\n【解説】\nNomen-Verb-Verbindung („etwas in Auftrag geben“ = jemanden beauftragen).",
         "german": "Nomen-Verb-Verbindung („etwas in Auftrag geben“ = jemanden beauftragen).",
         "wrong": {
-          "a": "「stellen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「bestellen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「erteilen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「stellen」はこの空所の意味・搭配・文法と合いません。正解は「geben」。根拠：Nomen-Verb-Verbindung („etwas in Auftrag geben“ = jemanden beauftragen).",
+          "b": "不正解。「bestellen」はこの空所の意味・搭配・文法と合いません。正解は「geben」。根拠：Nomen-Verb-Verbindung („etwas in Auftrag geben“ = jemanden beauftragen).",
+          "d": "不正解。「erteilen」はこの空所の意味・搭配・文法と合いません。正解は「geben」。根拠：Nomen-Verb-Verbindung („etwas in Auftrag geben“ = jemanden beauftragen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -665,9 +665,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】In diesem Zuge\n\n【解説】\nFeststehende Wendung („in diesem Zuge“ = bei dieser Gelegenheit / zugleich).",
         "german": "Feststehende Wendung („in diesem Zuge“ = bei dieser Gelegenheit / zugleich).",
         "wrong": {
-          "a": "「Abgesehen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「In diesen Umständen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Sonst」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Abgesehen」はこの空所の意味・搭配・文法と合いません。正解は「In diesem Zuge」。根拠：Feststehende Wendung („in diesem Zuge“ = bei dieser Gelegenheit / zugleich).",
+          "b": "不正解。「In diesen Umständen」はこの空所の意味・搭配・文法と合いません。正解は「In diesem Zuge」。根拠：Feststehende Wendung („in diesem Zuge“ = bei dieser Gelegenheit / zugleich).",
+          "c": "不正解。「Sonst」はこの空所の意味・搭配・文法と合いません。正解は「In diesem Zuge」。根拠：Feststehende Wendung („in diesem Zuge“ = bei dieser Gelegenheit / zugleich)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -700,9 +700,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】Im Anschluss\n\n【解説】\nTemporaladverb („Im Anschluss“ = danach, anschließend).",
         "german": "Temporaladverb („Im Anschluss“ = danach, anschließend).",
         "wrong": {
-          "b": "「Im Gegensatz dazu」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Gelegentlich」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Hingegen」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Im Gegensatz dazu」はこの空所の意味・搭配・文法と合いません。正解は「Im Anschluss」。根拠：Temporaladverb („Im Anschluss“ = danach, anschließend).",
+          "c": "不正解。「Gelegentlich」はこの空所の意味・搭配・文法と合いません。正解は「Im Anschluss」。根拠：Temporaladverb („Im Anschluss“ = danach, anschließend).",
+          "d": "不正解。「Hingegen」はこの空所の意味・搭配・文法と合いません。正解は「Im Anschluss」。根拠：Temporaladverb („Im Anschluss“ = danach, anschließend)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -735,9 +735,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】Je\n\n【解説】\nFeststehende Wendung („Je nach + DAT“ = abhängig von).",
         "german": "Feststehende Wendung („Je nach + DAT“ = abhängig von).",
         "wrong": {
-          "a": "「Sowohl」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Nicht nur」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Jeweils」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Sowohl」はこの空所の意味・搭配・文法と合いません。正解は「Je」。根拠：Feststehende Wendung („Je nach + DAT“ = abhängig von).",
+          "c": "不正解。「Nicht nur」はこの空所の意味・搭配・文法と合いません。正解は「Je」。根拠：Feststehende Wendung („Je nach + DAT“ = abhängig von).",
+          "d": "不正解。「Jeweils」はこの空所の意味・搭配・文法と合いません。正解は「Je」。根拠：Feststehende Wendung („Je nach + DAT“ = abhängig von)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -770,9 +770,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】empfehlenswert\n\n【解説】\nPrädikatives Adjektiv („es ist empfehlenswert“ = es ist ratsam).",
         "german": "Prädikatives Adjektiv („es ist empfehlenswert“ = es ist ratsam).",
         "wrong": {
-          "a": "「beachtenswert」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「verurteilenswert」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「bemerkenswert」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「beachtenswert」はこの空所の意味・搭配・文法と合いません。正解は「empfehlenswert」。根拠：Prädikatives Adjektiv („es ist empfehlenswert“ = es ist ratsam).",
+          "c": "不正解。「verurteilenswert」はこの空所の意味・搭配・文法と合いません。正解は「empfehlenswert」。根拠：Prädikatives Adjektiv („es ist empfehlenswert“ = es ist ratsam).",
+          "d": "不正解。「bemerkenswert」はこの空所の意味・搭配・文法と合いません。正解は「empfehlenswert」。根拠：Prädikatives Adjektiv („es ist empfehlenswert“ = es ist ratsam)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -805,9 +805,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】geschäftlichen\n\n【解説】\nDekliniertes Adjektiv im Dativ Plural nach Präposition „von“.",
         "german": "Dekliniertes Adjektiv im Dativ Plural nach Präposition „von“.",
         "wrong": {
-          "a": "「geschäftliche」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「geschäftlicher」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「geschäftlichem」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「geschäftliche」はこの空所の意味・搭配・文法と合いません。正解は「geschäftlichen」。根拠：Dekliniertes Adjektiv im Dativ Plural nach Präposition „von“.",
+          "b": "不正解。「geschäftlicher」はこの空所の意味・搭配・文法と合いません。正解は「geschäftlichen」。根拠：Dekliniertes Adjektiv im Dativ Plural nach Präposition „von“.",
+          "d": "不正解。「geschäftlichem」はこの空所の意味・搭配・文法と合いません。正解は「geschäftlichen」。根拠：Dekliniertes Adjektiv im Dativ Plural nach Präposition „von“."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -840,9 +840,9 @@ export const sb_c1_selbststaendigkeit: ExamSection = {
         "summary": "【正解】ein Vielfaches\n\n【解説】\nFeststehende Wendung („um ein Vielfaches erleichtert“ = um ein Mehrfaches / sehr viel).",
         "german": "Feststehende Wendung („um ein Vielfaches erleichtert“ = um ein Mehrfaches / sehr viel).",
         "wrong": {
-          "a": "「eine Vielzahl」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「ein Vielzähliges」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「eine Vielfache」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「eine Vielzahl」はこの空所の意味・搭配・文法と合いません。正解は「ein Vielfaches」。根拠：Feststehende Wendung („um ein Vielfaches erleichtert“ = um ein Mehrfaches / sehr viel).",
+          "b": "不正解。「ein Vielzähliges」はこの空所の意味・搭配・文法と合いません。正解は「ein Vielfaches」。根拠：Feststehende Wendung („um ein Vielfaches erleichtert“ = um ein Mehrfaches / sehr viel).",
+          "c": "不正解。「eine Vielfache」はこの空所の意味・搭配・文法と合いません。正解は「ein Vielfaches」。根拠：Feststehende Wendung („um ein Vielfaches erleichtert“ = um ein Mehrfaches / sehr viel)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

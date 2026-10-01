@@ -283,9 +283,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】bestimmte\n\n【解説】\nAdjektiv, Feststehende Wendung („bestimmte Verhaltensweisen“ = gewisse Verhaltensweisen).",
         "german": "Adjektiv, Feststehende Wendung („bestimmte Verhaltensweisen“ = gewisse Verhaltensweisen).",
         "wrong": {
-          "a": "「sicherlich」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「garantierte」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「unter Umständen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「sicherlich」はこの空所の意味・搭配・文法と合いません。正解は「bestimmte」。根拠：Adjektiv, Feststehende Wendung („bestimmte Verhaltensweisen“ = gewisse Verhaltensweisen).",
+          "b": "不正解。「garantierte」はこの空所の意味・搭配・文法と合いません。正解は「bestimmte」。根拠：Adjektiv, Feststehende Wendung („bestimmte Verhaltensweisen“ = gewisse Verhaltensweisen).",
+          "c": "不正解。「unter Umständen」はこの空所の意味・搭配・文法と合いません。正解は「bestimmte」。根拠：Adjektiv, Feststehende Wendung („bestimmte Verhaltensweisen“ = gewisse Verhaltensweisen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -318,9 +318,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】unter denen\n\n【解説】\nRelativsatz, Verb + Präposition, Plural („leiden unter + DAT“ = beschädigt/negativ beeinflusst werden).",
         "german": "Relativsatz, Verb + Präposition, Plural („leiden unter + DAT“ = beschädigt/negativ beeinflusst werden).",
         "wrong": {
-          "a": "「durch die」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「durch denen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「unter der」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「durch die」はこの空所の意味・搭配・文法と合いません。正解は「unter denen」。根拠：Relativsatz, Verb + Präposition, Plural („leiden unter + DAT“ = beschädigt/negativ beeinflusst werden).",
+          "b": "不正解。「durch denen」はこの空所の意味・搭配・文法と合いません。正解は「unter denen」。根拠：Relativsatz, Verb + Präposition, Plural („leiden unter + DAT“ = beschädigt/negativ beeinflusst werden).",
+          "c": "不正解。「unter der」はこの空所の意味・搭配・文法と合いません。正解は「unter denen」。根拠：Relativsatz, Verb + Präposition, Plural („leiden unter + DAT“ = beschädigt/negativ beeinflusst werden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -353,9 +353,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】tragen\n\n【解説】\nNomen-Verb-Verbindung + Präposition („Sorge tragen für + AKK“ = (sich) kümmern um + AKK).",
         "german": "Nomen-Verb-Verbindung + Präposition („Sorge tragen für + AKK“ = (sich) kümmern um + AKK).",
         "wrong": {
-          "a": "「nehmen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「bemühen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「einzubringen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「nehmen」はこの空所の意味・搭配・文法と合いません。正解は「tragen」。根拠：Nomen-Verb-Verbindung + Präposition („Sorge tragen für + AKK“ = (sich) kümmern um + AKK).",
+          "c": "不正解。「bemühen」はこの空所の意味・搭配・文法と合いません。正解は「tragen」。根拠：Nomen-Verb-Verbindung + Präposition („Sorge tragen für + AKK“ = (sich) kümmern um + AKK).",
+          "d": "不正解。「einzubringen」はこの空所の意味・搭配・文法と合いません。正解は「tragen」。根拠：Nomen-Verb-Verbindung + Präposition („Sorge tragen für + AKK“ = (sich) kümmern um + AKK)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -388,9 +388,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】geboten\n\n【解説】\nFeststehende Wendung („ist... geboten“ = etwas ist notwendig/erforderlich).",
         "german": "Feststehende Wendung („ist... geboten“ = etwas ist notwendig/erforderlich).",
         "wrong": {
-          "b": "「befohlen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「gesucht」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「bedingt」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「befohlen」はこの空所の意味・搭配・文法と合いません。正解は「geboten」。根拠：Feststehende Wendung („ist... geboten“ = etwas ist notwendig/erforderlich).",
+          "c": "不正解。「gesucht」はこの空所の意味・搭配・文法と合いません。正解は「geboten」。根拠：Feststehende Wendung („ist... geboten“ = etwas ist notwendig/erforderlich).",
+          "d": "不正解。「bedingt」はこの空所の意味・搭配・文法と合いません。正解は「geboten」。根拠：Feststehende Wendung („ist... geboten“ = etwas ist notwendig/erforderlich)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -423,9 +423,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】sodass\n\n【解説】\nSubjunktion, Konsekutivsatz („sodass“ = mit dem Ziel/Ergebnis, dass...).",
         "german": "Subjunktion, Konsekutivsatz („sodass“ = mit dem Ziel/Ergebnis, dass...).",
         "wrong": {
-          "a": "「indem」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「da sonst」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「dadurch, dass」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「indem」はこの空所の意味・搭配・文法と合いません。正解は「sodass」。根拠：Subjunktion, Konsekutivsatz („sodass“ = mit dem Ziel/Ergebnis, dass...).",
+          "c": "不正解。「da sonst」はこの空所の意味・搭配・文法と合いません。正解は「sodass」。根拠：Subjunktion, Konsekutivsatz („sodass“ = mit dem Ziel/Ergebnis, dass...).",
+          "d": "不正解。「dadurch, dass」はこの空所の意味・搭配・文法と合いません。正解は「sodass」。根拠：Subjunktion, Konsekutivsatz („sodass“ = mit dem Ziel/Ergebnis, dass...)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -458,9 +458,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】unterlassen\n\n【解説】\nVerb („etwas unterlassen“ = etwas vermeiden, etwas nicht tun).",
         "german": "Verb („etwas unterlassen“ = etwas vermeiden, etwas nicht tun).",
         "wrong": {
-          "a": "「verhüten」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「verhindern」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「umgehen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「verhüten」はこの空所の意味・搭配・文法と合いません。正解は「unterlassen」。根拠：Verb („etwas unterlassen“ = etwas vermeiden, etwas nicht tun).",
+          "b": "不正解。「verhindern」はこの空所の意味・搭配・文法と合いません。正解は「unterlassen」。根拠：Verb („etwas unterlassen“ = etwas vermeiden, etwas nicht tun).",
+          "c": "不正解。「umgehen」はこの空所の意味・搭配・文法と合いません。正解は「unterlassen」。根拠：Verb („etwas unterlassen“ = etwas vermeiden, etwas nicht tun)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -493,9 +493,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】abgestellt werden darf\n\n【解説】\nPartizip II + werden + Modalverb „dürfen“ („Man darf keinen Müll abstellen“).",
         "german": "Partizip II + werden + Modalverb „dürfen“ („Man darf keinen Müll abstellen“).",
         "wrong": {
-          "a": "「abgestellt zu werden」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「abstellen sein wird」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「abstellen werden darf」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「abgestellt zu werden」はこの空所の意味・搭配・文法と合いません。正解は「abgestellt werden darf」。根拠：Partizip II + werden + Modalverb „dürfen“ („Man darf keinen Müll abstellen“).",
+          "b": "不正解。「abstellen sein wird」はこの空所の意味・搭配・文法と合いません。正解は「abgestellt werden darf」。根拠：Partizip II + werden + Modalverb „dürfen“ („Man darf keinen Müll abstellen“).",
+          "d": "不正解。「abstellen werden darf」はこの空所の意味・搭配・文法と合いません。正解は「abgestellt werden darf」。根拠：Partizip II + werden + Modalverb „dürfen“ („Man darf keinen Müll abstellen“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -528,9 +528,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】damit verbundene\n\n【解説】\nVerb mit Präposition („verbinden mit + DAT“ = A und B sind miteinander verbunden).",
         "german": "Verb mit Präposition („verbinden mit + DAT“ = A und B sind miteinander verbunden).",
         "wrong": {
-          "b": "「dadurch entwickelte」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「davon verursachte」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「dazu entstandene」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「dadurch entwickelte」はこの空所の意味・搭配・文法と合いません。正解は「damit verbundene」。根拠：Verb mit Präposition („verbinden mit + DAT“ = A und B sind miteinander verbunden).",
+          "c": "不正解。「davon verursachte」はこの空所の意味・搭配・文法と合いません。正解は「damit verbundene」。根拠：Verb mit Präposition („verbinden mit + DAT“ = A und B sind miteinander verbunden).",
+          "d": "不正解。「dazu entstandene」はこの空所の意味・搭配・文法と合いません。正解は「damit verbundene」。根拠：Verb mit Präposition („verbinden mit + DAT“ = A und B sind miteinander verbunden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -563,9 +563,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】zu Lasten der\n\n【解説】\nFeststehende Wendung („zu Lasten der Verursacher“ = Verursacher haften/bezahlen dafür).",
         "german": "Feststehende Wendung („zu Lasten der Verursacher“ = Verursacher haften/bezahlen dafür).",
         "wrong": {
-          "b": "「mit Hilfe der」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「aufgrund der」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「veranlasst durch die」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「mit Hilfe der」はこの空所の意味・搭配・文法と合いません。正解は「zu Lasten der」。根拠：Feststehende Wendung („zu Lasten der Verursacher“ = Verursacher haften/bezahlen dafür).",
+          "c": "不正解。「aufgrund der」はこの空所の意味・搭配・文法と合いません。正解は「zu Lasten der」。根拠：Feststehende Wendung („zu Lasten der Verursacher“ = Verursacher haften/bezahlen dafür).",
+          "d": "不正解。「veranlasst durch die」はこの空所の意味・搭配・文法と合いません。正解は「zu Lasten der」。根拠：Feststehende Wendung („zu Lasten der Verursacher“ = Verursacher haften/bezahlen dafür)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -598,9 +598,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】erst\n\n【解説】\nAdverb, temporal („erst“ = nicht vor, nicht früher/eher als).",
         "german": "Adverb, temporal („erst“ = nicht vor, nicht früher/eher als).",
         "wrong": {
-          "a": "「schon」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「bereits」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「längst」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「schon」はこの空所の意味・搭配・文法と合いません。正解は「erst」。根拠：Adverb, temporal („erst“ = nicht vor, nicht früher/eher als).",
+          "c": "不正解。「bereits」はこの空所の意味・搭配・文法と合いません。正解は「erst」。根拠：Adverb, temporal („erst“ = nicht vor, nicht früher/eher als).",
+          "d": "不正解。「längst」はこの空所の意味・搭配・文法と合いません。正解は「erst」。根拠：Adverb, temporal („erst“ = nicht vor, nicht früher/eher als)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -633,9 +633,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】jeglicher\n\n【解説】\nIndefinitpronomen („Das Abstellen jeglicher Gegenstände“ = von allen, von jeder Art).",
         "german": "Indefinitpronomen („Das Abstellen jeglicher Gegenstände“ = von allen, von jeder Art).",
         "wrong": {
-          "a": "「von keinen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「allen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「jeder」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「von keinen」はこの空所の意味・搭配・文法と合いません。正解は「jeglicher」。根拠：Indefinitpronomen („Das Abstellen jeglicher Gegenstände“ = von allen, von jeder Art).",
+          "b": "不正解。「allen」はこの空所の意味・搭配・文法と合いません。正解は「jeglicher」。根拠：Indefinitpronomen („Das Abstellen jeglicher Gegenstände“ = von allen, von jeder Art).",
+          "d": "不正解。「jeder」はこの空所の意味・搭配・文法と合いません。正解は「jeglicher」。根拠：Indefinitpronomen („Das Abstellen jeglicher Gegenstände“ = von allen, von jeder Art)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -668,9 +668,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】Ebenfalls\n\n【解説】\nAdverb, additiv („Ebenfalls“ = auch, genauso).",
         "german": "Adverb, additiv („Ebenfalls“ = auch, genauso).",
         "wrong": {
-          "a": "「Neben」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Nebensächlich」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Gleichfalls」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Neben」はこの空所の意味・搭配・文法と合いません。正解は「Ebenfalls」。根拠：Adverb, additiv („Ebenfalls“ = auch, genauso).",
+          "b": "不正解。「Nebensächlich」はこの空所の意味・搭配・文法と合いません。正解は「Ebenfalls」。根拠：Adverb, additiv („Ebenfalls“ = auch, genauso).",
+          "d": "不正解。「Gleichfalls」はこの空所の意味・搭配・文法と合いません。正解は「Ebenfalls」。根拠：Adverb, additiv („Ebenfalls“ = auch, genauso)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -703,9 +703,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】für den\n\n【解説】\nFeststehende Wendung („für den Fall + dass... / + GEN“ = im Falle, wenn diese Situation eintritt).",
         "german": "Feststehende Wendung („für den Fall + dass... / + GEN“ = im Falle, wenn diese Situation eintritt).",
         "wrong": {
-          "b": "「in dem」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「durch den」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「aus dem」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「in dem」はこの空所の意味・搭配・文法と合いません。正解は「für den」。根拠：Feststehende Wendung („für den Fall + dass... / + GEN“ = im Falle, wenn diese Situation eintritt).",
+          "c": "不正解。「durch den」はこの空所の意味・搭配・文法と合いません。正解は「für den」。根拠：Feststehende Wendung („für den Fall + dass... / + GEN“ = im Falle, wenn diese Situation eintritt).",
+          "d": "不正解。「aus dem」はこの空所の意味・搭配・文法と合いません。正解は「für den」。根拠：Feststehende Wendung („für den Fall + dass... / + GEN“ = im Falle, wenn diese Situation eintritt)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -738,9 +738,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】einstimmig\n\n【解説】\nAdjektiv, Feststehende Wendung („einstimmig beschlossen“ = alle Menschen stimmen zu).",
         "german": "Adjektiv, Feststehende Wendung („einstimmig beschlossen“ = alle Menschen stimmen zu).",
         "wrong": {
-          "a": "「ausnahmslos」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「harmonisch」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「gleich gesinnt」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「ausnahmslos」はこの空所の意味・搭配・文法と合いません。正解は「einstimmig」。根拠：Adjektiv, Feststehende Wendung („einstimmig beschlossen“ = alle Menschen stimmen zu).",
+          "c": "不正解。「harmonisch」はこの空所の意味・搭配・文法と合いません。正解は「einstimmig」。根拠：Adjektiv, Feststehende Wendung („einstimmig beschlossen“ = alle Menschen stimmen zu).",
+          "d": "不正解。「gleich gesinnt」はこの空所の意味・搭配・文法と合いません。正解は「einstimmig」。根拠：Adjektiv, Feststehende Wendung („einstimmig beschlossen“ = alle Menschen stimmen zu)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -773,9 +773,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】aller Art\n\n【解説】\nFeststehende Wendung („mit Fahrzeugen aller Art“ = egal welches Fahrzeug, alle Fahrzeuge).",
         "german": "Feststehende Wendung („mit Fahrzeugen aller Art“ = egal welches Fahrzeug, alle Fahrzeuge).",
         "wrong": {
-          "a": "「allesamt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「durch alle Arten」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「von allen Arten」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「allesamt」はこの空所の意味・搭配・文法と合いません。正解は「aller Art」。根拠：Feststehende Wendung („mit Fahrzeugen aller Art“ = egal welches Fahrzeug, alle Fahrzeuge).",
+          "c": "不正解。「durch alle Arten」はこの空所の意味・搭配・文法と合いません。正解は「aller Art」。根拠：Feststehende Wendung („mit Fahrzeugen aller Art“ = egal welches Fahrzeug, alle Fahrzeuge).",
+          "d": "不正解。「von allen Arten」はこの空所の意味・搭配・文法と合いません。正解は「aller Art」。根拠：Feststehende Wendung („mit Fahrzeugen aller Art“ = egal welches Fahrzeug, alle Fahrzeuge)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -808,9 +808,9 @@ export const sb_c1_hausordnung: ExamSection = {
         "summary": "【正解】auf den dafür\n\n【解説】\nTrennbares Verb mit Präposition + Partizip II („etwas vorsehen für + AKK“ = auf den Flächen, die dafür bestimmt wurden).",
         "german": "Trennbares Verb mit Präposition + Partizip II („etwas vorsehen für + AKK“ = auf den Flächen, die dafür bestimmt wurden).",
         "wrong": {
-          "a": "「in den darin」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「in den daran」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「auf den dazu」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「in den darin」はこの空所の意味・搭配・文法と合いません。正解は「auf den dafür」。根拠：Trennbares Verb mit Präposition + Partizip II („etwas vorsehen für + AKK“ = auf den Flächen, die dafür bestimmt wurden).",
+          "b": "不正解。「in den daran」はこの空所の意味・搭配・文法と合いません。正解は「auf den dafür」。根拠：Trennbares Verb mit Präposition + Partizip II („etwas vorsehen für + AKK“ = auf den Flächen, die dafür bestimmt wurden).",
+          "c": "不正解。「auf den dazu」はこの空所の意味・搭配・文法と合いません。正解は「auf den dafür」。根拠：Trennbares Verb mit Präposition + Partizip II („etwas vorsehen für + AKK“ = auf den Flächen, die dafür bestimmt wurden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

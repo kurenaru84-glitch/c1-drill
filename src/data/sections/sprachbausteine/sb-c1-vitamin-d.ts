@@ -311,9 +311,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】mithilfe\n\n【解説】\nPräposition („mithilfe von + DAT“ = durch / unter dem Einsatz von).",
         "german": "Präposition („mithilfe von + DAT“ = durch / unter dem Einsatz von).",
         "wrong": {
-          "a": "「statt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「angesichts」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「mittels」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「statt」はこの空所の意味・搭配・文法と合いません。正解は「mithilfe」。根拠：Präposition („mithilfe von + DAT“ = durch / unter dem Einsatz von).",
+          "b": "不正解。「angesichts」はこの空所の意味・搭配・文法と合いません。正解は「mithilfe」。根拠：Präposition („mithilfe von + DAT“ = durch / unter dem Einsatz von).",
+          "c": "不正解。「mittels」はこの空所の意味・搭配・文法と合いません。正解は「mithilfe」。根拠：Präposition („mithilfe von + DAT“ = durch / unter dem Einsatz von)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -346,9 +346,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】aufweisen\n\n【解説】\nTrennbares Verb („etwas aufweisen“ = etwas besitzen / verfügen über).",
         "german": "Trennbares Verb („etwas aufweisen“ = etwas besitzen / verfügen über).",
         "wrong": {
-          "a": "「einweisen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「verweisen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「ausweisen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「einweisen」はこの空所の意味・搭配・文法と合いません。正解は「aufweisen」。根拠：Trennbares Verb („etwas aufweisen“ = etwas besitzen / verfügen über).",
+          "c": "不正解。「verweisen」はこの空所の意味・搭配・文法と合いません。正解は「aufweisen」。根拠：Trennbares Verb („etwas aufweisen“ = etwas besitzen / verfügen über).",
+          "d": "不正解。「ausweisen」はこの空所の意味・搭配・文法と合いません。正解は「aufweisen」。根拠：Trennbares Verb („etwas aufweisen“ = etwas besitzen / verfügen über)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -381,9 +381,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】gemeinsam mit\n\n【解説】\nFeststehende Wendung („A ist gemeinsam mit B“ = A und B zusammen).",
         "german": "Feststehende Wendung („A ist gemeinsam mit B“ = A und B zusammen).",
         "wrong": {
-          "a": "「dadurch」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「zusammen durch」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「unter anderem」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「dadurch」はこの空所の意味・搭配・文法と合いません。正解は「gemeinsam mit」。根拠：Feststehende Wendung („A ist gemeinsam mit B“ = A und B zusammen).",
+          "b": "不正解。「zusammen durch」はこの空所の意味・搭配・文法と合いません。正解は「gemeinsam mit」。根拠：Feststehende Wendung („A ist gemeinsam mit B“ = A und B zusammen).",
+          "d": "不正解。「unter anderem」はこの空所の意味・搭配・文法と合いません。正解は「gemeinsam mit」。根拠：Feststehende Wendung („A ist gemeinsam mit B“ = A und B zusammen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -416,9 +416,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】außerdem\n\n【解説】\nAdverb, additiv („zusätzlich, darüber hinaus“).",
         "german": "Adverb, additiv („zusätzlich, darüber hinaus“).",
         "wrong": {
-          "b": "「immerhin」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「jedoch」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「ungeachtet」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「immerhin」はこの空所の意味・搭配・文法と合いません。正解は「außerdem」。根拠：Adverb, additiv („zusätzlich, darüber hinaus“).",
+          "c": "不正解。「jedoch」はこの空所の意味・搭配・文法と合いません。正解は「außerdem」。根拠：Adverb, additiv („zusätzlich, darüber hinaus“).",
+          "d": "不正解。「ungeachtet」はこの空所の意味・搭配・文法と合いません。正解は「außerdem」。根拠：Adverb, additiv („zusätzlich, darüber hinaus“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -451,9 +451,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】bei\n\n【解説】\nVerb mit Präposition („beitragen zu + DAT... bei“).",
         "german": "Verb mit Präposition („beitragen zu + DAT... bei“).",
         "wrong": {
-          "a": "「zu」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「dazu」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「dabei」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「zu」はこの空所の意味・搭配・文法と合いません。正解は「bei」。根拠：Verb mit Präposition („beitragen zu + DAT... bei“).",
+          "b": "不正解。「dazu」はこの空所の意味・搭配・文法と合いません。正解は「bei」。根拠：Verb mit Präposition („beitragen zu + DAT... bei“).",
+          "d": "不正解。「dabei」はこの空所の意味・搭配・文法と合いません。正解は「bei」。根拠：Verb mit Präposition („beitragen zu + DAT... bei“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -486,9 +486,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】demnach\n\n【解説】\nPronominaladverb („folglich, dementsprechend“).",
         "german": "Pronominaladverb („folglich, dementsprechend“).",
         "wrong": {
-          "a": "「dadurch」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「infolge」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「inzwischen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「dadurch」はこの空所の意味・搭配・文法と合いません。正解は「demnach」。根拠：Pronominaladverb („folglich, dementsprechend“).",
+          "b": "不正解。「infolge」はこの空所の意味・搭配・文法と合いません。正解は「demnach」。根拠：Pronominaladverb („folglich, dementsprechend“).",
+          "d": "不正解。「inzwischen」はこの空所の意味・搭配・文法と合いません。正解は「demnach」。根拠：Pronominaladverb („folglich, dementsprechend“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -521,9 +521,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】damit\n\n【解説】\nPronominaladverb („und damit“ = und somit / folglich).",
         "german": "Pronominaladverb („und damit“ = und somit / folglich).",
         "wrong": {
-          "b": "「doch」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「dennoch」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「zumindest」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「doch」はこの空所の意味・搭配・文法と合いません。正解は「damit」。根拠：Pronominaladverb („und damit“ = und somit / folglich).",
+          "c": "不正解。「dennoch」はこの空所の意味・搭配・文法と合いません。正解は「damit」。根拠：Pronominaladverb („und damit“ = und somit / folglich).",
+          "d": "不正解。「zumindest」はこの空所の意味・搭配・文法と合いません。正解は「damit」。根拠：Pronominaladverb („und damit“ = und somit / folglich)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -556,9 +556,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】wobei\n\n【解説】\nKonnektor, adversativ („allerdings, jedoch“).",
         "german": "Konnektor, adversativ („allerdings, jedoch“).",
         "wrong": {
-          "a": "「deswegen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「sicherlich」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「trotzdem」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「deswegen」はこの空所の意味・搭配・文法と合いません。正解は「wobei」。根拠：Konnektor, adversativ („allerdings, jedoch“).",
+          "b": "不正解。「sicherlich」はこの空所の意味・搭配・文法と合いません。正解は「wobei」。根拠：Konnektor, adversativ („allerdings, jedoch“).",
+          "c": "不正解。「trotzdem」はこの空所の意味・搭配・文法と合いません。正解は「wobei」。根拠：Konnektor, adversativ („allerdings, jedoch“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -591,9 +591,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】abhängt\n\n【解説】\nVerb mit Präposition („abhängen von + DAT“).",
         "german": "Verb mit Präposition („abhängen von + DAT“).",
         "wrong": {
-          "b": "「bedingt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「voraussetzt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「erfordert」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「bedingt」はこの空所の意味・搭配・文法と合いません。正解は「abhängt」。根拠：Verb mit Präposition („abhängen von + DAT“).",
+          "c": "不正解。「voraussetzt」はこの空所の意味・搭配・文法と合いません。正解は「abhängt」。根拠：Verb mit Präposition („abhängen von + DAT“).",
+          "d": "不正解。「erfordert」はこの空所の意味・搭配・文法と合いません。正解は「abhängt」。根拠：Verb mit Präposition („abhängen von + DAT“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -626,9 +626,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】davon\n\n【解説】\nPronominaladverb („ausgehen von + DAT“).",
         "german": "Pronominaladverb („ausgehen von + DAT“).",
         "wrong": {
-          "b": "「dafür」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「davor」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「daran」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「dafür」はこの空所の意味・搭配・文法と合いません。正解は「davon」。根拠：Pronominaladverb („ausgehen von + DAT“).",
+          "c": "不正解。「davor」はこの空所の意味・搭配・文法と合いません。正解は「davon」。根拠：Pronominaladverb („ausgehen von + DAT“).",
+          "d": "不正解。「daran」はこの空所の意味・搭配・文法と合いません。正解は「davon」。根拠：Pronominaladverb („ausgehen von + DAT“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -661,9 +661,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】als dass\n\n【解説】\nIrrealer Folgesatz („nicht genügen, als dass...“).",
         "german": "Irrealer Folgesatz („nicht genügen, als dass...“).",
         "wrong": {
-          "a": "「dass」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「sodass」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「als ob」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「dass」はこの空所の意味・搭配・文法と合いません。正解は「als dass」。根拠：Irrealer Folgesatz („nicht genügen, als dass...“).",
+          "b": "不正解。「sodass」はこの空所の意味・搭配・文法と合いません。正解は「als dass」。根拠：Irrealer Folgesatz („nicht genügen, als dass...“).",
+          "c": "不正解。「als ob」はこの空所の意味・搭配・文法と合いません。正解は「als dass」。根拠：Irrealer Folgesatz („nicht genügen, als dass...“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -696,9 +696,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】gedeckt\n\n【解説】\nNomen-Verb-Verbindung („eine Versorgung / einen Bedarf decken“).",
         "german": "Nomen-Verb-Verbindung („eine Versorgung / einen Bedarf decken“).",
         "wrong": {
-          "a": "「bereichert」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「erwünscht」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「vergeben」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「bereichert」はこの空所の意味・搭配・文法と合いません。正解は「gedeckt」。根拠：Nomen-Verb-Verbindung („eine Versorgung / einen Bedarf decken“).",
+          "b": "不正解。「erwünscht」はこの空所の意味・搭配・文法と合いません。正解は「gedeckt」。根拠：Nomen-Verb-Verbindung („eine Versorgung / einen Bedarf decken“).",
+          "d": "不正解。「vergeben」はこの空所の意味・搭配・文法と合いません。正解は「gedeckt」。根拠：Nomen-Verb-Verbindung („eine Versorgung / einen Bedarf decken“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -731,9 +731,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】zugeführt\n\n【解説】\nTrennbares Verb („dem Körper etwas zuführen“).",
         "german": "Trennbares Verb („dem Körper etwas zuführen“).",
         "wrong": {
-          "a": "「zugestellt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「zugeteilt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「zugenommen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「zugestellt」はこの空所の意味・搭配・文法と合いません。正解は「zugeführt」。根拠：Trennbares Verb („dem Körper etwas zuführen“).",
+          "c": "不正解。「zugeteilt」はこの空所の意味・搭配・文法と合いません。正解は「zugeführt」。根拠：Trennbares Verb („dem Körper etwas zuführen“).",
+          "d": "不正解。「zugenommen」はこの空所の意味・搭配・文法と合いません。正解は「zugeführt」。根拠：Trennbares Verb („dem Körper etwas zuführen“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -766,9 +766,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】Beständig\n\n【解説】\nAdjektiv/Adverb („beständig“ = ständig, dauernd, durchgehend).",
         "german": "Adjektiv/Adverb („beständig“ = ständig, dauernd, durchgehend).",
         "wrong": {
-          "b": "「Jederzeit」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Dauerhaft」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Unregelmäßig」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Jederzeit」はこの空所の意味・搭配・文法と合いません。正解は「Beständig」。根拠：Adjektiv/Adverb („beständig“ = ständig, dauernd, durchgehend).",
+          "c": "不正解。「Dauerhaft」はこの空所の意味・搭配・文法と合いません。正解は「Beständig」。根拠：Adjektiv/Adverb („beständig“ = ständig, dauernd, durchgehend).",
+          "d": "不正解。「Unregelmäßig」はこの空所の意味・搭配・文法と合いません。正解は「Beständig」。根拠：Adjektiv/Adverb („beständig“ = ständig, dauernd, durchgehend)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -801,9 +801,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】einzunehmen\n\n【解説】\nTrennbares Verb („Medikamente/Präparate einnehmen“).",
         "german": "Trennbares Verb („Medikamente/Präparate einnehmen“).",
         "wrong": {
-          "b": "「zuzunehmen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「einzugeben」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「zuzugeben」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「zuzunehmen」はこの空所の意味・搭配・文法と合いません。正解は「einzunehmen」。根拠：Trennbares Verb („Medikamente/Präparate einnehmen“).",
+          "c": "不正解。「einzugeben」はこの空所の意味・搭配・文法と合いません。正解は「einzunehmen」。根拠：Trennbares Verb („Medikamente/Präparate einnehmen“).",
+          "d": "不正解。「zuzugeben」はこの空所の意味・搭配・文法と合いません。正解は「einzunehmen」。根拠：Trennbares Verb („Medikamente/Präparate einnehmen“)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -836,9 +836,9 @@ export const sb_c1_vitamin_d: ExamSection = {
         "summary": "【正解】ohne jemals zuvor\n\n【解説】\nFeststehende Wendung + Infinitiv mit zu.",
         "german": "Feststehende Wendung + Infinitiv mit zu.",
         "wrong": {
-          "a": "「statt jemals zuvor」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「statt dass jemals」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「ohne dass jemals」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「statt jemals zuvor」はこの空所の意味・搭配・文法と合いません。正解は「ohne jemals zuvor」。根拠：Feststehende Wendung + Infinitiv mit zu.",
+          "b": "不正解。「statt dass jemals」はこの空所の意味・搭配・文法と合いません。正解は「ohne jemals zuvor」。根拠：Feststehende Wendung + Infinitiv mit zu.",
+          "d": "不正解。「ohne dass jemals」はこの空所の意味・搭配・文法と合いません。正解は「ohne jemals zuvor」。根拠：Feststehende Wendung + Infinitiv mit zu."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

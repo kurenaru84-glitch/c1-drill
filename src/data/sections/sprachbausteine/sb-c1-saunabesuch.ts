@@ -223,9 +223,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】wohltuend\n\n【解説】\nAdjektiv („wohltuend“ = angenehm, dem Wohlbefinden förderlich).",
         "german": "Adjektiv („wohltuend“ = angenehm, dem Wohlbefinden förderlich).",
         "wrong": {
-          "b": "「wohltätig」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「wohlgesinnt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「wohlwollend」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「wohltätig」はこの空所の意味・搭配・文法と合いません。正解は「wohltuend」。根拠：Adjektiv („wohltuend“ = angenehm, dem Wohlbefinden förderlich).",
+          "c": "不正解。「wohlgesinnt」はこの空所の意味・搭配・文法と合いません。正解は「wohltuend」。根拠：Adjektiv („wohltuend“ = angenehm, dem Wohlbefinden förderlich).",
+          "d": "不正解。「wohlwollend」はこの空所の意味・搭配・文法と合いません。正解は「wohltuend」。根拠：Adjektiv („wohltuend“ = angenehm, dem Wohlbefinden förderlich)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -258,9 +258,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】ermöglicht\n\n【解説】\nVerb („etwas ermöglichen“ = eine Voraussetzung schaffen, dass etwas geschehen kann).",
         "german": "Verb („etwas ermöglichen“ = eine Voraussetzung schaffen, dass etwas geschehen kann).",
         "wrong": {
-          "a": "「bereichert」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「fördert」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「bewirkt」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「bereichert」はこの空所の意味・搭配・文法と合いません。正解は「ermöglicht」。根拠：Verb („etwas ermöglichen“ = eine Voraussetzung schaffen, dass etwas geschehen kann).",
+          "b": "不正解。「fördert」はこの空所の意味・搭配・文法と合いません。正解は「ermöglicht」。根拠：Verb („etwas ermöglichen“ = eine Voraussetzung schaffen, dass etwas geschehen kann).",
+          "d": "不正解。「bewirkt」はこの空所の意味・搭配・文法と合いません。正解は「ermöglicht」。根拠：Verb („etwas ermöglichen“ = eine Voraussetzung schaffen, dass etwas geschehen kann)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -293,9 +293,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】kürzester\n\n【解説】\nFeststehende Wendung im Superlativ („innerhalb kürzester Zeit“ = sehr schnell, in minimaler Zeit).",
         "german": "Feststehende Wendung im Superlativ („innerhalb kürzester Zeit“ = sehr schnell, in minimaler Zeit).",
         "wrong": {
-          "b": "「kurzer」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「kürzerer」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「gekürzter」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「kurzer」はこの空所の意味・搭配・文法と合いません。正解は「kürzester」。根拠：Feststehende Wendung im Superlativ („innerhalb kürzester Zeit“ = sehr schnell, in minimaler Zeit).",
+          "c": "不正解。「kürzerer」はこの空所の意味・搭配・文法と合いません。正解は「kürzester」。根拠：Feststehende Wendung im Superlativ („innerhalb kürzester Zeit“ = sehr schnell, in minimaler Zeit).",
+          "d": "不正解。「gekürzter」はこの空所の意味・搭配・文法と合いません。正解は「kürzester」。根拠：Feststehende Wendung im Superlativ („innerhalb kürzester Zeit“ = sehr schnell, in minimaler Zeit)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -328,9 +328,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】belegen\n\n【解説】\nVerb („etwas belegen“ = durch Studien/Beweise nachweisen).",
         "german": "Verb („etwas belegen“ = durch Studien/Beweise nachweisen).",
         "wrong": {
-          "a": "「erklären」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「verdeutlichen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「erweisen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「erklären」はこの空所の意味・搭配・文法と合いません。正解は「belegen」。根拠：Verb („etwas belegen“ = durch Studien/Beweise nachweisen).",
+          "b": "不正解。「verdeutlichen」はこの空所の意味・搭配・文法と合いません。正解は「belegen」。根拠：Verb („etwas belegen“ = durch Studien/Beweise nachweisen).",
+          "d": "不正解。「erweisen」はこの空所の意味・搭配・文法と合いません。正解は「belegen」。根拠：Verb („etwas belegen“ = durch Studien/Beweise nachweisen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -363,9 +363,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】sodass\n\n【解説】\nKonsekutiver Konnektor („sodass“ = mit der Folge, dass).",
         "german": "Konsekutiver Konnektor („sodass“ = mit der Folge, dass).",
         "wrong": {
-          "a": "「während」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「obwohl」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「nachdem」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「während」はこの空所の意味・搭配・文法と合いません。正解は「sodass」。根拠：Konsekutiver Konnektor („sodass“ = mit der Folge, dass).",
+          "b": "不正解。「obwohl」はこの空所の意味・搭配・文法と合いません。正解は「sodass」。根拠：Konsekutiver Konnektor („sodass“ = mit der Folge, dass).",
+          "d": "不正解。「nachdem」はこの空所の意味・搭配・文法と合いません。正解は「sodass」。根拠：Konsekutiver Konnektor („sodass“ = mit der Folge, dass)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -398,9 +398,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】ausgleichen\n\n【解説】\nTrennbares Verb („etwas ausgleichen“ = Unterschiede oder Schwankungen in Balance bringen).",
         "german": "Trennbares Verb („etwas ausgleichen“ = Unterschiede oder Schwankungen in Balance bringen).",
         "wrong": {
-          "b": "「abgleichen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「vergleichen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「angleichen」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「abgleichen」はこの空所の意味・搭配・文法と合いません。正解は「ausgleichen」。根拠：Trennbares Verb („etwas ausgleichen“ = Unterschiede oder Schwankungen in Balance bringen).",
+          "c": "不正解。「vergleichen」はこの空所の意味・搭配・文法と合いません。正解は「ausgleichen」。根拠：Trennbares Verb („etwas ausgleichen“ = Unterschiede oder Schwankungen in Balance bringen).",
+          "d": "不正解。「angleichen」はこの空所の意味・搭配・文法と合いません。正解は「ausgleichen」。根拠：Trennbares Verb („etwas ausgleichen“ = Unterschiede oder Schwankungen in Balance bringen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -433,9 +433,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】sogar\n\n【解説】\nGradpartikel („sogar“ = selbst, entgegen der Erwartung noch steigernd).",
         "german": "Gradpartikel („sogar“ = selbst, entgegen der Erwartung noch steigernd).",
         "wrong": {
-          "a": "「bereits」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「weiterhin」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「vielmehr」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「bereits」はこの空所の意味・搭配・文法と合いません。正解は「sogar」。根拠：Gradpartikel („sogar“ = selbst, entgegen der Erwartung noch steigernd).",
+          "b": "不正解。「weiterhin」はこの空所の意味・搭配・文法と合いません。正解は「sogar」。根拠：Gradpartikel („sogar“ = selbst, entgegen der Erwartung noch steigernd).",
+          "c": "不正解。「vielmehr」はこの空所の意味・搭配・文法と合いません。正解は「sogar」。根拠：Gradpartikel („sogar“ = selbst, entgegen der Erwartung noch steigernd)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -468,9 +468,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】nehmen\n\n【解説】\nNomen-Verb-Verbindung („etwas auf die leichte Schulter nehmen“ = etwas zu leicht nehmen / unterschätzen).",
         "german": "Nomen-Verb-Verbindung („etwas auf die leichte Schulter nehmen“ = etwas zu leicht nehmen / unterschätzen).",
         "wrong": {
-          "a": "「ziehen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「tragen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「halten」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「ziehen」はこの空所の意味・搭配・文法と合いません。正解は「nehmen」。根拠：Nomen-Verb-Verbindung („etwas auf die leichte Schulter nehmen“ = etwas zu leicht nehmen / unterschätzen).",
+          "c": "不正解。「tragen」はこの空所の意味・搭配・文法と合いません。正解は「nehmen」。根拠：Nomen-Verb-Verbindung („etwas auf die leichte Schulter nehmen“ = etwas zu leicht nehmen / unterschätzen).",
+          "d": "不正解。「halten」はこの空所の意味・搭配・文法と合いません。正解は「nehmen」。根拠：Nomen-Verb-Verbindung („etwas auf die leichte Schulter nehmen“ = etwas zu leicht nehmen / unterschätzen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -503,9 +503,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】Infolge\n\n【解説】\nKausale Präposition mit Genitiv („Infolge + GEN“ = wegen, als Konsequenz von).",
         "german": "Kausale Präposition mit Genitiv („Infolge + GEN“ = wegen, als Konsequenz von).",
         "wrong": {
-          "a": "「Bezüglich」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Zufolge」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Dank」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Bezüglich」はこの空所の意味・搭配・文法と合いません。正解は「Infolge」。根拠：Kausale Präposition mit Genitiv („Infolge + GEN“ = wegen, als Konsequenz von).",
+          "b": "不正解。「Zufolge」はこの空所の意味・搭配・文法と合いません。正解は「Infolge」。根拠：Kausale Präposition mit Genitiv („Infolge + GEN“ = wegen, als Konsequenz von).",
+          "d": "不正解。「Dank」はこの空所の意味・搭配・文法と合いません。正解は「Infolge」。根拠：Kausale Präposition mit Genitiv („Infolge + GEN“ = wegen, als Konsequenz von)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -538,9 +538,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】was, sofern\n\n【解説】\nRelativsatz mit Konditionaleinschub („was, sofern...“ = was in dem Fall, dass...).",
         "german": "Relativsatz mit Konditionaleinschub („was, sofern...“ = was in dem Fall, dass...).",
         "wrong": {
-          "b": "「was, wenn」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「was, weil」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「was, unbeschadet」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「was, wenn」はこの空所の意味・搭配・文法と合いません。正解は「was, sofern」。根拠：Relativsatz mit Konditionaleinschub („was, sofern...“ = was in dem Fall, dass...).",
+          "c": "不正解。「was, weil」はこの空所の意味・搭配・文法と合いません。正解は「was, sofern」。根拠：Relativsatz mit Konditionaleinschub („was, sofern...“ = was in dem Fall, dass...).",
+          "d": "不正解。「was, unbeschadet」はこの空所の意味・搭配・文法と合いません。正解は「was, sofern」。根拠：Relativsatz mit Konditionaleinschub („was, sofern...“ = was in dem Fall, dass...)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -573,9 +573,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】Denjenigen\n\n【解説】\nDemonstrativpronomen im Dativ Plural („Denjenigen, die...“ = den Menschen, welche...).",
         "german": "Demonstrativpronomen im Dativ Plural („Denjenigen, die...“ = den Menschen, welche...).",
         "wrong": {
-          "a": "「Demjenigen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Diejenigen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Dasjenige」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Demjenigen」はこの空所の意味・搭配・文法と合いません。正解は「Denjenigen」。根拠：Demonstrativpronomen im Dativ Plural („Denjenigen, die...“ = den Menschen, welche...).",
+          "c": "不正解。「Diejenigen」はこの空所の意味・搭配・文法と合いません。正解は「Denjenigen」。根拠：Demonstrativpronomen im Dativ Plural („Denjenigen, die...“ = den Menschen, welche...).",
+          "d": "不正解。「Dasjenige」はこの空所の意味・搭配・文法と合いません。正解は「Denjenigen」。根拠：Demonstrativpronomen im Dativ Plural („Denjenigen, die...“ = den Menschen, welche...)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -608,9 +608,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】abgeklungen\n\n【解説】\nTrennbares Verb („etwas klingt ab“ = eine Krankheit/Symptom lässt nach / verschwindet).",
         "german": "Trennbares Verb („etwas klingt ab“ = eine Krankheit/Symptom lässt nach / verschwindet).",
         "wrong": {
-          "a": "「abgeklungen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「abgetreten」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「abgeflacht」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「abgeklungen」はこの空所の意味・搭配・文法と合いません。正解は「abgeklärt」。根拠：Trennbares Verb („etwas klingt ab“ = eine Krankheit/Symptom lässt nach / verschwindet).",
+          "b": "不正解。「abgetreten」はこの空所の意味・搭配・文法と合いません。正解は「abgeklärt」。根拠：Trennbares Verb („etwas klingt ab“ = eine Krankheit/Symptom lässt nach / verschwindet).",
+          "c": "不正解。「abgeflacht」はこの空所の意味・搭配・文法と合いません。正解は「abgeklärt」。根拠：Trennbares Verb („etwas klingt ab“ = eine Krankheit/Symptom lässt nach / verschwindet)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -643,9 +643,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】erweisen\n\n【解説】\nReflexives Verb mit Prädikativum („sich erweisen als + NOM/ADJ“ = sich herausstellen als).",
         "german": "Reflexives Verb mit Prädikativum („sich erweisen als + NOM/ADJ“ = sich herausstellen als).",
         "wrong": {
-          "a": "「zeigen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「darlegen」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「erweisen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「zeigen」はこの空所の意味・搭配・文法と合いません。正解は「erweisen」。根拠：Reflexives Verb mit Prädikativum („sich erweisen als + NOM/ADJ“ = sich herausstellen als).",
+          "b": "不正解。「darlegen」はこの空所の意味・搭配・文法と合いません。正解は「erweisen」。根拠：Reflexives Verb mit Prädikativum („sich erweisen als + NOM/ADJ“ = sich herausstellen als).",
+          "c": "不正解。「erweisen」はこの空所の意味・搭配・文法と合いません。正解は「erweisen」。根拠：Reflexives Verb mit Prädikativum („sich erweisen als + NOM/ADJ“ = sich herausstellen als)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -678,9 +678,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】Überdies\n\n【解説】\nAdditiver Konnektor („Überdies“ = darüber hinaus, ausserdem).",
         "german": "Additiver Konnektor („Überdies“ = darüber hinaus, ausserdem).",
         "wrong": {
-          "a": "「Zudem」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Infolgedessen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Entgegen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Zudem」はこの空所の意味・搭配・文法と合いません。正解は「Überdies」。根拠：Additiver Konnektor („Überdies“ = darüber hinaus, ausserdem).",
+          "b": "不正解。「Infolgedessen」はこの空所の意味・搭配・文法と合いません。正解は「Überdies」。根拠：Additiver Konnektor („Überdies“ = darüber hinaus, ausserdem).",
+          "d": "不正解。「Entgegen」はこの空所の意味・搭配・文法と合いません。正解は「Überdies」。根拠：Additiver Konnektor („Überdies“ = darüber hinaus, ausserdem)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -713,9 +713,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】schmerzlindernde\n\n【解説】\nDekliniertes Partizip/Adjektiv („eine schmerzlindernde Wirkung“ = Schmerzen reduzieren).",
         "german": "Dekliniertes Partizip/Adjektiv („eine schmerzlindernde Wirkung“ = Schmerzen reduzieren).",
         "wrong": {
-          "b": "「schmerzstillend」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「schmerzlindernd」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「schmerzliche」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「schmerzstillend」はこの空所の意味・搭配・文法と合いません。正解は「schmerzlindernde」。根拠：Dekliniertes Partizip/Adjektiv („eine schmerzlindernde Wirkung“ = Schmerzen reduzieren).",
+          "c": "不正解。「schmerzlindernd」はこの空所の意味・搭配・文法と合いません。正解は「schmerzlindernde」。根拠：Dekliniertes Partizip/Adjektiv („eine schmerzlindernde Wirkung“ = Schmerzen reduzieren).",
+          "d": "不正解。「schmerzliche」はこの空所の意味・搭配・文法と合いません。正解は「schmerzlindernde」。根拠：Dekliniertes Partizip/Adjektiv („eine schmerzlindernde Wirkung“ = Schmerzen reduzieren)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -748,9 +748,9 @@ export const sb_c1_saunabesuch: ExamSection = {
         "summary": "【正解】abgeraten\n\n【解説】\nVerb mit Präposition im Passiv („abgeraten werden von + DAT“ = jemandem empfehlen, etwas nicht zu tun).",
         "german": "Verb mit Präposition im Passiv („abgeraten werden von + DAT“ = jemandem empfehlen, etwas nicht zu tun).",
         "wrong": {
-          "a": "「verweigert」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「untersagt」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「widerraten」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「verweigert」はこの空所の意味・搭配・文法と合いません。正解は「abgeraten」。根拠：Verb mit Präposition im Passiv („abgeraten werden von + DAT“ = jemandem empfehlen, etwas nicht zu tun).",
+          "b": "不正解。「untersagt」はこの空所の意味・搭配・文法と合いません。正解は「abgeraten」。根拠：Verb mit Präposition im Passiv („abgeraten werden von + DAT“ = jemandem empfehlen, etwas nicht zu tun).",
+          "d": "不正解。「widerraten」はこの空所の意味・搭配・文法と合いません。正解は「abgeraten」。根拠：Verb mit Präposition im Passiv („abgeraten werden von + DAT“ = jemandem empfehlen, etwas nicht zu tun)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }

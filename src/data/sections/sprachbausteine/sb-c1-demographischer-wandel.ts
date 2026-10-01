@@ -331,9 +331,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】versteht\n\n【解説】\nFeststehende Wendung („unter A versteht man B“ = wird verwendet, um zu erklären, was ein bestimmter Begriff bedeutet).",
         "german": "Feststehende Wendung („unter A versteht man B“ = wird verwendet, um zu erklären, was ein bestimmter Begriff bedeutet).",
         "wrong": {
-          "a": "「erfasst」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「begreift」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「interpretiert」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「erfasst」はこの空所の意味・搭配・文法と合いません。正解は「versteht」。根拠：Feststehende Wendung („unter A versteht man B“ = wird verwendet, um zu erklären, was ein bestimmter Begriff bedeutet).",
+          "c": "不正解。「begreift」はこの空所の意味・搭配・文法と合いません。正解は「versteht」。根拠：Feststehende Wendung („unter A versteht man B“ = wird verwendet, um zu erklären, was ein bestimmter Begriff bedeutet).",
+          "d": "不正解。「interpretiert」はこの空所の意味・搭配・文法と合いません。正解は「versteht」。根拠：Feststehende Wendung („unter A versteht man B“ = wird verwendet, um zu erklären, was ein bestimmter Begriff bedeutet)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -366,9 +366,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】aller hier lebenden\n\n【解説】\nGenitiv + Partizip I als Adjektiv, Plural („die Hälfte aller hier lebenden Menschen“ = die Hälfte von allen Menschen, die hier in Deutschland leben).",
         "german": "Genitiv + Partizip I als Adjektiv, Plural („die Hälfte aller hier lebenden Menschen“ = die Hälfte von allen Menschen, die hier in Deutschland leben).",
         "wrong": {
-          "a": "「all hier lebende」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「alle hier lebende」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「allen hier lebenden」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「all hier lebende」はこの空所の意味・搭配・文法と合いません。正解は「aller hier lebenden」。根拠：Genitiv + Partizip I als Adjektiv, Plural („die Hälfte aller hier lebenden Menschen“ = die Hälfte von allen Menschen, die hier in Deutschland leben).",
+          "b": "不正解。「alle hier lebende」はこの空所の意味・搭配・文法と合いません。正解は「aller hier lebenden」。根拠：Genitiv + Partizip I als Adjektiv, Plural („die Hälfte aller hier lebenden Menschen“ = die Hälfte von allen Menschen, die hier in Deutschland leben).",
+          "d": "不正解。「allen hier lebenden」はこの空所の意味・搭配・文法と合いません。正解は「aller hier lebenden」。根拠：Genitiv + Partizip I als Adjektiv, Plural („die Hälfte aller hier lebenden Menschen“ = die Hälfte von allen Menschen, die hier in Deutschland leben)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -401,9 +401,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】der\n\n【解説】\nFeststehende Wendung, Dativ („A ist B geschuldet“ = B ist Schuld daran, dass A).",
         "german": "Feststehende Wendung, Dativ („A ist B geschuldet“ = B ist Schuld daran, dass A).",
         "wrong": {
-          "a": "「die」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「den」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「dem」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「die」はこの空所の意味・搭配・文法と合いません。正解は「der」。根拠：Feststehende Wendung, Dativ („A ist B geschuldet“ = B ist Schuld daran, dass A).",
+          "b": "不正解。「den」はこの空所の意味・搭配・文法と合いません。正解は「der」。根拠：Feststehende Wendung, Dativ („A ist B geschuldet“ = B ist Schuld daran, dass A).",
+          "d": "不正解。「dem」はこの空所の意味・搭配・文法と合いません。正解は「der」。根拠：Feststehende Wendung, Dativ („A ist B geschuldet“ = B ist Schuld daran, dass A)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -436,9 +436,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】voranschreitet\n\n【解説】\nTrennbares Verb („dass die Überalterung voranschreitet“ = (sich) (schnell) fortsetzen / (sich) weiterentwickeln zu + DAT).",
         "german": "Trennbares Verb („dass die Überalterung voranschreitet“ = (sich) (schnell) fortsetzen / (sich) weiterentwickeln zu + DAT).",
         "wrong": {
-          "b": "「beschleunigt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「erhöht」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「aufnimmt」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「beschleunigt」はこの空所の意味・搭配・文法と合いません。正解は「voranschreitet」。根拠：Trennbares Verb („dass die Überalterung voranschreitet“ = (sich) (schnell) fortsetzen / (sich) weiterentwickeln zu + DAT).",
+          "c": "不正解。「erhöht」はこの空所の意味・搭配・文法と合いません。正解は「voranschreitet」。根拠：Trennbares Verb („dass die Überalterung voranschreitet“ = (sich) (schnell) fortsetzen / (sich) weiterentwickeln zu + DAT).",
+          "d": "不正解。「aufnimmt」はこの空所の意味・搭配・文法と合いません。正解は「voranschreitet」。根拠：Trennbares Verb („dass die Überalterung voranschreitet“ = (sich) (schnell) fortsetzen / (sich) weiterentwickeln zu + DAT)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -471,9 +471,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】Dadurch, dass\n\n【解説】\nFeststehende Wendung, instrumental („Dadurch, dass“ = A ist die Begründung für B).",
         "german": "Feststehende Wendung, instrumental („Dadurch, dass“ = A ist die Begründung für B).",
         "wrong": {
-          "a": "「Anstatt, dass」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「Anhand dessen, dass」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Vorausgesetzt, dass」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Anstatt, dass」はこの空所の意味・搭配・文法と合いません。正解は「Dadurch, dass」。根拠：Feststehende Wendung, instrumental („Dadurch, dass“ = A ist die Begründung für B).",
+          "b": "不正解。「Anhand dessen, dass」はこの空所の意味・搭配・文法と合いません。正解は「Dadurch, dass」。根拠：Feststehende Wendung, instrumental („Dadurch, dass“ = A ist die Begründung für B).",
+          "c": "不正解。「Vorausgesetzt, dass」はこの空所の意味・搭配・文法と合いません。正解は「Dadurch, dass」。根拠：Feststehende Wendung, instrumental („Dadurch, dass“ = A ist die Begründung für B)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -506,9 +506,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】verzeichnet\n\n【解説】\nVerb („etwas verzeichnen“ = etwas feststellen/registrieren/beobachten).",
         "german": "Verb („etwas verzeichnen“ = etwas feststellen/registrieren/beobachten).",
         "wrong": {
-          "a": "「bezeichnet」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「aufgenommen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「entnommen」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「bezeichnet」はこの空所の意味・搭配・文法と合いません。正解は「verzeichnet」。根拠：Verb („etwas verzeichnen“ = etwas feststellen/registrieren/beobachten).",
+          "c": "不正解。「aufgenommen」はこの空所の意味・搭配・文法と合いません。正解は「verzeichnet」。根拠：Verb („etwas verzeichnen“ = etwas feststellen/registrieren/beobachten).",
+          "d": "不正解。「entnommen」はこの空所の意味・搭配・文法と合いません。正解は「verzeichnet」。根拠：Verb („etwas verzeichnen“ = etwas feststellen/registrieren/beobachten)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -541,9 +541,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】darin\n\n【解説】\nFeststehende Wendung („einen Grund in etwas sehen“ = viele Leute denken, dass der Grund für A B ist).",
         "german": "Feststehende Wendung („einen Grund in etwas sehen“ = viele Leute denken, dass der Grund für A B ist).",
         "wrong": {
-          "b": "「daran」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「dafür」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「damit」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「daran」はこの空所の意味・搭配・文法と合いません。正解は「darin」。根拠：Feststehende Wendung („einen Grund in etwas sehen“ = viele Leute denken, dass der Grund für A B ist).",
+          "c": "不正解。「dafür」はこの空所の意味・搭配・文法と合いません。正解は「darin」。根拠：Feststehende Wendung („einen Grund in etwas sehen“ = viele Leute denken, dass der Grund für A B ist).",
+          "d": "不正解。「damit」はこの空所の意味・搭配・文法と合いません。正解は「darin」。根拠：Feststehende Wendung („einen Grund in etwas sehen“ = viele Leute denken, dass der Grund für A B ist)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -576,9 +576,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】sollte\n\n【解説】\nKonjunktion, Nebensatz („sollte + Infinitiv“ = Wenn/Falls/Sofern sich dieser Trend in den kommenden Jahren fortsetzt,...).",
         "german": "Konjunktion, Nebensatz („sollte + Infinitiv“ = Wenn/Falls/Sofern sich dieser Trend in den kommenden Jahren fortsetzt,...).",
         "wrong": {
-          "a": "「wenn」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「falls」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「sofern」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「wenn」はこの空所の意味・搭配・文法と合いません。正解は「sollte」。根拠：Konjunktion, Nebensatz („sollte + Infinitiv“ = Wenn/Falls/Sofern sich dieser Trend in den kommenden Jahren fortsetzt,...).",
+          "c": "不正解。「falls」はこの空所の意味・搭配・文法と合いません。正解は「sollte」。根拠：Konjunktion, Nebensatz („sollte + Infinitiv“ = Wenn/Falls/Sofern sich dieser Trend in den kommenden Jahren fortsetzt,...).",
+          "d": "不正解。「sofern」はこの空所の意味・搭配・文法と合いません。正解は「sollte」。根拠：Konjunktion, Nebensatz („sollte + Infinitiv“ = Wenn/Falls/Sofern sich dieser Trend in den kommenden Jahren fortsetzt,...)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -611,9 +611,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】verschiebt\n\n【解説】\nReflexives Verb („(sich) verschieben“ = etwas verlagert/ändert/verändert sich in eine andere Position).",
         "german": "Reflexives Verb („(sich) verschieben“ = etwas verlagert/ändert/verändert sich in eine andere Position).",
         "wrong": {
-          "a": "「verlangsamt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「verbringt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「verzögert」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「verlangsamt」はこの空所の意味・搭配・文法と合いません。正解は「verschiebt」。根拠：Reflexives Verb („(sich) verschieben“ = etwas verlagert/ändert/verändert sich in eine andere Position).",
+          "b": "不正解。「verbringt」はこの空所の意味・搭配・文法と合いません。正解は「verschiebt」。根拠：Reflexives Verb („(sich) verschieben“ = etwas verlagert/ändert/verändert sich in eine andere Position).",
+          "c": "不正解。「verzögert」はこの空所の意味・搭配・文法と合いません。正解は「verschiebt」。根拠：Reflexives Verb („(sich) verschieben“ = etwas verlagert/ändert/verändert sich in eine andere Position)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -646,9 +646,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】Folglich\n\n【解説】\nKonnektor, konsekutiv („Folglich ergibt sich“ = demnach, deswegen, infolgedessen, demzufolge, als Folge/Ergebnis von A).",
         "german": "Konnektor, konsekutiv („Folglich ergibt sich“ = demnach, deswegen, infolgedessen, demzufolge, als Folge/Ergebnis von A).",
         "wrong": {
-          "b": "「Dennoch」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Hiermit」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Anderenfalls」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「Dennoch」はこの空所の意味・搭配・文法と合いません。正解は「Folglich」。根拠：Konnektor, konsekutiv („Folglich ergibt sich“ = demnach, deswegen, infolgedessen, demzufolge, als Folge/Ergebnis von A).",
+          "c": "不正解。「Hiermit」はこの空所の意味・搭配・文法と合いません。正解は「Folglich」。根拠：Konnektor, konsekutiv („Folglich ergibt sich“ = demnach, deswegen, infolgedessen, demzufolge, als Folge/Ergebnis von A).",
+          "d": "不正解。「Anderenfalls」はこの空所の意味・搭配・文法と合いません。正解は「Folglich」。根拠：Konnektor, konsekutiv („Folglich ergibt sich“ = demnach, deswegen, infolgedessen, demzufolge, als Folge/Ergebnis von A)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -681,9 +681,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】insbesondere\n\n【解説】\nAdverb („insbesondere“ = besonders, vor allem, speziell, gerade, vornehmlich, primär, schwerpunktmäßig).",
         "german": "Adverb („insbesondere“ = besonders, vor allem, speziell, gerade, vornehmlich, primär, schwerpunktmäßig).",
         "wrong": {
-          "b": "「inwiefern」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「indessen」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「insgesamt」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「inwiefern」はこの空所の意味・搭配・文法と合いません。正解は「insbesondere」。根拠：Adverb („insbesondere“ = besonders, vor allem, speziell, gerade, vornehmlich, primär, schwerpunktmäßig).",
+          "c": "不正解。「indessen」はこの空所の意味・搭配・文法と合いません。正解は「insbesondere」。根拠：Adverb („insbesondere“ = besonders, vor allem, speziell, gerade, vornehmlich, primär, schwerpunktmäßig).",
+          "d": "不正解。「insgesamt」はこの空所の意味・搭配・文法と合いません。正解は「insbesondere」。根拠：Adverb („insbesondere“ = besonders, vor allem, speziell, gerade, vornehmlich, primär, schwerpunktmäßig)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -716,9 +716,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】die diese\n\n【解説】\nRelativsatz + Demonstrativpronomen („Rentenleistungen... Menschen, die diese...“ = auch, genauso [bezieht sich auf eine Information, die vorher genannt wurde]).",
         "german": "Relativsatz + Demonstrativpronomen („Rentenleistungen... Menschen, die diese...“ = auch, genauso [bezieht sich auf eine Information, die vorher genannt wurde]).",
         "wrong": {
-          "a": "「denen diesen」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「denen diese」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「den diese」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「denen diesen」はこの空所の意味・搭配・文法と合いません。正解は「die diese」。根拠：Relativsatz + Demonstrativpronomen („Rentenleistungen... Menschen, die diese...“ = auch, genauso [bezieht sich auf eine Information, die vorher genannt wurde]).",
+          "b": "不正解。「denen diese」はこの空所の意味・搭配・文法と合いません。正解は「die diese」。根拠：Relativsatz + Demonstrativpronomen („Rentenleistungen... Menschen, die diese...“ = auch, genauso [bezieht sich auf eine Information, die vorher genannt wurde]).",
+          "c": "不正解。「den diese」はこの空所の意味・搭配・文法と合いません。正解は「die diese」。根拠：Relativsatz + Demonstrativpronomen („Rentenleistungen... Menschen, die diese...“ = auch, genauso [bezieht sich auf eine Information, die vorher genannt wurde])."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -751,9 +751,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】Doch\n\n【解説】\nKonjunktion, Feststehende Wendung („Doch auch für die Wirtschaft“ = Aber auch für die Wirtschaft werden... / Allerdings werden auch für die Wirtschaft...).",
         "german": "Konjunktion, Feststehende Wendung („Doch auch für die Wirtschaft“ = Aber auch für die Wirtschaft werden... / Allerdings werden auch für die Wirtschaft...).",
         "wrong": {
-          "a": "「Demnach」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「Dessen ungeachtet」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「Daher」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「Demnach」はこの空所の意味・搭配・文法と合いません。正解は「Doch」。根拠：Konjunktion, Feststehende Wendung („Doch auch für die Wirtschaft“ = Aber auch für die Wirtschaft werden... / Allerdings werden auch für die Wirtschaft...).",
+          "c": "不正解。「Dessen ungeachtet」はこの空所の意味・搭配・文法と合いません。正解は「Doch」。根拠：Konjunktion, Feststehende Wendung („Doch auch für die Wirtschaft“ = Aber auch für die Wirtschaft werden... / Allerdings werden auch für die Wirtschaft...).",
+          "d": "不正解。「Daher」はこの空所の意味・搭配・文法と合いません。正解は「Doch」。根拠：Konjunktion, Feststehende Wendung („Doch auch für die Wirtschaft“ = Aber auch für die Wirtschaft werden... / Allerdings werden auch für die Wirtschaft...)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -786,9 +786,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】sinkt\n\n【解説】\nVerb („etwas sinkt“ = etwas wird weniger, (sich) verringern/reduzieren/verkleinern/vermindern).",
         "german": "Verb („etwas sinkt“ = etwas wird weniger, (sich) verringern/reduzieren/verkleinern/vermindern).",
         "wrong": {
-          "a": "「senkt」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「steigert」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「steigt」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「senkt」はこの空所の意味・搭配・文法と合いません。正解は「sinkt」。根拠：Verb („etwas sinkt“ = etwas wird weniger, (sich) verringern/reduzieren/verkleinern/vermindern).",
+          "b": "不正解。「steigert」はこの空所の意味・搭配・文法と合いません。正解は「sinkt」。根拠：Verb („etwas sinkt“ = etwas wird weniger, (sich) verringern/reduzieren/verkleinern/vermindern).",
+          "d": "不正解。「steigt」はこの空所の意味・搭配・文法と合いません。正解は「sinkt」。根拠：Verb („etwas sinkt“ = etwas wird weniger, (sich) verringern/reduzieren/verkleinern/vermindern)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -821,9 +821,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】entgegenzusteuern\n\n【解説】\nTrennbares Verb, Finalsatz „um... zu“ („um... entgegenzusteuern“ = etwas aufhalten/stoppen und versuchen, das Gegenteil zu erreichen/erzielen).",
         "german": "Trennbares Verb, Finalsatz „um... zu“ („um... entgegenzusteuern“ = etwas aufhalten/stoppen und versuchen, das Gegenteil zu erreichen/erzielen).",
         "wrong": {
-          "a": "「entgegensteuern」はこの空所の文脈・文法パターンと合いません。",
-          "b": "「zu entgegensteuern」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「entzugegensteuern」はこの空所の文脈・文法パターンと合いません。"
+          "a": "不正解。「entgegensteuern」はこの空所の意味・搭配・文法と合いません。正解は「entgegenzusteuern」。根拠：Trennbares Verb, Finalsatz „um... zu“ („um... entgegenzusteuern“ = etwas aufhalten/stoppen und versuchen, das Gegenteil zu erreichen/erzielen).",
+          "b": "不正解。「zu entgegensteuern」はこの空所の意味・搭配・文法と合いません。正解は「entgegenzusteuern」。根拠：Trennbares Verb, Finalsatz „um... zu“ („um... entgegenzusteuern“ = etwas aufhalten/stoppen und versuchen, das Gegenteil zu erreichen/erzielen).",
+          "c": "不正解。「entzugegensteuern」はこの空所の意味・搭配・文法と合いません。正解は「entgegenzusteuern」。根拠：Trennbares Verb, Finalsatz „um... zu“ („um... entgegenzusteuern“ = etwas aufhalten/stoppen und versuchen, das Gegenteil zu erreichen/erzielen)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
@@ -856,9 +856,9 @@ export const sb_c1_demographischer_wandel: ExamSection = {
         "summary": "【正解】fraglich\n\n【解説】\nAdjektiv („fraglich“ = unsicher, ungewiss, fragwürdig, zweifelhaft, etwas darf/muss/kann/sollte bezweifelt werden).",
         "german": "Adjektiv („fraglich“ = unsicher, ungewiss, fragwürdig, zweifelhaft, etwas darf/muss/kann/sollte bezweifelt werden).",
         "wrong": {
-          "b": "「erfragt」はこの空所の文脈・文法パターンと合いません。",
-          "c": "「befragbar」はこの空所の文脈・文法パターンと合いません。",
-          "d": "「abgefragt」はこの空所の文脈・文法パターンと合いません。"
+          "b": "不正解。「erfragt」はこの空所の意味・搭配・文法と合いません。正解は「fraglich」。根拠：Adjektiv („fraglich“ = unsicher, ungewiss, fragwürdig, zweifelhaft, etwas darf/muss/kann/sollte bezweifelt werden).",
+          "c": "不正解。「befragbar」はこの空所の意味・搭配・文法と合いません。正解は「fraglich」。根拠：Adjektiv („fraglich“ = unsicher, ungewiss, fragwürdig, zweifelhaft, etwas darf/muss/kann/sollte bezweifelt werden).",
+          "d": "不正解。「abgefragt」はこの空所の意味・搭配・文法と合いません。正解は「fraglich」。根拠：Adjektiv („fraglich“ = unsicher, ungewiss, fragwürdig, zweifelhaft, etwas darf/muss/kann/sollte bezweifelt werden)."
         },
         "tip": "Sprachbausteine: 前後の語・固定表現・Konnektorをセットで覚える。"
       }
