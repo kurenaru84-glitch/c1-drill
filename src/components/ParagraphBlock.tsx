@@ -59,7 +59,7 @@ export function ParagraphBlock({
         onClick={(event) => {
           const target = event.target as HTMLElement;
           if (target.closest("[data-add-word-popup]")) return;
-          if (target.closest("[data-selectable-text]")) return;
+          if (target.closest("[data-selectable-text]") || target.tagName === "TEXTAREA") return;
           onPlay();
         }}
       >
