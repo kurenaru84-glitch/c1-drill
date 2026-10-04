@@ -1,30 +1,107 @@
 "use client";
 
+import { useEffect, useMemo, useState } from "react";
 import { SelectableText } from "@/components/SelectableText";
-import type { Question, QuestionExplanation } from "@/lib/exam-types";
+import { fetchRichExplanation, getCachedRichExplanation } from "@/lib/fetch-rich-explanation";
+import { buildCompletedSentence } from "@/lib/question-completed-sentence";
+import type { ExamSkill, Question, QuestionExplanation, RichExplanation } from "@/lib/exam-types";
 
 type Props = {
   question: Question;
   selectedId: string;
   explanation: QuestionExplanation;
   source: string;
+  sectionTitle: string;
+  skill: ExamSkill;
   onToast?: (message: string) => void;
-  /** Sprachbausteine: 全選択肢の正誤理由を詳しく */
-  detailed?: boolean;
 };
+
+function SectionBlock({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="mb-3 rounded-xl border border-stone-200 bg-white p-3">
+      <p className="mb-2 text-xs font-semibold text-stone-800">{title}</p>
+      {children}
+    </div>
+  );
+}
 
 export function ExplanationPanel({
   question,
   selectedId,
   explanation,
   source,
+  sectionTitle,
+  skill,
   onToast,
-  detailed = false,
 }: Props) {
   const correct = selectedId === question.correctOptionId;
   const correctOption = question.options.find((o) => o.id === question.correctOptionId);
   const correctLabel = correctOption?.text ?? question.correctOptionId;
-  const selectedOption = question.options.find((o) => o.id === selectedId);
+  const useRich = skill === "nvv" || skill === "sprachbausteine";
+
+  const [rich, setRich] = useState<RichExplanation | null>(null);
+  const [loadingRich, setLoadingRich] = useState(false);
+  const [richError, setRichError] = useState<string | null>(null);
+
+  const fallbackCompleted = useMemo(
+    () =>
+      buildCompletedSentence(
+        question.prompt,
+        correctLabel,
+        skill === "sprachbausteine" ? question.number : undefined
+      ),
+    [question.prompt, question.number, correctLabel, skill]
+  );
+
+  useEffect(() => {
+    if (!useRich) {
+      setRich(null);
+      return;
+    }
+
+    const cached = getCachedRichExplanation(question.id);
+    setRich(cached);
+    setRichError(null);
+    if (cached?.completedSentenceDe?.trim()) {
+      setLoadingRich(false);
+      return;
+    }
+
+    let cancelled = false;
+    setLoadingRich(true);
+    void fetchRichExplanation({
+      questionId: question.id,
+      skill,
+      sectionTitle,
+      question,
+    })
+      .then((data) => {
+        if (!cancelled) setRich(data);
+      })
+      .catch((error) => {
+        if (!cancelled) {
+          setRichError(error instanceof Error ? error.message : "詳細解説を取得できませんでした。");
+        }
+      })
+      .finally(() => {
+        if (!cancelled) setLoadingRich(false);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [useRich, question, skill, sectionTitle]);
+
+  const completedDe = rich?.completedSentenceDe?.trim() || fallbackCompleted;
+  const correctLine =
+    rich?.correctAnswerLineJa?.trim() ||
+    `正解は ${question.correctOptionId.toUpperCase()}: ${correctLabel} です。`;
 
   return (
     <div
@@ -34,104 +111,129 @@ export function ExplanationPanel({
     >
       <p className={`mb-3 text-sm font-semibold ${correct ? "text-emerald-800" : "text-amber-900"}`}>
         {correct ? "✓ 正解！" : "✗ 不正解"}
+        {!correct && (
+          <span className="ml-2 font-normal text-stone-600">
+            正解: {question.correctOptionId.toUpperCase()} — {correctLabel}
+          </span>
+        )}
       </p>
 
-      <div className="mb-3 rounded-xl border border-emerald-200 bg-white p-3">
-        <p className="mb-1 text-xs font-medium text-emerald-800">正解の選択肢</p>
-        <p className="text-sm font-semibold text-stone-900">
-          {question.correctOptionId}. {correctLabel}
-        </p>
-        {explanation.german && (
-          <p className="mt-2 text-sm leading-relaxed text-stone-700">
-            <span className="mr-1 text-xs font-medium text-stone-500">根拠（DE）</span>
-            {explanation.german}
-          </p>
-        )}
-      </div>
+      {useRich ? (
+        <>
+          {loadingRich && !rich && (
+            <p className="mb-3 text-sm text-teal-800">詳しい解説を作成しています…（初回のみ10〜20秒）</p>
+          )}
+          {richError && !rich && (
+            <p className="mb-3 text-sm text-amber-900">{richError}</p>
+          )}
 
-      {!correct && selectedOption && (
-        <div className="mb-3 rounded-xl border border-amber-200 bg-white p-3">
-          <p className="mb-1 text-xs font-medium text-amber-900">あなたの選択</p>
-          <p className="text-sm font-semibold text-stone-900">
-            {selectedId}. {selectedOption.text}
-          </p>
-          {explanation.wrong?.[selectedId] && (
+          <SectionBlock title="解説">
+            <p className="text-sm font-medium text-stone-900">{correctLine}</p>
+          </SectionBlock>
+
+          <SectionBlock title="完成した文章">
             <SelectableText
-              text={explanation.wrong[selectedId]}
+              text={completedDe}
               language="de"
-              source={`${source} · 誤答解説`}
-              className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-stone-700"
+              source={`${source} · 完成文`}
+              className="text-sm leading-relaxed text-stone-900"
               onToast={onToast}
             />
+          </SectionBlock>
+
+          {(rich?.translationJa || question.promptJa) && (
+            <SectionBlock title="日本語訳">
+              <p className="text-sm leading-relaxed text-stone-700">
+                {rich?.translationJa?.trim() || question.promptJa}
+              </p>
+            </SectionBlock>
           )}
-        </div>
-      )}
 
-      {detailed && explanation.wrong && (
-        <div className="mb-3 rounded-xl bg-white/80 p-3">
-          <p className="mb-2 text-xs font-medium text-stone-600">すべての不正解の理由</p>
-          <ul className="space-y-2">
-            {question.options
-              .filter((o) => o.id !== question.correctOptionId)
-              .map((opt) => (
-                <li
-                  key={opt.id}
-                  className={`rounded-lg px-3 py-2 text-sm ${
-                    opt.id === selectedId ? "bg-amber-50 ring-1 ring-amber-200" : "bg-stone-50"
-                  }`}
-                >
-                  <span className="font-semibold text-stone-900">
-                    {opt.id}. {opt.text}
-                  </span>
-                  {explanation.wrong?.[opt.id] ? (
-                    <SelectableText
-                      text={explanation.wrong[opt.id]}
-                      language="de"
-                      source={`${source} · 選択肢 ${opt.id}`}
-                      className="mt-1 text-sm leading-relaxed text-stone-700"
-                      onToast={onToast}
-                    />
-                  ) : (
-                    <p className="mt-1 text-xs text-stone-500">この選択肢は文脈に合いません。</p>
+          {(rich?.mainBodyJa || explanation.german) && (
+            <SectionBlock title={rich?.mainTitleJa || "解説"}>
+              {rich?.mainBodyJa ? (
+                <p className="whitespace-pre-wrap text-sm leading-relaxed text-stone-800">
+                  {rich.mainBodyJa}
+                </p>
+              ) : (
+                <>
+                  {explanation.german && (
+                    <p className="mb-2 text-sm text-stone-700">{explanation.german}</p>
                   )}
-                </li>
-              ))}
-          </ul>
-        </div>
-      )}
+                  <SelectableText
+                    text={explanation.summary}
+                    language="de"
+                    source={`${source} · 解説`}
+                    className="whitespace-pre-wrap text-sm leading-relaxed text-stone-800"
+                    onToast={onToast}
+                  />
+                </>
+              )}
+            </SectionBlock>
+          )}
 
-      {!detailed && explanation.wrong && selectedId !== question.correctOptionId && (
-        <details className="group mb-3">
-          <summary className="cursor-pointer text-xs font-medium text-teal-700">
-            他の選択肢の解説を見る
-          </summary>
-          <ul className="mt-2 space-y-2">
-            {Object.entries(explanation.wrong).map(([id, text]) => (
-              <li key={id} className="rounded-lg bg-white/60 px-3 py-2 text-sm text-stone-700">
-                <span className="font-semibold text-stone-900">{id}:</span>
-                <SelectableText
-                  text={text}
-                  language="de"
-                  source={`${source} · 選択肢 ${id}`}
-                  className="mt-1 text-sm text-stone-700"
-                  onToast={onToast}
-                />
-              </li>
-            ))}
-          </ul>
-        </details>
-      )}
+          {rich?.wrongOptions && rich.wrongOptions.length > 0 && (
+            <SectionBlock title="他の選択肢について">
+              <ul className="space-y-3">
+                {rich.wrongOptions.map((row) => (
+                  <li key={row.id} className="text-sm">
+                    <p className="font-semibold text-stone-900">
+                      {row.id.toUpperCase()}: {row.textDe}
+                    </p>
+                    <p className="mt-1 leading-relaxed text-stone-700">{row.reasonJa}</p>
+                  </li>
+                ))}
+              </ul>
+            </SectionBlock>
+          )}
 
-      <div className="rounded-xl bg-white/50 p-2">
-        <p className="mb-1 text-xs font-medium text-stone-500">まとめ</p>
-        <SelectableText
-          text={explanation.summary}
-          language="de"
-          source={`${source} · 解説`}
-          className="whitespace-pre-wrap text-sm leading-relaxed text-stone-800"
-          onToast={onToast}
-        />
-      </div>
+          {rich?.grammarPoints && rich.grammarPoints.length > 0 && (
+            <SectionBlock title="重要文法・構文ポイント">
+              <ul className="space-y-3">
+                {rich.grammarPoints.map((g, i) => (
+                  <li key={i}>
+                    <p className="text-sm font-semibold text-stone-900">{g.titleJa}</p>
+                    <p className="mt-1 whitespace-pre-wrap text-sm leading-relaxed text-stone-700">
+                      {g.bodyJa}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+            </SectionBlock>
+          )}
+
+          {rich?.vocabulary && rich.vocabulary.length > 0 && (
+            <SectionBlock title="重要単語リスト">
+              <ul className="space-y-1.5">
+                {rich.vocabulary.map((v, i) => (
+                  <li key={i} className="text-sm text-stone-800">
+                    <span className="font-medium text-stone-900">{v.termDe}</span>
+                    <span className="text-stone-600">: {v.meaningJa}</span>
+                  </li>
+                ))}
+              </ul>
+            </SectionBlock>
+          )}
+        </>
+      ) : (
+        <>
+          <div className="mb-3 rounded-xl border border-emerald-200 bg-white p-3">
+            <p className="text-sm font-semibold text-stone-900">
+              {question.correctOptionId}. {correctLabel}
+            </p>
+            {explanation.german && (
+              <p className="mt-2 text-sm text-stone-700">{explanation.german}</p>
+            )}
+          </div>
+          <SelectableText
+            text={explanation.summary}
+            language="de"
+            source={`${source} · 解説`}
+            className="whitespace-pre-wrap text-sm leading-relaxed text-stone-800"
+            onToast={onToast}
+          />
+        </>
+      )}
 
       {explanation.tip && (
         <p className="mt-3 rounded-xl border border-teal-100 bg-teal-50/80 px-3 py-2 text-xs text-teal-900">

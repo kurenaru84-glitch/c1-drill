@@ -17,6 +17,18 @@ export type QuestionExplanation = {
   tip?: string;
 };
 
+/** Gemini 生成の詳細解説（localStorage キャッシュ） */
+export type RichExplanation = {
+  correctAnswerLineJa: string;
+  completedSentenceDe: string;
+  translationJa: string;
+  mainTitleJa: string;
+  mainBodyJa: string;
+  wrongOptions: Array<{ id: string; textDe: string; reasonJa: string }>;
+  grammarPoints: Array<{ titleJa: string; bodyJa: string }>;
+  vocabulary: Array<{ termDe: string; meaningJa: string }>;
+};
+
 export type Question = {
   id: string;
   number: number;

@@ -162,8 +162,9 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
               selectedId={selectedId}
               explanation={question.explanation}
               source={wordSource}
+              sectionTitle={section.title}
+              skill={section.skill}
               onToast={showToast}
-              detailed={section.skill === "sprachbausteine"}
             />
           </div>
         )}
