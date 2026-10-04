@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import { IconChevron } from "@/components/icons";
-import { getQuestionAnswer, getSectionProgress, resetSectionProgress } from "@/lib/exam-progress";
+import {
+  getSectionMasteredCount,
+  getSectionProgress,
+  resetSectionProgress,
+} from "@/lib/exam-progress";
+import { getReviewStartIndex } from "@/lib/question-navigation";
 import { collectSprachbausteineVocab } from "@/lib/sprachbausteine-utils";
 import type { ExamSection } from "@/lib/exam-types";
 
@@ -16,8 +21,8 @@ export function SprachbausteineEpisodeHub({ section }: Props) {
   const progress = useMemo(() => getSectionProgress(section.id, total), [section.id, total]);
   const vocabCount = collectSprachbausteineVocab(section).length;
 
-  const nextIndex = section.questions.findIndex((q) => !getQuestionAnswer(section.id, q.id));
-  const startIndex = nextIndex === -1 ? 0 : nextIndex;
+  const startIndex = useMemo(() => getReviewStartIndex(section), [section]);
+  const masteredCount = useMemo(() => getSectionMasteredCount(section.id), [section.id]);
 
   function handleReset() {
     if (confirm("このエピソードの進捗をリセットしますか？")) {
@@ -38,7 +43,10 @@ export function SprachbausteineEpisodeHub({ section }: Props) {
       href: `/s/${section.id}/q/${startIndex}`,
       title: "問題（Lücke）",
       desc: "本番形式の空所補充。1問ずつ答え合わせと解説。",
-      badge: `${progress.correct}/${total} 正解`,
+      badge:
+        masteredCount > 0
+          ? `${progress.correct}/${total} 正解 · ★${masteredCount}`
+          : `${progress.correct}/${total} 正解`,
       color: "border-teal-200 bg-teal-50/80",
     },
     {

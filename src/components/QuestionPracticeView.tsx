@@ -1,13 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { ExplanationPanel } from "@/components/ExplanationPanel";
 import { PassageReader } from "@/components/PassageReader";
 import { QuestionTextBlock } from "@/components/QuestionTextBlock";
 import { SprachbausteineQuestionPassage } from "@/components/SprachbausteineQuestionPassage";
 import { IconChevron } from "@/components/icons";
-import { getQuestionAnswer, saveQuestionAnswer } from "@/lib/exam-progress";
+import {
+  getQuestionAnswer,
+  isQuestionMastered,
+  saveQuestionAnswer,
+  toggleQuestionMastered,
+} from "@/lib/exam-progress";
+import { getAdjacentQuestionIndex } from "@/lib/question-navigation";
 import type { ExamSection } from "@/lib/exam-types";
 
 type Props = {
@@ -22,7 +28,15 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
 
   const [selectedId, setSelectedId] = useState<string | null>(existing?.selectedOptionId ?? null);
   const [submitted, setSubmitted] = useState(!!existing);
+  const [mastered, setMastered] = useState(false);
   const [toast, setToast] = useState("");
+
+  useEffect(() => {
+    setMastered(isQuestionMastered(section.id, question.id));
+    const ans = getQuestionAnswer(section.id, question.id);
+    setSelectedId(ans?.selectedOptionId ?? null);
+    setSubmitted(!!ans);
+  }, [section.id, question.id]);
 
   const wordSource = `${section.titleJa} · 問${question.number}`;
   const showToast = useCallback((message: string) => {
@@ -43,8 +57,22 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
     setSubmitted(true);
   }, [selectedId, submitted, question, section.id]);
 
-  const hasPrev = questionIndex > 0;
-  const hasNext = questionIndex < total - 1;
+  const prevIndex = useMemo(
+    () => getAdjacentQuestionIndex(section, questionIndex, -1),
+    [section, questionIndex]
+  );
+  const nextIndex = useMemo(
+    () => getAdjacentQuestionIndex(section, questionIndex, 1),
+    [section, questionIndex]
+  );
+  const hasPrev = prevIndex != null;
+  const hasNext = nextIndex != null;
+
+  const handleToggleMastered = useCallback(() => {
+    const next = toggleQuestionMastered(section.id, question.id);
+    setMastered(next);
+    showToast(next ? "覚えた — 復習時はスキップします" : "復習対象に戻しました");
+  }, [section.id, question.id, showToast]);
 
   return (
     <div className="mx-auto flex min-h-[100dvh] max-w-lg flex-col bg-stone-50">
@@ -58,18 +86,32 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
               <IconChevron className="h-4 w-4 rotate-180" />
               {section.skill === "sprachbausteine" ? "メニュー" : "戻る"}
             </Link>
-            {section.skill === "sprachbausteine" && hasPrev && (
+            {section.skill === "sprachbausteine" && hasPrev && prevIndex != null && (
               <Link
-                href={`/s/${section.id}/q/${questionIndex - 1}`}
+                href={`/s/${section.id}/q/${prevIndex}`}
                 className="shrink-0 rounded-lg bg-stone-100 px-2 py-1 text-xs font-medium text-stone-700"
               >
-                ← Lücke {section.questions[questionIndex - 1]?.number ?? question.number - 1}
+                ← Lücke {section.questions[prevIndex]?.number ?? question.number - 1}
               </Link>
             )}
           </div>
-          <span className="shrink-0 text-xs font-medium text-stone-500">
-            {questionIndex + 1} / {total}
-          </span>
+          <div className="flex shrink-0 items-center gap-2">
+            <button
+              type="button"
+              onClick={handleToggleMastered}
+              className={`rounded-full px-2.5 py-1 text-[11px] font-medium ${
+                mastered
+                  ? "bg-amber-100 text-amber-900 ring-1 ring-amber-200"
+                  : "bg-stone-100 text-stone-600"
+              }`}
+              aria-pressed={mastered}
+            >
+              {mastered ? "★ 覚えた" : "☆ 覚えた"}
+            </button>
+            <span className="text-xs font-medium text-stone-500">
+              {questionIndex + 1} / {total}
+            </span>
+          </div>
         </div>
         <div className="mt-2 h-1 overflow-hidden rounded-full bg-stone-100">
           <div
@@ -176,9 +218,9 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
       >
         {!submitted ? (
           <div className="flex gap-2">
-            {hasPrev && (
+            {hasPrev && prevIndex != null && (
               <Link
-                href={`/s/${section.id}/q/${questionIndex - 1}`}
+                href={`/s/${section.id}/q/${prevIndex}`}
                 className="flex-1 rounded-2xl border border-stone-200 py-3.5 text-center text-sm font-medium text-stone-700"
               >
                 前へ
@@ -197,17 +239,17 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
           </div>
         ) : (
           <div className="flex gap-2">
-            {hasPrev && (
+            {hasPrev && prevIndex != null && (
               <Link
-                href={`/s/${section.id}/q/${questionIndex - 1}`}
+                href={`/s/${section.id}/q/${prevIndex}`}
                 className="flex-1 rounded-2xl border border-stone-200 py-3.5 text-center text-sm font-medium text-stone-700"
               >
                 前へ
               </Link>
             )}
-            {hasNext ? (
+            {hasNext && nextIndex != null ? (
               <Link
-                href={`/s/${section.id}/q/${questionIndex + 1}`}
+                href={`/s/${section.id}/q/${nextIndex}`}
                 className="flex-[2] rounded-2xl bg-teal-700 py-3.5 text-center text-sm font-semibold text-white"
               >
                 次の問題

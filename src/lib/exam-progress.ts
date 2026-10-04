@@ -6,16 +6,19 @@ const STORAGE_KEY = "c1-drill-progress";
 
 type ProgressStore = {
   answers: Record<string, QuestionAnswer>;
+  /** sectionId:questionId → 覚えた */
+  mastered?: Record<string, true>;
 };
 
 function loadStore(): ProgressStore {
-  if (typeof window === "undefined") return { answers: {} };
+  if (typeof window === "undefined") return { answers: {}, mastered: {} };
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { answers: {} };
-    return JSON.parse(raw) as ProgressStore;
+    if (!raw) return { answers: {}, mastered: {} };
+    const parsed = JSON.parse(raw) as ProgressStore;
+    return { answers: parsed.answers ?? {}, mastered: parsed.mastered ?? {} };
   } catch {
-    return { answers: {} };
+    return { answers: {}, mastered: {} };
   }
 }
 
@@ -66,11 +69,43 @@ export function getOverallStats(sectionIds: string[], totals: Record<string, num
   return { answered, correct, total };
 }
 
+export function isQuestionMastered(sectionId: string, questionId: string): boolean {
+  const store = loadStore();
+  return !!store.mastered?.[getAnswerKey(sectionId, questionId)];
+}
+
+export function setQuestionMastered(sectionId: string, questionId: string, mastered: boolean) {
+  const store = loadStore();
+  if (!store.mastered) store.mastered = {};
+  const key = getAnswerKey(sectionId, questionId);
+  if (mastered) store.mastered[key] = true;
+  else delete store.mastered[key];
+  saveStore(store);
+}
+
+export function toggleQuestionMastered(sectionId: string, questionId: string): boolean {
+  const next = !isQuestionMastered(sectionId, questionId);
+  setQuestionMastered(sectionId, questionId, next);
+  return next;
+}
+
+export function getSectionMasteredCount(sectionId: string): number {
+  const store = loadStore();
+  const prefix = `${sectionId}:`;
+  return Object.keys(store.mastered ?? {}).filter((k) => k.startsWith(prefix)).length;
+}
+
 export function resetSectionProgress(sectionId: string) {
   const store = loadStore();
   for (const key of Object.keys(store.answers)) {
     if (store.answers[key].sectionId === sectionId) {
       delete store.answers[key];
+    }
+  }
+  if (store.mastered) {
+    const prefix = `${sectionId}:`;
+    for (const key of Object.keys(store.mastered)) {
+      if (key.startsWith(prefix)) delete store.mastered[key];
     }
   }
   saveStore(store);

@@ -5,7 +5,14 @@ import { useMemo } from "react";
 import { PassageReader } from "@/components/PassageReader";
 import { IconChevron } from "@/components/icons";
 import { PROVIDER_LABELS, SKILL_LABELS } from "@/data/sections";
-import { getQuestionAnswer, getSectionProgress, resetSectionProgress } from "@/lib/exam-progress";
+import {
+  getQuestionAnswer,
+  getSectionMasteredCount,
+  getSectionProgress,
+  isQuestionMastered,
+  resetSectionProgress,
+} from "@/lib/exam-progress";
+import { getReviewStartIndex } from "@/lib/question-navigation";
 import type { ExamSection } from "@/lib/exam-types";
 
 type Props = {
@@ -16,10 +23,8 @@ export function SectionDetailView({ section }: Props) {
   const total = section.questions.length;
   const progress = useMemo(() => getSectionProgress(section.id, total), [section.id, total]);
 
-  const nextIndex = section.questions.findIndex(
-    (q) => !getQuestionAnswer(section.id, q.id)
-  );
-  const startIndex = nextIndex === -1 ? 0 : nextIndex;
+  const startIndex = useMemo(() => getReviewStartIndex(section), [section]);
+  const masteredCount = useMemo(() => getSectionMasteredCount(section.id), [section.id]);
 
   function handleReset() {
     if (confirm("このセクションの進捗をリセットしますか？")) {
@@ -42,7 +47,8 @@ export function SectionDetailView({ section }: Props) {
         <h1 className="text-xl font-semibold text-stone-900">{section.titleJa}</h1>
         <p className="mt-1 text-sm text-stone-600">{section.instruction}</p>
         <p className="mt-2 text-xs text-stone-500">
-          {progress.correct}/{total} 正解 · 約 {section.estimatedMinutes} 分
+          {progress.correct}/{total} 正解
+          {masteredCount > 0 && ` · ★ 覚えた ${masteredCount}`} · 約 {section.estimatedMinutes} 分
         </p>
       </header>
 
@@ -67,6 +73,7 @@ export function SectionDetailView({ section }: Props) {
       <ul className="mb-6 space-y-1">
         {section.questions.map((q, i) => {
           const answer = getQuestionAnswer(section.id, q.id);
+          const mastered = isQuestionMastered(section.id, q.id);
           return (
             <li key={q.id}>
               <Link
@@ -75,14 +82,16 @@ export function SectionDetailView({ section }: Props) {
               >
                 <span
                   className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-semibold ${
-                    !answer
-                      ? "bg-stone-100 text-stone-600"
-                      : answer.correct
-                        ? "bg-emerald-100 text-emerald-700"
-                        : "bg-amber-100 text-amber-800"
+                    mastered
+                      ? "bg-amber-50 text-amber-800 ring-1 ring-amber-200"
+                      : !answer
+                        ? "bg-stone-100 text-stone-600"
+                        : answer.correct
+                          ? "bg-emerald-100 text-emerald-700"
+                          : "bg-amber-100 text-amber-800"
                   }`}
                 >
-                  {q.number}
+                  {mastered ? "★" : q.number}
                 </span>
                 <span className="min-w-0 flex-1 truncate text-stone-700">{q.prompt}</span>
                 <IconChevron className="h-4 w-4 shrink-0 text-stone-400" />

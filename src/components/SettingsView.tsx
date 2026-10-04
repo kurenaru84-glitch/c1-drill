@@ -20,6 +20,24 @@ export function SettingsView() {
       </header>
 
       <section className="mb-6 rounded-2xl border border-stone-200 bg-white p-4">
+        <h2 className="mb-3 text-sm font-medium text-stone-900">復習</h2>
+        <label className="flex cursor-pointer items-start gap-3">
+          <input
+            type="checkbox"
+            className="mt-1 h-4 w-4 rounded border-stone-300 text-teal-700"
+            checked={settings.skipMasteredWhenReviewing !== false}
+            onChange={(e) => update({ skipMasteredWhenReviewing: e.target.checked })}
+          />
+          <span className="text-sm leading-relaxed text-stone-700">
+            「覚えた」にした問題を、次へ・前へ・続きからでスキップする
+          </span>
+        </label>
+        <p className="mt-2 text-xs text-stone-500">
+          問題一覧からはいつでも個別に開けます。
+        </p>
+      </section>
+
+      <section className="mb-6 rounded-2xl border border-stone-200 bg-white p-4">
         <h2 className="mb-3 text-sm font-medium text-stone-900">音声速度（TTS）</h2>
         <div className="flex rounded-xl bg-stone-100 p-1">
           {(

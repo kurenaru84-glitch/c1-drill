@@ -6,6 +6,7 @@ const DEFAULTS: AppSettings = {
   learningLanguage: "de",
   fontSize: "md",
   speechRate: 1,
+  skipMasteredWhenReviewing: true,
 };
 
 export function getSettings(): AppSettings {

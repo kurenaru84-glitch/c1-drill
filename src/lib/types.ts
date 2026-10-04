@@ -81,6 +81,8 @@ export type AppSettings = {
   learningLanguage: LearningLanguage;
   fontSize: "sm" | "md" | "lg";
   speechRate?: 0.75 | 1 | 1.25 | 1.5;
+  /** 次へ・続きからで「覚えた」問題を飛ばす */
+  skipMasteredWhenReviewing?: boolean;
 };
 
 export type AudioCacheEntry = {
