@@ -1,7 +1,7 @@
 "use client";
 
+import { WordListAddButton } from "@/components/WordListAddButton";
 import { normalizeStudyNotes } from "@/lib/study-notes";
-import { useWordList } from "@/lib/use-word-list";
 import type { LearningLanguage, StudyNotes } from "@/lib/types";
 
 type StudyNotesPanelProps = {
@@ -10,52 +10,6 @@ type StudyNotesPanelProps = {
   source: string;
   onToast?: (message: string) => void;
 };
-
-type AddableNoteProps = {
-  term: string;
-  note: string;
-  language: LearningLanguage;
-  source: string;
-  onToast?: (message: string) => void;
-  className?: string;
-  children: React.ReactNode;
-};
-
-function AddableNote({
-  term,
-  note,
-  language,
-  source,
-  onToast,
-  className = "",
-  children,
-}: AddableNoteProps) {
-  const { addEntry } = useWordList();
-
-  function handleClick(event: React.MouseEvent) {
-    event.stopPropagation();
-    event.preventDefault();
-    const result = addEntry({
-      term,
-      note,
-      language,
-      source,
-      autoTranslate: false,
-    });
-    onToast?.(result.ok ? "単語リストに追加しました" : "すでに登録済みです");
-  }
-
-  return (
-    <button
-      type="button"
-      onClick={handleClick}
-      className={`w-full rounded-xl text-left transition-colors active:scale-[0.99] ${className}`}
-      aria-label={`「${term}」を単語リストに追加`}
-    >
-      {children}
-    </button>
-  );
-}
 
 export function StudyNotesPanel({ notes, language, source, onToast }: StudyNotesPanelProps) {
   const normalized = normalizeStudyNotes(notes);
@@ -80,7 +34,7 @@ export function StudyNotesPanel({ notes, language, source, onToast }: StudyNotes
           <ul className="space-y-2">
             {normalized.chunks.map((item) => (
               <li key={item.phrase}>
-                <AddableNote
+                <WordListAddButton
                   term={item.phrase}
                   note={item.meaning}
                   language={language}
@@ -90,7 +44,7 @@ export function StudyNotesPanel({ notes, language, source, onToast }: StudyNotes
                 >
                   <p className="text-sm font-medium text-stone-900">{item.phrase}</p>
                   <p className="mt-0.5 text-sm text-stone-600">{item.meaning}</p>
-                </AddableNote>
+                </WordListAddButton>
               </li>
             ))}
           </ul>
@@ -124,7 +78,7 @@ export function StudyNotesPanel({ notes, language, source, onToast }: StudyNotes
           <ul className="grid gap-2 sm:grid-cols-2">
             {normalized.vocabulary.map((item) => (
               <li key={item.term}>
-                <AddableNote
+                <WordListAddButton
                   term={item.term}
                   note={item.meaning}
                   language={language}
@@ -134,7 +88,7 @@ export function StudyNotesPanel({ notes, language, source, onToast }: StudyNotes
                 >
                   <span className="font-medium text-stone-900">{item.term}</span>
                   <span className="text-stone-600"> — {item.meaning}</span>
-                </AddableNote>
+                </WordListAddButton>
               </li>
             ))}
           </ul>

@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { SelectableText } from "@/components/SelectableText";
+import { WordListAddButton } from "@/components/WordListAddButton";
 import { fetchRichExplanation, getCachedRichExplanation } from "@/lib/fetch-rich-explanation";
 import { buildCompletedSentence } from "@/lib/question-completed-sentence";
 import type { ExamSkill, Question, QuestionExplanation, RichExplanation } from "@/lib/exam-types";
@@ -28,6 +29,32 @@ function SectionBlock({
       <p className="mb-2 text-xs font-semibold text-stone-800">{title}</p>
       {children}
     </div>
+  );
+}
+
+function ExplanationSelectable({
+  text,
+  source,
+  suffix,
+  className = "text-sm leading-relaxed text-stone-800",
+  onToast,
+}: {
+  text: string;
+  source: string;
+  suffix: string;
+  className?: string;
+  onToast?: (message: string) => void;
+}) {
+  const trimmed = text.trim();
+  if (!trimmed) return null;
+  return (
+    <SelectableText
+      text={trimmed}
+      language="de"
+      source={`${source} · ${suffix}`}
+      className={className}
+      onToast={onToast}
+    />
   );
 }
 
@@ -127,15 +154,25 @@ export function ExplanationPanel({
             <p className="mb-3 text-sm text-amber-900">{richError}</p>
           )}
 
+          <p className="mb-3 text-[11px] text-stone-500">
+            解説のどこでも範囲を選択 →「単語リストに追加」（語彙行はタップでも可）
+          </p>
+
           <SectionBlock title="解説">
-            <p className="text-sm font-medium text-stone-900">{correctLine}</p>
+            <ExplanationSelectable
+              text={correctLine}
+              source={source}
+              suffix="AI解説 · 正解"
+              className="text-sm font-medium text-stone-900"
+              onToast={onToast}
+            />
           </SectionBlock>
 
           <SectionBlock title="完成した文章">
-            <SelectableText
+            <ExplanationSelectable
               text={completedDe}
-              language="de"
-              source={`${source} · 完成文`}
+              source={source}
+              suffix="AI解説 · 完成文"
               className="text-sm leading-relaxed text-stone-900"
               onToast={onToast}
             />
@@ -143,27 +180,41 @@ export function ExplanationPanel({
 
           {(rich?.translationJa || question.promptJa) && (
             <SectionBlock title="日本語訳">
-              <p className="text-sm leading-relaxed text-stone-700">
-                {rich?.translationJa?.trim() || question.promptJa}
-              </p>
+              <ExplanationSelectable
+                text={rich?.translationJa?.trim() || question.promptJa || ""}
+                source={source}
+                suffix="AI解説 · 訳"
+                className="text-sm leading-relaxed text-stone-700"
+                onToast={onToast}
+              />
             </SectionBlock>
           )}
 
-          {(rich?.mainBodyJa || explanation.german) && (
+          {(rich?.mainBodyJa || explanation.german || explanation.summary) && (
             <SectionBlock title={rich?.mainTitleJa || "解説"}>
               {rich?.mainBodyJa ? (
-                <p className="whitespace-pre-wrap text-sm leading-relaxed text-stone-800">
-                  {rich.mainBodyJa}
-                </p>
+                <ExplanationSelectable
+                  text={rich.mainBodyJa}
+                  source={source}
+                  suffix="AI解説 · 本文"
+                  className="whitespace-pre-wrap text-sm leading-relaxed text-stone-800"
+                  onToast={onToast}
+                />
               ) : (
                 <>
                   {explanation.german && (
-                    <p className="mb-2 text-sm text-stone-700">{explanation.german}</p>
+                    <ExplanationSelectable
+                      text={explanation.german}
+                      source={source}
+                      suffix="AI解説 · DE"
+                      className="mb-2 text-sm text-stone-700"
+                      onToast={onToast}
+                    />
                   )}
-                  <SelectableText
+                  <ExplanationSelectable
                     text={explanation.summary}
-                    language="de"
-                    source={`${source} · 解説`}
+                    source={source}
+                    suffix="AI解説 · まとめ"
                     className="whitespace-pre-wrap text-sm leading-relaxed text-stone-800"
                     onToast={onToast}
                   />
@@ -176,11 +227,14 @@ export function ExplanationPanel({
             <SectionBlock title="他の選択肢について">
               <ul className="space-y-3">
                 {rich.wrongOptions.map((row) => (
-                  <li key={row.id} className="text-sm">
-                    <p className="font-semibold text-stone-900">
-                      {row.id.toUpperCase()}: {row.textDe}
-                    </p>
-                    <p className="mt-1 leading-relaxed text-stone-700">{row.reasonJa}</p>
+                  <li key={row.id}>
+                    <ExplanationSelectable
+                      text={`${row.id.toUpperCase()}: ${row.textDe}\n${row.reasonJa}`}
+                      source={source}
+                      suffix={`AI解説 · 選択肢 ${row.id}`}
+                      className="text-sm leading-relaxed text-stone-700"
+                      onToast={onToast}
+                    />
                   </li>
                 ))}
               </ul>
@@ -192,10 +246,13 @@ export function ExplanationPanel({
               <ul className="space-y-3">
                 {rich.grammarPoints.map((g, i) => (
                   <li key={i}>
-                    <p className="text-sm font-semibold text-stone-900">{g.titleJa}</p>
-                    <p className="mt-1 whitespace-pre-wrap text-sm leading-relaxed text-stone-700">
-                      {g.bodyJa}
-                    </p>
+                    <ExplanationSelectable
+                      text={`${g.titleJa}\n${g.bodyJa}`}
+                      source={source}
+                      suffix={`AI解説 · 文法 ${i + 1}`}
+                      className="whitespace-pre-wrap text-sm leading-relaxed text-stone-700"
+                      onToast={onToast}
+                    />
                   </li>
                 ))}
               </ul>
@@ -204,11 +261,21 @@ export function ExplanationPanel({
 
           {rich?.vocabulary && rich.vocabulary.length > 0 && (
             <SectionBlock title="重要単語リスト">
-              <ul className="space-y-1.5">
+              <p className="mb-2 text-[10px] text-stone-400">タップで単語リストに追加</p>
+              <ul className="grid gap-2 sm:grid-cols-2">
                 {rich.vocabulary.map((v, i) => (
-                  <li key={i} className="text-sm text-stone-800">
-                    <span className="font-medium text-stone-900">{v.termDe}</span>
-                    <span className="text-stone-600">: {v.meaningJa}</span>
+                  <li key={`${v.termDe}-${i}`}>
+                    <WordListAddButton
+                      term={v.termDe}
+                      note={v.meaningJa}
+                      language="de"
+                      source={`${source} · AI解説`}
+                      onToast={onToast}
+                      className="rounded-lg bg-stone-50/80 px-3 py-2 text-sm hover:bg-stone-100 active:bg-stone-100"
+                    >
+                      <span className="font-medium text-stone-900">{v.termDe}</span>
+                      <span className="text-stone-600"> — {v.meaningJa}</span>
+                    </WordListAddButton>
                   </li>
                 ))}
               </ul>
@@ -236,9 +303,15 @@ export function ExplanationPanel({
       )}
 
       {explanation.tip && (
-        <p className="mt-3 rounded-xl border border-teal-100 bg-teal-50/80 px-3 py-2 text-xs text-teal-900">
-          💡 {explanation.tip}
-        </p>
+        <div className="mt-3 rounded-xl border border-teal-100 bg-teal-50/80 px-3 py-2">
+          <ExplanationSelectable
+            text={`💡 ${explanation.tip}`}
+            source={source}
+            suffix="解説 · ヒント"
+            className="text-xs text-teal-900"
+            onToast={onToast}
+          />
+        </div>
       )}
     </div>
   );
