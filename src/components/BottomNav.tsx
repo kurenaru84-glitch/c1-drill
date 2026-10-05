@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 import { IconBook, IconList, IconSettings } from "@/components/icons";
+import { useWordSelectOpen } from "@/lib/use-word-select-open";
 
 const tabs = [
   { href: "/", label: "練習", match: (p: string) => p === "/" || (p.startsWith("/s/") && !p.includes("/q/")) },
@@ -12,21 +12,9 @@ const tabs = [
   { href: "/settings", label: "設定", match: (p: string) => p === "/settings" },
 ];
 
-function readWordSelectOpen() {
-  if (typeof document === "undefined") return false;
-  return document.body.dataset.wordSelectOpen === "1";
-}
-
 export function BottomNav() {
   const pathname = usePathname();
-  const [wordSelectOpen, setWordSelectOpen] = useState(false);
-
-  useEffect(() => {
-    setWordSelectOpen(readWordSelectOpen());
-    const observer = new MutationObserver(() => setWordSelectOpen(readWordSelectOpen()));
-    observer.observe(document.body, { attributes: true, attributeFilter: ["data-word-select-open"] });
-    return () => observer.disconnect();
-  }, []);
+  const wordSelectOpen = useWordSelectOpen();
 
   if (wordSelectOpen) return null;
 

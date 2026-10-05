@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# rich explanation batch log (local)
+scripts/rich-explanations.log
+
 # debug
 npm-debug.log*
 yarn-debug.log*

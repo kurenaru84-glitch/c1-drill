@@ -1,10 +1,23 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { resetAllProgress } from "@/lib/exam-progress";
+import {
+  bundledRichExplanationCount,
+  ensureBundledRichExplanationsLoaded,
+} from "@/lib/bundled-rich-explanations";
+import { RICH_EXPLANATION_TARGET_COUNT } from "@/lib/rich-explanation-targets";
 import { useSettings } from "@/lib/use-settings";
 
 export function SettingsView() {
   const { settings, update } = useSettings();
+  const [bundledCount, setBundledCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    void ensureBundledRichExplanationsLoaded().then(() => {
+      setBundledCount(bundledRichExplanationCount());
+    });
+  }, []);
 
   function handleResetProgress() {
     if (confirm("すべての練習進捗をリセットしますか？")) {
@@ -64,6 +77,21 @@ export function SettingsView() {
         </div>
         <p className="mt-2 text-xs text-stone-500">
           聴解・全文読みの TTS 再生速度。音声は Google Cloud TTS（サービスアカウント JSON）を使用します。
+        </p>
+      </section>
+
+      <section className="mb-6 rounded-2xl border border-stone-200 bg-white p-4">
+        <h2 className="mb-2 text-sm font-medium text-stone-900">AI 詳細解説（同梱）</h2>
+        <p className="text-sm text-stone-700">
+          {bundledCount == null
+            ? "読み込み中…"
+            : `${bundledCount} / ${RICH_EXPLANATION_TARGET_COUNT} 問`}
+        </p>
+        <p className="mt-2 text-xs leading-relaxed text-stone-500">
+          まず書籍ベースの解説が同梱され、答え合わせ後すぐ表示されます。より詳しい AI
+          版は PC で{" "}
+          <span className="font-mono text-[10px]">npm run generate:rich-explanations:daemon</span>
+          （.env.local に GEMINI_API_KEY）をバックグラウンド実行すると、少しずつ差し替わります。
         </p>
       </section>
 

@@ -17,7 +17,7 @@ export type QuestionExplanation = {
   tip?: string;
 };
 
-/** Gemini 生成の詳細解説（localStorage キャッシュ） */
+/** 詳細解説（同梱 JSON / Gemini / 書籍データから組み立て） */
 export type RichExplanation = {
   correctAnswerLineJa: string;
   completedSentenceDe: string;
@@ -27,6 +27,8 @@ export type RichExplanation = {
   wrongOptions: Array<{ id: string; textDe: string; reasonJa: string }>;
   grammarPoints: Array<{ titleJa: string; bodyJa: string }>;
   vocabulary: Array<{ termDe: string; meaningJa: string }>;
+  /** static=書籍ベース即時 / ai=Gemini 生成 */
+  _meta?: { tier: "static" | "ai"; generatedAt?: string };
 };
 
 export type Question = {

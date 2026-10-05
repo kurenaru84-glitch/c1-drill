@@ -3,6 +3,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { SelectableText } from "@/components/SelectableText";
 import { WordListAddButton } from "@/components/WordListAddButton";
+import {
+  ensureBundledRichExplanationsLoaded,
+  getBundledRichExplanation,
+} from "@/lib/bundled-rich-explanations";
 import { fetchRichExplanation, getCachedRichExplanation } from "@/lib/fetch-rich-explanation";
 import { buildCompletedSentence } from "@/lib/question-completed-sentence";
 import type { ExamSkill, Question, QuestionExplanation, RichExplanation } from "@/lib/exam-types";
@@ -102,23 +106,33 @@ export function ExplanationPanel({
 
     let cancelled = false;
     setLoadingRich(true);
-    void fetchRichExplanation({
+
+    void ensureBundledRichExplanationsLoaded().then(() => {
+      if (cancelled) return;
+      const bundled = getBundledRichExplanation(question.id);
+      if (bundled?.completedSentenceDe?.trim()) {
+        setRich(bundled);
+        setLoadingRich(false);
+        return;
+      }
+      return fetchRichExplanation({
       questionId: question.id,
       skill,
       sectionTitle,
-      question,
-    })
-      .then((data) => {
-        if (!cancelled) setRich(data);
+        question,
       })
-      .catch((error) => {
-        if (!cancelled) {
-          setRichError(error instanceof Error ? error.message : "詳細解説を取得できませんでした。");
-        }
-      })
-      .finally(() => {
-        if (!cancelled) setLoadingRich(false);
-      });
+        .then((data) => {
+          if (!cancelled) setRich(data);
+        })
+        .catch((error) => {
+          if (!cancelled) {
+            setRichError(error instanceof Error ? error.message : "詳細解説を取得できませんでした。");
+          }
+        })
+        .finally(() => {
+          if (!cancelled) setLoadingRich(false);
+        });
+    });
 
     return () => {
       cancelled = true;
@@ -148,7 +162,7 @@ export function ExplanationPanel({
       {useRich ? (
         <>
           {loadingRich && !rich && (
-            <p className="mb-3 text-sm text-teal-800">詳しい解説を作成しています…（初回のみ10〜20秒）</p>
+            <p className="mb-3 text-sm text-teal-800">詳しい解説を読み込んでいます…</p>
           )}
           {richError && !rich && (
             <p className="mb-3 text-sm text-amber-900">{richError}</p>

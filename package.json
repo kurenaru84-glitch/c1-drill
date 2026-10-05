@@ -6,7 +6,11 @@
     "dev": "next dev --hostname 0.0.0.0",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build:rich-explanations": "tsx scripts/build-bundled-rich-explanations.ts",
+    "generate:rich-explanations": "tsx scripts/generate-rich-explanations.ts --load-env",
+    "generate:rich-explanations:chunk": "tsx scripts/generate-rich-explanations.ts --load-env --limit=8",
+    "generate:rich-explanations:daemon": "tsx scripts/generate-rich-explanations.ts --load-env --daemon"
   },
   "dependencies": {
     "dexie": "^4.4.6",
@@ -22,6 +26,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
+    "tsx": "^4.20.5",
     "typescript": "^5"
   }
 }

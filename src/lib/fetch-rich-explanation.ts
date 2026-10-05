@@ -1,3 +1,7 @@
+import {
+  ensureBundledRichExplanationsLoaded,
+  getBundledRichExplanation,
+} from "@/lib/bundled-rich-explanations";
 import type { RichExplanation } from "@/lib/exam-types";
 import type { ExamSkill, Question } from "@/lib/exam-types";
 
@@ -34,6 +38,13 @@ export async function fetchRichExplanation(params: {
     return cached;
   }
 
+  await ensureBundledRichExplanationsLoaded();
+  const bundled = getBundledRichExplanation(params.questionId);
+  if (bundled) {
+    writeCache(params.questionId, bundled);
+    return bundled;
+  }
+
   const res = await fetch("/api/explain-question", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -55,6 +66,10 @@ export async function fetchRichExplanation(params: {
     throw new Error(data.error ?? "詳細解説の取得に失敗しました。");
   }
 
-  writeCache(params.questionId, data.rich);
-  return data.rich;
+  const rich = {
+    ...data.rich,
+    _meta: { tier: "ai" as const, generatedAt: new Date().toISOString() },
+  };
+  writeCache(params.questionId, rich);
+  return rich;
 }

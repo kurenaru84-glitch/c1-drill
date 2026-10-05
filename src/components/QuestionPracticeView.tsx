@@ -14,6 +14,7 @@ import {
   toggleQuestionMastered,
 } from "@/lib/exam-progress";
 import { getAdjacentQuestionIndex } from "@/lib/question-navigation";
+import { useWordSelectOpen } from "@/lib/use-word-select-open";
 import type { ExamSection } from "@/lib/exam-types";
 
 type Props = {
@@ -38,6 +39,7 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
     setSubmitted(!!ans);
   }, [section.id, question.id]);
 
+  const wordSelectOpen = useWordSelectOpen();
   const wordSource = `${section.titleJa} · 問${question.number}`;
   const showToast = useCallback((message: string) => {
     setToast(message);
@@ -212,8 +214,9 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
         )}
       </div>
 
+      {!wordSelectOpen && (
       <footer
-        className="sticky bottom-0 border-t border-stone-200 bg-white px-4 py-3"
+        className="sticky bottom-0 z-20 border-t border-stone-200 bg-white px-4 py-3"
         style={{ paddingBottom: "max(0.75rem, env(safe-area-inset-bottom))" }}
       >
         {!submitted ? (
@@ -265,6 +268,7 @@ export function QuestionPracticeView({ section, questionIndex }: Props) {
           </div>
         )}
       </footer>
+      )}
 
       {toast && (
         <div
